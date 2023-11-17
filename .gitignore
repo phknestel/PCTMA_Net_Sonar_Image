@@ -8,3 +8,4 @@ pointComNet/models/__pycache__/
 __pycache__
 pointComNet/utils/__pycache__/
 .vscode
+venv/

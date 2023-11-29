@@ -2,7 +2,7 @@ from typing import Optional
 import os
 import torch
 
-_build = "lib/python3.6/site-packages/radiusnn-2.0.0-py3.6-linux-x86_64.egg/radiusnn.cpython-36m-x86_64-linux-gnu.so"
+_build = "lib/python3.7/site-packages/radiusnn-2.0.0-py3.7-linux-x86_64.egg/radiusnn.so"
 _path = os.path.join(os.path.join(os.path.dirname(__file__)), "../../../extensions_build/radiusnn", _build)
 torch.ops.load_library(_path)
 

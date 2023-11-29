@@ -1,0 +1,445 @@
+11/28/2023 07:39:22 PM - ---> use_cd: False, use_emd: True, combined_pc: True, ppd_loss: False, down_sampling: False, use_consistence: False, n_primitives: 32, use_atlas: True, gen_file: False
+11/28/2023 07:50:07 PM - ====> cd_sparse: Airplane: 19.1859, Cabinet: 146.3407, Car: 45.0795, Chair: 81.4982, Lamp: 99.5834, Sofa: 66.7829, Table: 198.4695, Watercraft: 40.6522, mean: 87.1991
+11/28/2023 07:50:07 PM - ====> cd_dense: Airplane: 19.1859, Cabinet: 146.3407, Car: 45.0795, Chair: 81.4982, Lamp: 99.5834, Sofa: 66.7829, Table: 198.4695, Watercraft: 40.6522, mean: 87.1991
+11/28/2023 07:50:07 PM - Train 0/300, loss_ae: 500.668267, loss_cd: 117.355695, evaluate_cd_spares: 87.1991, evaluate_cd_dense: 87.1991 
+
+11/28/2023 08:00:49 PM - ====> cd_sparse: Airplane: 18.4495, Cabinet: 127.9117, Car: 41.5439, Chair: 80.8927, Lamp: 95.9395, Sofa: 63.5833, Table: 221.8744, Watercraft: 36.5515, mean: 85.8433
+11/28/2023 08:00:49 PM - ====> cd_dense: Airplane: 18.4495, Cabinet: 127.9117, Car: 41.5439, Chair: 80.8927, Lamp: 95.9395, Sofa: 63.5833, Table: 221.8744, Watercraft: 36.5515, mean: 85.8433
+11/28/2023 08:00:49 PM - Train 1/300, loss_ae: 416.385698, loss_cd: 89.801992, evaluate_cd_spares: 85.8433, evaluate_cd_dense: 85.8433 
+
+11/28/2023 08:11:32 PM - ====> cd_sparse: Airplane: 17.3067, Cabinet: 112.3645, Car: 38.0719, Chair: 84.6796, Lamp: 78.4649, Sofa: 57.7122, Table: 173.8863, Watercraft: 36.3125, mean: 74.8498
+11/28/2023 08:11:32 PM - ====> cd_dense: Airplane: 17.3067, Cabinet: 112.3645, Car: 38.0719, Chair: 84.6796, Lamp: 78.4649, Sofa: 57.7122, Table: 173.8863, Watercraft: 36.3125, mean: 74.8498
+11/28/2023 08:11:32 PM - Train 2/300, loss_ae: 397.024175, loss_cd: 82.328620, evaluate_cd_spares: 74.8498, evaluate_cd_dense: 74.8498 
+
+11/28/2023 08:22:14 PM - ====> cd_sparse: Airplane: 15.3459, Cabinet: 125.9356, Car: 30.5510, Chair: 72.3010, Lamp: 85.4467, Sofa: 57.0993, Table: 276.9555, Watercraft: 32.3419, mean: 86.9971
+11/28/2023 08:22:14 PM - ====> cd_dense: Airplane: 15.3459, Cabinet: 125.9356, Car: 30.5510, Chair: 72.3010, Lamp: 85.4467, Sofa: 57.0993, Table: 276.9555, Watercraft: 32.3419, mean: 86.9971
+11/28/2023 08:22:14 PM - Train 3/300, loss_ae: 387.040733, loss_cd: 76.312750, evaluate_cd_spares: 74.8498, evaluate_cd_dense: 74.8498 
+
+11/28/2023 08:32:50 PM - ====> cd_sparse: Airplane: 11.6879, Cabinet: 106.4993, Car: 27.9355, Chair: 65.1932, Lamp: 72.7881, Sofa: 47.3619, Table: 158.0113, Watercraft: 27.6166, mean: 64.6367
+11/28/2023 08:32:50 PM - ====> cd_dense: Airplane: 11.6879, Cabinet: 106.4993, Car: 27.9355, Chair: 65.1932, Lamp: 72.7881, Sofa: 47.3619, Table: 158.0113, Watercraft: 27.6166, mean: 64.6367
+11/28/2023 08:32:50 PM - Train 4/300, loss_ae: 378.822513, loss_cd: 70.235482, evaluate_cd_spares: 64.6367, evaluate_cd_dense: 64.6367 
+
+11/28/2023 08:43:21 PM - ====> cd_sparse: Airplane: 13.6383, Cabinet: 90.7520, Car: 29.1399, Chair: 62.9219, Lamp: 73.4894, Sofa: 50.0367, Table: 103.2751, Watercraft: 33.7521, mean: 57.1257
+11/28/2023 08:43:21 PM - ====> cd_dense: Airplane: 13.6383, Cabinet: 90.7520, Car: 29.1399, Chair: 62.9219, Lamp: 73.4894, Sofa: 50.0367, Table: 103.2751, Watercraft: 33.7521, mean: 57.1257
+11/28/2023 08:43:21 PM - Train 5/300, loss_ae: 367.086018, loss_cd: 63.995196, evaluate_cd_spares: 57.1257, evaluate_cd_dense: 57.1257 
+
+11/28/2023 08:53:51 PM - ====> cd_sparse: Airplane: 12.3642, Cabinet: 92.9769, Car: 23.7248, Chair: 59.7783, Lamp: 70.7223, Sofa: 40.5592, Table: 133.2044, Watercraft: 27.5978, mean: 57.6160
+11/28/2023 08:53:51 PM - ====> cd_dense: Airplane: 12.3642, Cabinet: 92.9769, Car: 23.7248, Chair: 59.7783, Lamp: 70.7223, Sofa: 40.5592, Table: 133.2044, Watercraft: 27.5978, mean: 57.6160
+11/28/2023 08:53:51 PM - Train 6/300, loss_ae: 360.822063, loss_cd: 58.839466, evaluate_cd_spares: 57.1257, evaluate_cd_dense: 57.1257 
+
+11/28/2023 09:04:21 PM - ====> cd_sparse: Airplane: 11.5898, Cabinet: 87.4745, Car: 23.8825, Chair: 54.4207, Lamp: 66.0483, Sofa: 38.4716, Table: 102.2888, Watercraft: 27.4759, mean: 51.4565
+11/28/2023 09:04:21 PM - ====> cd_dense: Airplane: 11.5898, Cabinet: 87.4745, Car: 23.8825, Chair: 54.4207, Lamp: 66.0483, Sofa: 38.4716, Table: 102.2888, Watercraft: 27.4759, mean: 51.4565
+11/28/2023 09:04:21 PM - Train 7/300, loss_ae: 355.393498, loss_cd: 54.441735, evaluate_cd_spares: 51.4565, evaluate_cd_dense: 51.4565 
+
+11/28/2023 09:14:51 PM - ====> cd_sparse: Airplane: 10.3850, Cabinet: 70.4257, Car: 17.1325, Chair: 47.7205, Lamp: 60.2299, Sofa: 33.1483, Table: 100.7284, Watercraft: 22.2305, mean: 45.2501
+11/28/2023 09:14:51 PM - ====> cd_dense: Airplane: 10.3850, Cabinet: 70.4257, Car: 17.1325, Chair: 47.7205, Lamp: 60.2299, Sofa: 33.1483, Table: 100.7284, Watercraft: 22.2305, mean: 45.2501
+11/28/2023 09:14:51 PM - Train 8/300, loss_ae: 349.903061, loss_cd: 50.854332, evaluate_cd_spares: 45.2501, evaluate_cd_dense: 45.2501 
+
+11/28/2023 09:25:21 PM - ====> cd_sparse: Airplane: 9.5103, Cabinet: 63.8160, Car: 15.1742, Chair: 42.2160, Lamp: 57.6324, Sofa: 28.3287, Table: 144.0489, Watercraft: 19.6537, mean: 47.5475
+11/28/2023 09:25:21 PM - ====> cd_dense: Airplane: 9.5103, Cabinet: 63.8160, Car: 15.1742, Chair: 42.2160, Lamp: 57.6324, Sofa: 28.3287, Table: 144.0489, Watercraft: 19.6537, mean: 47.5475
+11/28/2023 09:25:21 PM - Train 9/300, loss_ae: 343.470265, loss_cd: 47.674193, evaluate_cd_spares: 45.2501, evaluate_cd_dense: 45.2501 
+
+11/28/2023 09:35:52 PM - ====> cd_sparse: Airplane: 9.3707, Cabinet: 68.8356, Car: 14.4454, Chair: 41.2396, Lamp: 64.2027, Sofa: 28.4480, Table: 80.9672, Watercraft: 22.1218, mean: 41.2039
+11/28/2023 09:35:52 PM - ====> cd_dense: Airplane: 9.3707, Cabinet: 68.8356, Car: 14.4454, Chair: 41.2396, Lamp: 64.2027, Sofa: 28.4480, Table: 80.9672, Watercraft: 22.1218, mean: 41.2039
+11/28/2023 09:35:52 PM - Train 10/300, loss_ae: 339.083573, loss_cd: 45.578603, evaluate_cd_spares: 41.2039, evaluate_cd_dense: 41.2039 
+
+11/28/2023 09:46:21 PM - ====> cd_sparse: Airplane: 9.7164, Cabinet: 64.7266, Car: 13.8510, Chair: 44.2875, Lamp: 55.5952, Sofa: 28.0019, Table: 101.2806, Watercraft: 19.4918, mean: 42.1189
+11/28/2023 09:46:21 PM - ====> cd_dense: Airplane: 9.7164, Cabinet: 64.7266, Car: 13.8510, Chair: 44.2875, Lamp: 55.5952, Sofa: 28.0019, Table: 101.2806, Watercraft: 19.4918, mean: 42.1189
+11/28/2023 09:46:21 PM - Train 11/300, loss_ae: 333.164521, loss_cd: 43.063500, evaluate_cd_spares: 41.2039, evaluate_cd_dense: 41.2039 
+
+11/28/2023 09:56:52 PM - ====> cd_sparse: Airplane: 8.9216, Cabinet: 65.4907, Car: 15.5370, Chair: 44.6699, Lamp: 60.6615, Sofa: 27.7661, Table: 94.8654, Watercraft: 21.1242, mean: 42.3796
+11/28/2023 09:56:52 PM - ====> cd_dense: Airplane: 8.9216, Cabinet: 65.4907, Car: 15.5370, Chair: 44.6699, Lamp: 60.6615, Sofa: 27.7661, Table: 94.8654, Watercraft: 21.1242, mean: 42.3796
+11/28/2023 09:56:52 PM - Train 12/300, loss_ae: 328.962608, loss_cd: 41.678288, evaluate_cd_spares: 41.2039, evaluate_cd_dense: 41.2039 
+
+11/28/2023 10:07:22 PM - ====> cd_sparse: Airplane: 7.9242, Cabinet: 54.2103, Car: 13.4236, Chair: 39.6958, Lamp: 53.9725, Sofa: 25.5096, Table: 85.7310, Watercraft: 19.2684, mean: 37.4669
+11/28/2023 10:07:22 PM - ====> cd_dense: Airplane: 7.9242, Cabinet: 54.2103, Car: 13.4236, Chair: 39.6958, Lamp: 53.9725, Sofa: 25.5096, Table: 85.7310, Watercraft: 19.2684, mean: 37.4669
+11/28/2023 10:07:22 PM - Train 13/300, loss_ae: 323.709511, loss_cd: 39.582430, evaluate_cd_spares: 37.4669, evaluate_cd_dense: 37.4669 
+
+11/28/2023 10:17:52 PM - ====> cd_sparse: Airplane: 7.9427, Cabinet: 64.5941, Car: 14.1825, Chair: 41.5343, Lamp: 56.0359, Sofa: 27.1038, Table: 93.3442, Watercraft: 18.6907, mean: 40.4285
+11/28/2023 10:17:52 PM - ====> cd_dense: Airplane: 7.9427, Cabinet: 64.5941, Car: 14.1825, Chair: 41.5343, Lamp: 56.0359, Sofa: 27.1038, Table: 93.3442, Watercraft: 18.6907, mean: 40.4285
+11/28/2023 10:17:52 PM - Train 14/300, loss_ae: 318.605078, loss_cd: 38.150076, evaluate_cd_spares: 37.4669, evaluate_cd_dense: 37.4669 
+
+11/28/2023 10:28:22 PM - ====> cd_sparse: Airplane: 8.7190, Cabinet: 56.7671, Car: 13.2583, Chair: 39.9244, Lamp: 54.8121, Sofa: 25.8510, Table: 80.1864, Watercraft: 17.8627, mean: 37.1726
+11/28/2023 10:28:22 PM - ====> cd_dense: Airplane: 8.7190, Cabinet: 56.7671, Car: 13.2583, Chair: 39.9244, Lamp: 54.8121, Sofa: 25.8510, Table: 80.1864, Watercraft: 17.8627, mean: 37.1726
+11/28/2023 10:28:22 PM - Train 15/300, loss_ae: 315.067018, loss_cd: 36.748209, evaluate_cd_spares: 37.1726, evaluate_cd_dense: 37.1726 
+
+11/28/2023 10:38:53 PM - ====> cd_sparse: Airplane: 9.0484, Cabinet: 52.4821, Car: 12.6371, Chair: 50.8349, Lamp: 53.2414, Sofa: 24.2729, Table: 79.7371, Watercraft: 18.7363, mean: 37.6238
+11/28/2023 10:38:53 PM - ====> cd_dense: Airplane: 9.0484, Cabinet: 52.4821, Car: 12.6371, Chair: 50.8349, Lamp: 53.2414, Sofa: 24.2729, Table: 79.7371, Watercraft: 18.7363, mean: 37.6238
+11/28/2023 10:38:53 PM - Train 16/300, loss_ae: 306.782045, loss_cd: 35.072022, evaluate_cd_spares: 37.1726, evaluate_cd_dense: 37.1726 
+
+11/28/2023 10:49:23 PM - ====> cd_sparse: Airplane: 8.0481, Cabinet: 52.8968, Car: 13.0150, Chair: 40.0488, Lamp: 58.8023, Sofa: 25.7825, Table: 68.6123, Watercraft: 20.8417, mean: 36.0059
+11/28/2023 10:49:23 PM - ====> cd_dense: Airplane: 8.0481, Cabinet: 52.8968, Car: 13.0150, Chair: 40.0488, Lamp: 58.8023, Sofa: 25.7825, Table: 68.6123, Watercraft: 20.8417, mean: 36.0059
+11/28/2023 10:49:23 PM - Train 17/300, loss_ae: 303.377882, loss_cd: 34.327159, evaluate_cd_spares: 36.0059, evaluate_cd_dense: 36.0059 
+
+11/28/2023 10:59:54 PM - ====> cd_sparse: Airplane: 7.8799, Cabinet: 55.8719, Car: 14.2939, Chair: 36.8546, Lamp: 48.9665, Sofa: 24.0239, Table: 56.0712, Watercraft: 17.2224, mean: 32.6480
+11/28/2023 10:59:54 PM - ====> cd_dense: Airplane: 7.8799, Cabinet: 55.8719, Car: 14.2939, Chair: 36.8546, Lamp: 48.9665, Sofa: 24.0239, Table: 56.0712, Watercraft: 17.2224, mean: 32.6480
+11/28/2023 10:59:54 PM - Train 18/300, loss_ae: 299.798107, loss_cd: 33.380281, evaluate_cd_spares: 32.6480, evaluate_cd_dense: 32.6480 
+
+11/28/2023 11:10:23 PM - ====> cd_sparse: Airplane: 7.2702, Cabinet: 49.9844, Car: 13.2147, Chair: 34.7585, Lamp: 52.0592, Sofa: 23.9737, Table: 68.2192, Watercraft: 17.1292, mean: 33.3261
+11/28/2023 11:10:23 PM - ====> cd_dense: Airplane: 7.2702, Cabinet: 49.9844, Car: 13.2147, Chair: 34.7585, Lamp: 52.0592, Sofa: 23.9737, Table: 68.2192, Watercraft: 17.1292, mean: 33.3261
+11/28/2023 11:10:23 PM - Train 19/300, loss_ae: 293.731977, loss_cd: 32.126067, evaluate_cd_spares: 32.6480, evaluate_cd_dense: 32.6480 
+
+11/28/2023 11:20:54 PM - ====> cd_sparse: Airplane: 7.7003, Cabinet: 45.5897, Car: 11.4977, Chair: 36.2028, Lamp: 44.9975, Sofa: 21.5714, Table: 55.4574, Watercraft: 15.9175, mean: 29.8668
+11/28/2023 11:20:54 PM - ====> cd_dense: Airplane: 7.7003, Cabinet: 45.5897, Car: 11.4977, Chair: 36.2028, Lamp: 44.9975, Sofa: 21.5714, Table: 55.4574, Watercraft: 15.9175, mean: 29.8668
+11/28/2023 11:20:54 PM - Train 20/300, loss_ae: 290.836121, loss_cd: 31.732103, evaluate_cd_spares: 29.8668, evaluate_cd_dense: 29.8668 
+
+11/28/2023 11:31:25 PM - ====> cd_sparse: Airplane: 7.2365, Cabinet: 50.9755, Car: 13.6552, Chair: 42.7986, Lamp: 52.3469, Sofa: 23.5090, Table: 59.7115, Watercraft: 17.1943, mean: 33.4284
+11/28/2023 11:31:25 PM - ====> cd_dense: Airplane: 7.2365, Cabinet: 50.9755, Car: 13.6552, Chair: 42.7986, Lamp: 52.3469, Sofa: 23.5090, Table: 59.7115, Watercraft: 17.1943, mean: 33.4284
+11/28/2023 11:31:25 PM - Train 21/300, loss_ae: 288.050366, loss_cd: 31.057521, evaluate_cd_spares: 29.8668, evaluate_cd_dense: 29.8668 
+
+11/28/2023 11:41:55 PM - ====> cd_sparse: Airplane: 7.3795, Cabinet: 49.8211, Car: 12.9307, Chair: 37.6095, Lamp: 45.9883, Sofa: 23.8050, Table: 49.3985, Watercraft: 16.8158, mean: 30.4686
+11/28/2023 11:41:55 PM - ====> cd_dense: Airplane: 7.3795, Cabinet: 49.8211, Car: 12.9307, Chair: 37.6095, Lamp: 45.9883, Sofa: 23.8050, Table: 49.3985, Watercraft: 16.8158, mean: 30.4686
+11/28/2023 11:41:55 PM - Train 22/300, loss_ae: 283.727308, loss_cd: 30.341681, evaluate_cd_spares: 29.8668, evaluate_cd_dense: 29.8668 
+
+11/28/2023 11:52:25 PM - ====> cd_sparse: Airplane: 7.7481, Cabinet: 48.5777, Car: 12.1988, Chair: 37.6090, Lamp: 47.1407, Sofa: 22.9865, Table: 68.3314, Watercraft: 15.1972, mean: 32.4737
+11/28/2023 11:52:25 PM - ====> cd_dense: Airplane: 7.7481, Cabinet: 48.5777, Car: 12.1988, Chair: 37.6090, Lamp: 47.1407, Sofa: 22.9865, Table: 68.3314, Watercraft: 15.1972, mean: 32.4737
+11/28/2023 11:52:25 PM - Train 23/300, loss_ae: 280.287894, loss_cd: 29.685244, evaluate_cd_spares: 29.8668, evaluate_cd_dense: 29.8668 
+
+11/29/2023 12:02:56 AM - ====> cd_sparse: Airplane: 7.2269, Cabinet: 49.2508, Car: 13.3461, Chair: 34.3069, Lamp: 47.5973, Sofa: 21.7652, Table: 61.9644, Watercraft: 16.8964, mean: 31.5443
+11/29/2023 12:02:56 AM - ====> cd_dense: Airplane: 7.2269, Cabinet: 49.2508, Car: 13.3461, Chair: 34.3069, Lamp: 47.5973, Sofa: 21.7652, Table: 61.9644, Watercraft: 16.8964, mean: 31.5443
+11/29/2023 12:02:56 AM - Train 24/300, loss_ae: 277.769378, loss_cd: 29.237132, evaluate_cd_spares: 29.8668, evaluate_cd_dense: 29.8668 
+
+11/29/2023 12:13:26 AM - ====> cd_sparse: Airplane: 7.1314, Cabinet: 53.3958, Car: 11.9874, Chair: 40.9948, Lamp: 58.3857, Sofa: 25.4449, Table: 62.8801, Watercraft: 20.0490, mean: 35.0336
+11/29/2023 12:13:26 AM - ====> cd_dense: Airplane: 7.1314, Cabinet: 53.3958, Car: 11.9874, Chair: 40.9948, Lamp: 58.3857, Sofa: 25.4449, Table: 62.8801, Watercraft: 20.0490, mean: 35.0336
+11/29/2023 12:13:26 AM - Train 25/300, loss_ae: 277.580898, loss_cd: 29.246069, evaluate_cd_spares: 29.8668, evaluate_cd_dense: 29.8668 
+
+11/29/2023 12:23:57 AM - ====> cd_sparse: Airplane: 6.7281, Cabinet: 45.4543, Car: 12.7489, Chair: 34.5277, Lamp: 46.1447, Sofa: 21.9382, Table: 50.0857, Watercraft: 16.5349, mean: 29.2703
+11/29/2023 12:23:57 AM - ====> cd_dense: Airplane: 6.7281, Cabinet: 45.4543, Car: 12.7489, Chair: 34.5277, Lamp: 46.1447, Sofa: 21.9382, Table: 50.0857, Watercraft: 16.5349, mean: 29.2703
+11/29/2023 12:23:57 AM - Train 26/300, loss_ae: 274.048301, loss_cd: 28.619281, evaluate_cd_spares: 29.2703, evaluate_cd_dense: 29.2703 
+
+11/29/2023 12:34:27 AM - ====> cd_sparse: Airplane: 7.1257, Cabinet: 45.1791, Car: 13.1288, Chair: 33.2849, Lamp: 44.4538, Sofa: 20.2672, Table: 49.9748, Watercraft: 16.6711, mean: 28.7607
+11/29/2023 12:34:27 AM - ====> cd_dense: Airplane: 7.1257, Cabinet: 45.1791, Car: 13.1288, Chair: 33.2849, Lamp: 44.4538, Sofa: 20.2672, Table: 49.9748, Watercraft: 16.6711, mean: 28.7607
+11/29/2023 12:34:27 AM - Train 27/300, loss_ae: 271.412820, loss_cd: 28.073178, evaluate_cd_spares: 28.7607, evaluate_cd_dense: 28.7607 
+
+11/29/2023 12:44:58 AM - ====> cd_sparse: Airplane: 6.6535, Cabinet: 43.3506, Car: 11.6073, Chair: 33.2608, Lamp: 41.1467, Sofa: 21.5942, Table: 48.6004, Watercraft: 14.0481, mean: 27.5327
+11/29/2023 12:44:58 AM - ====> cd_dense: Airplane: 6.6535, Cabinet: 43.3506, Car: 11.6073, Chair: 33.2608, Lamp: 41.1467, Sofa: 21.5942, Table: 48.6004, Watercraft: 14.0481, mean: 27.5327
+11/29/2023 12:44:58 AM - Train 28/300, loss_ae: 267.256654, loss_cd: 27.570358, evaluate_cd_spares: 27.5327, evaluate_cd_dense: 27.5327 
+
+11/29/2023 12:55:29 AM - ====> cd_sparse: Airplane: 6.8997, Cabinet: 45.1146, Car: 12.2070, Chair: 35.8849, Lamp: 45.6174, Sofa: 22.4530, Table: 45.8171, Watercraft: 17.7072, mean: 28.9626
+11/29/2023 12:55:29 AM - ====> cd_dense: Airplane: 6.8997, Cabinet: 45.1146, Car: 12.2070, Chair: 35.8849, Lamp: 45.6174, Sofa: 22.4530, Table: 45.8171, Watercraft: 17.7072, mean: 28.9626
+11/29/2023 12:55:29 AM - Train 29/300, loss_ae: 265.585864, loss_cd: 27.252682, evaluate_cd_spares: 27.5327, evaluate_cd_dense: 27.5327 
+
+11/29/2023 01:05:59 AM - ====> cd_sparse: Airplane: 7.1327, Cabinet: 40.6345, Car: 12.3345, Chair: 32.7617, Lamp: 42.7421, Sofa: 21.5914, Table: 48.5612, Watercraft: 16.1030, mean: 27.7326
+11/29/2023 01:05:59 AM - ====> cd_dense: Airplane: 7.1327, Cabinet: 40.6345, Car: 12.3345, Chair: 32.7617, Lamp: 42.7421, Sofa: 21.5914, Table: 48.5612, Watercraft: 16.1030, mean: 27.7326
+11/29/2023 01:05:59 AM - Train 30/300, loss_ae: 265.854666, loss_cd: 27.369058, evaluate_cd_spares: 27.5327, evaluate_cd_dense: 27.5327 
+
+11/29/2023 01:16:30 AM - ====> cd_sparse: Airplane: 7.0217, Cabinet: 43.2749, Car: 12.2833, Chair: 31.8849, Lamp: 41.5747, Sofa: 20.9781, Table: 49.6832, Watercraft: 16.1749, mean: 27.8594
+11/29/2023 01:16:30 AM - ====> cd_dense: Airplane: 7.0217, Cabinet: 43.2749, Car: 12.2833, Chair: 31.8849, Lamp: 41.5747, Sofa: 20.9781, Table: 49.6832, Watercraft: 16.1749, mean: 27.8594
+11/29/2023 01:16:30 AM - Train 31/300, loss_ae: 259.643166, loss_cd: 26.529920, evaluate_cd_spares: 27.5327, evaluate_cd_dense: 27.5327 
+
+11/29/2023 01:27:00 AM - ====> cd_sparse: Airplane: 6.8317, Cabinet: 42.2101, Car: 11.7575, Chair: 31.3509, Lamp: 43.2531, Sofa: 20.3167, Table: 44.3296, Watercraft: 14.9330, mean: 26.8728
+11/29/2023 01:27:00 AM - ====> cd_dense: Airplane: 6.8317, Cabinet: 42.2101, Car: 11.7575, Chair: 31.3509, Lamp: 43.2531, Sofa: 20.3167, Table: 44.3296, Watercraft: 14.9330, mean: 26.8728
+11/29/2023 01:27:00 AM - Train 32/300, loss_ae: 260.101590, loss_cd: 26.569204, evaluate_cd_spares: 26.8728, evaluate_cd_dense: 26.8728 
+
+11/29/2023 01:37:31 AM - ====> cd_sparse: Airplane: 7.3484, Cabinet: 35.0816, Car: 11.6725, Chair: 31.5705, Lamp: 40.4578, Sofa: 19.1123, Table: 45.1204, Watercraft: 15.7151, mean: 25.7598
+11/29/2023 01:37:31 AM - ====> cd_dense: Airplane: 7.3484, Cabinet: 35.0816, Car: 11.6725, Chair: 31.5705, Lamp: 40.4578, Sofa: 19.1123, Table: 45.1204, Watercraft: 15.7151, mean: 25.7598
+11/29/2023 01:37:31 AM - Train 33/300, loss_ae: 257.666679, loss_cd: 26.121453, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 01:48:01 AM - ====> cd_sparse: Airplane: 6.6297, Cabinet: 49.7213, Car: 12.7313, Chair: 33.9718, Lamp: 46.7308, Sofa: 22.9181, Table: 57.4111, Watercraft: 16.1691, mean: 30.7854
+11/29/2023 01:48:01 AM - ====> cd_dense: Airplane: 6.6297, Cabinet: 49.7213, Car: 12.7313, Chair: 33.9718, Lamp: 46.7308, Sofa: 22.9181, Table: 57.4111, Watercraft: 16.1691, mean: 30.7854
+11/29/2023 01:48:01 AM - Train 34/300, loss_ae: 256.019345, loss_cd: 26.084175, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 01:58:32 AM - ====> cd_sparse: Airplane: 6.7951, Cabinet: 41.7388, Car: 12.2929, Chair: 30.1009, Lamp: 42.5850, Sofa: 19.4035, Table: 48.4288, Watercraft: 15.3527, mean: 27.0872
+11/29/2023 01:58:32 AM - ====> cd_dense: Airplane: 6.7951, Cabinet: 41.7388, Car: 12.2929, Chair: 30.1009, Lamp: 42.5850, Sofa: 19.4035, Table: 48.4288, Watercraft: 15.3527, mean: 27.0872
+11/29/2023 01:58:32 AM - Train 35/300, loss_ae: 255.800189, loss_cd: 25.832285, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 02:09:02 AM - ====> cd_sparse: Airplane: 6.1910, Cabinet: 42.2048, Car: 12.0117, Chair: 33.1640, Lamp: 46.8816, Sofa: 21.1175, Table: 40.0672, Watercraft: 18.6402, mean: 27.5348
+11/29/2023 02:09:02 AM - ====> cd_dense: Airplane: 6.1910, Cabinet: 42.2048, Car: 12.0117, Chair: 33.1640, Lamp: 46.8816, Sofa: 21.1175, Table: 40.0672, Watercraft: 18.6402, mean: 27.5348
+11/29/2023 02:09:02 AM - Train 36/300, loss_ae: 253.125949, loss_cd: 25.591622, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 02:19:32 AM - ====> cd_sparse: Airplane: 6.4445, Cabinet: 40.9403, Car: 11.4942, Chair: 32.3481, Lamp: 42.7552, Sofa: 19.9255, Table: 46.8654, Watercraft: 15.6155, mean: 27.0486
+11/29/2023 02:19:32 AM - ====> cd_dense: Airplane: 6.4445, Cabinet: 40.9403, Car: 11.4942, Chair: 32.3481, Lamp: 42.7552, Sofa: 19.9255, Table: 46.8654, Watercraft: 15.6155, mean: 27.0486
+11/29/2023 02:19:32 AM - Train 37/300, loss_ae: 250.741381, loss_cd: 25.013245, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 02:30:02 AM - ====> cd_sparse: Airplane: 6.5175, Cabinet: 39.3323, Car: 13.4401, Chair: 31.8886, Lamp: 38.8809, Sofa: 19.5962, Table: 51.9601, Watercraft: 16.1046, mean: 27.2151
+11/29/2023 02:30:02 AM - ====> cd_dense: Airplane: 6.5175, Cabinet: 39.3323, Car: 13.4401, Chair: 31.8886, Lamp: 38.8809, Sofa: 19.5962, Table: 51.9601, Watercraft: 16.1046, mean: 27.2151
+11/29/2023 02:30:02 AM - Train 38/300, loss_ae: 250.415279, loss_cd: 25.060370, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 02:40:33 AM - ====> cd_sparse: Airplane: 6.4395, Cabinet: 45.2782, Car: 12.2333, Chair: 32.9352, Lamp: 44.7724, Sofa: 21.4900, Table: 53.6087, Watercraft: 15.8620, mean: 29.0774
+11/29/2023 02:40:33 AM - ====> cd_dense: Airplane: 6.4395, Cabinet: 45.2782, Car: 12.2333, Chair: 32.9352, Lamp: 44.7724, Sofa: 21.4900, Table: 53.6087, Watercraft: 15.8620, mean: 29.0774
+11/29/2023 02:40:33 AM - Train 39/300, loss_ae: 247.942382, loss_cd: 24.798552, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 02:51:04 AM - ====> cd_sparse: Airplane: 6.6816, Cabinet: 38.0369, Car: 11.5477, Chair: 32.4635, Lamp: 45.2249, Sofa: 20.4120, Table: 44.1040, Watercraft: 17.4294, mean: 26.9875
+11/29/2023 02:51:04 AM - ====> cd_dense: Airplane: 6.6816, Cabinet: 38.0369, Car: 11.5477, Chair: 32.4635, Lamp: 45.2249, Sofa: 20.4120, Table: 44.1040, Watercraft: 17.4294, mean: 26.9875
+11/29/2023 02:51:04 AM - Train 40/300, loss_ae: 247.598168, loss_cd: 24.831654, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 03:01:34 AM - ====> cd_sparse: Airplane: 6.1712, Cabinet: 42.9518, Car: 12.1275, Chair: 34.0910, Lamp: 41.9039, Sofa: 19.9864, Table: 50.6930, Watercraft: 14.0435, mean: 27.7460
+11/29/2023 03:01:34 AM - ====> cd_dense: Airplane: 6.1712, Cabinet: 42.9518, Car: 12.1275, Chair: 34.0910, Lamp: 41.9039, Sofa: 19.9864, Table: 50.6930, Watercraft: 14.0435, mean: 27.7460
+11/29/2023 03:01:34 AM - Train 41/300, loss_ae: 243.079453, loss_cd: 24.235323, evaluate_cd_spares: 25.7598, evaluate_cd_dense: 25.7598 
+
+11/29/2023 03:12:05 AM - ====> cd_sparse: Airplane: 6.2436, Cabinet: 36.4875, Car: 11.0362, Chair: 31.1388, Lamp: 38.2909, Sofa: 20.3385, Table: 42.2713, Watercraft: 14.0867, mean: 24.9867
+11/29/2023 03:12:05 AM - ====> cd_dense: Airplane: 6.2436, Cabinet: 36.4875, Car: 11.0362, Chair: 31.1388, Lamp: 38.2909, Sofa: 20.3385, Table: 42.2713, Watercraft: 14.0867, mean: 24.9867
+11/29/2023 03:12:05 AM - Train 42/300, loss_ae: 242.471955, loss_cd: 24.088034, evaluate_cd_spares: 24.9867, evaluate_cd_dense: 24.9867 
+
+11/29/2023 03:22:35 AM - ====> cd_sparse: Airplane: 6.2724, Cabinet: 36.9978, Car: 11.6290, Chair: 30.6905, Lamp: 40.6342, Sofa: 21.1405, Table: 47.9140, Watercraft: 14.2985, mean: 26.1971
+11/29/2023 03:22:35 AM - ====> cd_dense: Airplane: 6.2724, Cabinet: 36.9978, Car: 11.6290, Chair: 30.6905, Lamp: 40.6342, Sofa: 21.1405, Table: 47.9140, Watercraft: 14.2985, mean: 26.1971
+11/29/2023 03:22:35 AM - Train 43/300, loss_ae: 239.964095, loss_cd: 23.789467, evaluate_cd_spares: 24.9867, evaluate_cd_dense: 24.9867 
+
+11/29/2023 03:33:06 AM - ====> cd_sparse: Airplane: 6.5236, Cabinet: 42.3434, Car: 12.2169, Chair: 33.3990, Lamp: 38.2442, Sofa: 21.3713, Table: 46.0432, Watercraft: 14.0288, mean: 26.7713
+11/29/2023 03:33:06 AM - ====> cd_dense: Airplane: 6.5236, Cabinet: 42.3434, Car: 12.2169, Chair: 33.3990, Lamp: 38.2442, Sofa: 21.3713, Table: 46.0432, Watercraft: 14.0288, mean: 26.7713
+11/29/2023 03:33:06 AM - Train 44/300, loss_ae: 240.916711, loss_cd: 23.993330, evaluate_cd_spares: 24.9867, evaluate_cd_dense: 24.9867 
+
+11/29/2023 03:43:36 AM - ====> cd_sparse: Airplane: 6.1031, Cabinet: 45.3354, Car: 12.1372, Chair: 33.1089, Lamp: 42.6070, Sofa: 21.7319, Table: 42.9198, Watercraft: 16.1706, mean: 27.5142
+11/29/2023 03:43:36 AM - ====> cd_dense: Airplane: 6.1031, Cabinet: 45.3354, Car: 12.1372, Chair: 33.1089, Lamp: 42.6070, Sofa: 21.7319, Table: 42.9198, Watercraft: 16.1706, mean: 27.5142
+11/29/2023 03:43:36 AM - Train 45/300, loss_ae: 238.818024, loss_cd: 23.507086, evaluate_cd_spares: 24.9867, evaluate_cd_dense: 24.9867 
+
+11/29/2023 03:54:07 AM - ====> cd_sparse: Airplane: 6.3278, Cabinet: 41.5401, Car: 11.3107, Chair: 32.5233, Lamp: 42.0378, Sofa: 20.0920, Table: 41.5569, Watercraft: 15.7271, mean: 26.3895
+11/29/2023 03:54:07 AM - ====> cd_dense: Airplane: 6.3278, Cabinet: 41.5401, Car: 11.3107, Chair: 32.5233, Lamp: 42.0378, Sofa: 20.0920, Table: 41.5569, Watercraft: 15.7271, mean: 26.3895
+11/29/2023 03:54:07 AM - Train 46/300, loss_ae: 237.507147, loss_cd: 23.498645, evaluate_cd_spares: 24.9867, evaluate_cd_dense: 24.9867 
+
+11/29/2023 04:04:37 AM - ====> cd_sparse: Airplane: 6.5687, Cabinet: 41.2018, Car: 12.5883, Chair: 31.6878, Lamp: 39.3960, Sofa: 19.6801, Table: 39.4127, Watercraft: 15.0916, mean: 25.7034
+11/29/2023 04:04:37 AM - ====> cd_dense: Airplane: 6.5687, Cabinet: 41.2018, Car: 12.5883, Chair: 31.6878, Lamp: 39.3960, Sofa: 19.6801, Table: 39.4127, Watercraft: 15.0916, mean: 25.7034
+11/29/2023 04:04:37 AM - Train 47/300, loss_ae: 235.274222, loss_cd: 23.267027, evaluate_cd_spares: 24.9867, evaluate_cd_dense: 24.9867 
+
+11/29/2023 04:15:07 AM - ====> cd_sparse: Airplane: 6.0798, Cabinet: 39.4670, Car: 11.1962, Chair: 30.3773, Lamp: 41.1168, Sofa: 19.1581, Table: 46.6495, Watercraft: 13.4205, mean: 25.9331
+11/29/2023 04:15:07 AM - ====> cd_dense: Airplane: 6.0798, Cabinet: 39.4670, Car: 11.1962, Chair: 30.3773, Lamp: 41.1168, Sofa: 19.1581, Table: 46.6495, Watercraft: 13.4205, mean: 25.9331
+11/29/2023 04:15:07 AM - Train 48/300, loss_ae: 232.431340, loss_cd: 23.048250, evaluate_cd_spares: 24.9867, evaluate_cd_dense: 24.9867 
+
+11/29/2023 04:25:38 AM - ====> cd_sparse: Airplane: 6.3993, Cabinet: 36.6120, Car: 11.1887, Chair: 30.4017, Lamp: 39.2341, Sofa: 19.2181, Table: 41.9263, Watercraft: 13.8780, mean: 24.8573
+11/29/2023 04:25:38 AM - ====> cd_dense: Airplane: 6.3993, Cabinet: 36.6120, Car: 11.1887, Chair: 30.4017, Lamp: 39.2341, Sofa: 19.2181, Table: 41.9263, Watercraft: 13.8780, mean: 24.8573
+11/29/2023 04:25:38 AM - Train 49/300, loss_ae: 233.276829, loss_cd: 23.071577, evaluate_cd_spares: 24.8573, evaluate_cd_dense: 24.8573 
+
+11/29/2023 04:36:09 AM - ====> cd_sparse: Airplane: 6.7809, Cabinet: 40.2185, Car: 11.6904, Chair: 30.2462, Lamp: 37.6608, Sofa: 21.1508, Table: 43.4019, Watercraft: 14.5980, mean: 25.7184
+11/29/2023 04:36:09 AM - ====> cd_dense: Airplane: 6.7809, Cabinet: 40.2185, Car: 11.6904, Chair: 30.2462, Lamp: 37.6608, Sofa: 21.1508, Table: 43.4019, Watercraft: 14.5980, mean: 25.7184
+11/29/2023 04:36:09 AM - Train 50/300, loss_ae: 230.269810, loss_cd: 22.759489, evaluate_cd_spares: 24.8573, evaluate_cd_dense: 24.8573 
+
+11/29/2023 04:46:39 AM - ====> cd_sparse: Airplane: 6.1327, Cabinet: 39.3520, Car: 12.0654, Chair: 31.4759, Lamp: 39.9127, Sofa: 21.1501, Table: 41.1417, Watercraft: 14.8721, mean: 25.7628
+11/29/2023 04:46:39 AM - ====> cd_dense: Airplane: 6.1327, Cabinet: 39.3520, Car: 12.0654, Chair: 31.4759, Lamp: 39.9127, Sofa: 21.1501, Table: 41.1417, Watercraft: 14.8721, mean: 25.7628
+11/29/2023 04:46:39 AM - Train 51/300, loss_ae: 229.326607, loss_cd: 22.572504, evaluate_cd_spares: 24.8573, evaluate_cd_dense: 24.8573 
+
+11/29/2023 04:57:10 AM - ====> cd_sparse: Airplane: 6.4410, Cabinet: 45.0052, Car: 11.5060, Chair: 32.1148, Lamp: 40.5049, Sofa: 20.6472, Table: 44.0390, Watercraft: 16.9515, mean: 27.1512
+11/29/2023 04:57:10 AM - ====> cd_dense: Airplane: 6.4410, Cabinet: 45.0052, Car: 11.5060, Chair: 32.1148, Lamp: 40.5049, Sofa: 20.6472, Table: 44.0390, Watercraft: 16.9515, mean: 27.1512
+11/29/2023 04:57:10 AM - Train 52/300, loss_ae: 229.957180, loss_cd: 22.723559, evaluate_cd_spares: 24.8573, evaluate_cd_dense: 24.8573 
+
+11/29/2023 05:07:40 AM - ====> cd_sparse: Airplane: 6.0528, Cabinet: 34.0039, Car: 11.7020, Chair: 30.1090, Lamp: 38.2290, Sofa: 19.0662, Table: 43.8291, Watercraft: 13.5962, mean: 24.5735
+11/29/2023 05:07:40 AM - ====> cd_dense: Airplane: 6.0528, Cabinet: 34.0039, Car: 11.7020, Chair: 30.1090, Lamp: 38.2290, Sofa: 19.0662, Table: 43.8291, Watercraft: 13.5962, mean: 24.5735
+11/29/2023 05:07:40 AM - Train 53/300, loss_ae: 225.422402, loss_cd: 22.212784, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 05:18:11 AM - ====> cd_sparse: Airplane: 6.2105, Cabinet: 36.2890, Car: 11.7067, Chair: 29.9928, Lamp: 38.1242, Sofa: 19.9119, Table: 44.3556, Watercraft: 16.0305, mean: 25.3277
+11/29/2023 05:18:11 AM - ====> cd_dense: Airplane: 6.2105, Cabinet: 36.2890, Car: 11.7067, Chair: 29.9928, Lamp: 38.1242, Sofa: 19.9119, Table: 44.3556, Watercraft: 16.0305, mean: 25.3277
+11/29/2023 05:18:11 AM - Train 54/300, loss_ae: 224.221477, loss_cd: 22.153414, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 05:28:42 AM - ====> cd_sparse: Airplane: 6.1091, Cabinet: 40.2515, Car: 11.7509, Chair: 30.6475, Lamp: 36.7723, Sofa: 19.5688, Table: 48.2010, Watercraft: 13.7154, mean: 25.8771
+11/29/2023 05:28:42 AM - ====> cd_dense: Airplane: 6.1091, Cabinet: 40.2515, Car: 11.7509, Chair: 30.6475, Lamp: 36.7723, Sofa: 19.5688, Table: 48.2010, Watercraft: 13.7154, mean: 25.8771
+11/29/2023 05:28:42 AM - Train 55/300, loss_ae: 223.885390, loss_cd: 21.980324, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 05:39:12 AM - ====> cd_sparse: Airplane: 5.9988, Cabinet: 39.1953, Car: 11.2646, Chair: 30.5933, Lamp: 38.4989, Sofa: 19.7210, Table: 47.1127, Watercraft: 16.5328, mean: 26.1147
+11/29/2023 05:39:12 AM - ====> cd_dense: Airplane: 5.9988, Cabinet: 39.1953, Car: 11.2646, Chair: 30.5933, Lamp: 38.4989, Sofa: 19.7210, Table: 47.1127, Watercraft: 16.5328, mean: 26.1147
+11/29/2023 05:39:12 AM - Train 56/300, loss_ae: 223.329234, loss_cd: 21.981659, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 05:49:43 AM - ====> cd_sparse: Airplane: 5.7928, Cabinet: 37.4709, Car: 11.6769, Chair: 29.9922, Lamp: 38.8395, Sofa: 18.8780, Table: 47.2176, Watercraft: 13.9422, mean: 25.4763
+11/29/2023 05:49:43 AM - ====> cd_dense: Airplane: 5.7928, Cabinet: 37.4709, Car: 11.6769, Chair: 29.9922, Lamp: 38.8395, Sofa: 18.8780, Table: 47.2176, Watercraft: 13.9422, mean: 25.4763
+11/29/2023 05:49:43 AM - Train 57/300, loss_ae: 222.156694, loss_cd: 21.843486, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 06:00:13 AM - ====> cd_sparse: Airplane: 6.2443, Cabinet: 37.3753, Car: 12.1255, Chair: 29.0433, Lamp: 38.0070, Sofa: 19.6437, Table: 46.4799, Watercraft: 14.0047, mean: 25.3654
+11/29/2023 06:00:13 AM - ====> cd_dense: Airplane: 6.2443, Cabinet: 37.3753, Car: 12.1255, Chair: 29.0433, Lamp: 38.0070, Sofa: 19.6437, Table: 46.4799, Watercraft: 14.0047, mean: 25.3654
+11/29/2023 06:00:13 AM - Train 58/300, loss_ae: 221.503013, loss_cd: 21.797519, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 06:10:44 AM - ====> cd_sparse: Airplane: 5.9957, Cabinet: 36.5798, Car: 11.8644, Chair: 30.9993, Lamp: 39.4543, Sofa: 18.4905, Table: 41.8289, Watercraft: 14.1822, mean: 24.9244
+11/29/2023 06:10:44 AM - ====> cd_dense: Airplane: 5.9957, Cabinet: 36.5798, Car: 11.8644, Chair: 30.9993, Lamp: 39.4543, Sofa: 18.4905, Table: 41.8289, Watercraft: 14.1822, mean: 24.9244
+11/29/2023 06:10:44 AM - Train 59/300, loss_ae: 218.018390, loss_cd: 21.514787, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 06:21:14 AM - ====> cd_sparse: Airplane: 6.0352, Cabinet: 35.8470, Car: 11.0577, Chair: 29.3388, Lamp: 41.2739, Sofa: 18.2292, Table: 44.9559, Watercraft: 15.5709, mean: 25.2886
+11/29/2023 06:21:14 AM - ====> cd_dense: Airplane: 6.0352, Cabinet: 35.8470, Car: 11.0577, Chair: 29.3388, Lamp: 41.2739, Sofa: 18.2292, Table: 44.9559, Watercraft: 15.5709, mean: 25.2886
+11/29/2023 06:21:14 AM - Train 60/300, loss_ae: 218.086492, loss_cd: 21.442144, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 06:31:45 AM - ====> cd_sparse: Airplane: 6.1883, Cabinet: 35.8969, Car: 10.8131, Chair: 31.1672, Lamp: 36.9013, Sofa: 18.6655, Table: 46.1284, Watercraft: 14.0469, mean: 24.9759
+11/29/2023 06:31:45 AM - ====> cd_dense: Airplane: 6.1883, Cabinet: 35.8969, Car: 10.8131, Chair: 31.1672, Lamp: 36.9013, Sofa: 18.6655, Table: 46.1284, Watercraft: 14.0469, mean: 24.9759
+11/29/2023 06:31:45 AM - Train 61/300, loss_ae: 216.801844, loss_cd: 21.282209, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 06:42:16 AM - ====> cd_sparse: Airplane: 5.8503, Cabinet: 36.7128, Car: 11.5801, Chair: 29.6795, Lamp: 37.9236, Sofa: 18.3427, Table: 44.3551, Watercraft: 15.1130, mean: 24.9446
+11/29/2023 06:42:16 AM - ====> cd_dense: Airplane: 5.8503, Cabinet: 36.7128, Car: 11.5801, Chair: 29.6795, Lamp: 37.9236, Sofa: 18.3427, Table: 44.3551, Watercraft: 15.1130, mean: 24.9446
+11/29/2023 06:42:16 AM - Train 62/300, loss_ae: 216.905493, loss_cd: 21.492521, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 06:52:46 AM - ====> cd_sparse: Airplane: 5.8978, Cabinet: 34.0754, Car: 11.1680, Chair: 29.6938, Lamp: 38.2701, Sofa: 18.7283, Table: 45.0724, Watercraft: 13.9991, mean: 24.6131
+11/29/2023 06:52:46 AM - ====> cd_dense: Airplane: 5.8978, Cabinet: 34.0754, Car: 11.1680, Chair: 29.6938, Lamp: 38.2701, Sofa: 18.7283, Table: 45.0724, Watercraft: 13.9991, mean: 24.6131
+11/29/2023 06:52:46 AM - Train 63/300, loss_ae: 214.981184, loss_cd: 21.114592, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 07:03:17 AM - ====> cd_sparse: Airplane: 6.0059, Cabinet: 37.4063, Car: 11.2586, Chair: 32.6101, Lamp: 38.0600, Sofa: 18.3935, Table: 45.1469, Watercraft: 13.5356, mean: 25.3021
+11/29/2023 07:03:17 AM - ====> cd_dense: Airplane: 6.0059, Cabinet: 37.4063, Car: 11.2586, Chair: 32.6101, Lamp: 38.0600, Sofa: 18.3935, Table: 45.1469, Watercraft: 13.5356, mean: 25.3021
+11/29/2023 07:03:17 AM - Train 64/300, loss_ae: 213.093184, loss_cd: 21.023088, evaluate_cd_spares: 24.5735, evaluate_cd_dense: 24.5735 
+
+11/29/2023 07:13:47 AM - ====> cd_sparse: Airplane: 6.0941, Cabinet: 34.1565, Car: 11.6671, Chair: 28.5560, Lamp: 35.8118, Sofa: 17.5582, Table: 41.4982, Watercraft: 14.8696, mean: 23.7764
+11/29/2023 07:13:47 AM - ====> cd_dense: Airplane: 6.0941, Cabinet: 34.1565, Car: 11.6671, Chair: 28.5560, Lamp: 35.8118, Sofa: 17.5582, Table: 41.4982, Watercraft: 14.8696, mean: 23.7764
+11/29/2023 07:13:47 AM - Train 65/300, loss_ae: 211.830085, loss_cd: 20.849044, evaluate_cd_spares: 23.7764, evaluate_cd_dense: 23.7764 
+
+11/29/2023 07:24:17 AM - ====> cd_sparse: Airplane: 5.8591, Cabinet: 36.7830, Car: 11.2273, Chair: 28.5662, Lamp: 37.1216, Sofa: 18.5355, Table: 41.7195, Watercraft: 14.2801, mean: 24.2615
+11/29/2023 07:24:17 AM - ====> cd_dense: Airplane: 5.8591, Cabinet: 36.7830, Car: 11.2273, Chair: 28.5662, Lamp: 37.1216, Sofa: 18.5355, Table: 41.7195, Watercraft: 14.2801, mean: 24.2615
+11/29/2023 07:24:17 AM - Train 66/300, loss_ae: 210.666892, loss_cd: 20.705379, evaluate_cd_spares: 23.7764, evaluate_cd_dense: 23.7764 
+
+11/29/2023 07:34:47 AM - ====> cd_sparse: Airplane: 5.8319, Cabinet: 35.3883, Car: 11.5354, Chair: 29.9054, Lamp: 38.8440, Sofa: 17.7392, Table: 41.1351, Watercraft: 14.2353, mean: 24.3268
+11/29/2023 07:34:47 AM - ====> cd_dense: Airplane: 5.8319, Cabinet: 35.3883, Car: 11.5354, Chair: 29.9054, Lamp: 38.8440, Sofa: 17.7392, Table: 41.1351, Watercraft: 14.2353, mean: 24.3268
+11/29/2023 07:34:47 AM - Train 67/300, loss_ae: 208.714698, loss_cd: 20.567098, evaluate_cd_spares: 23.7764, evaluate_cd_dense: 23.7764 
+
+11/29/2023 07:45:18 AM - ====> cd_sparse: Airplane: 6.0180, Cabinet: 35.3322, Car: 11.6834, Chair: 29.6743, Lamp: 38.0970, Sofa: 18.7255, Table: 42.9952, Watercraft: 14.2049, mean: 24.5913
+11/29/2023 07:45:18 AM - ====> cd_dense: Airplane: 6.0180, Cabinet: 35.3322, Car: 11.6834, Chair: 29.6743, Lamp: 38.0970, Sofa: 18.7255, Table: 42.9952, Watercraft: 14.2049, mean: 24.5913
+11/29/2023 07:45:18 AM - Train 68/300, loss_ae: 210.064510, loss_cd: 20.717468, evaluate_cd_spares: 23.7764, evaluate_cd_dense: 23.7764 
+
+11/29/2023 07:55:48 AM - ====> cd_sparse: Airplane: 6.5376, Cabinet: 37.0562, Car: 12.0513, Chair: 28.8515, Lamp: 42.0316, Sofa: 18.0314, Table: 40.4263, Watercraft: 15.4477, mean: 25.0542
+11/29/2023 07:55:48 AM - ====> cd_dense: Airplane: 6.5376, Cabinet: 37.0562, Car: 12.0513, Chair: 28.8515, Lamp: 42.0316, Sofa: 18.0314, Table: 40.4263, Watercraft: 15.4477, mean: 25.0542
+11/29/2023 07:55:48 AM - Train 69/300, loss_ae: 208.531139, loss_cd: 20.529592, evaluate_cd_spares: 23.7764, evaluate_cd_dense: 23.7764 
+
+11/29/2023 08:06:18 AM - ====> cd_sparse: Airplane: 5.8340, Cabinet: 34.0188, Car: 11.8654, Chair: 28.4583, Lamp: 35.0330, Sofa: 18.4772, Table: 40.8209, Watercraft: 13.9593, mean: 23.5584
+11/29/2023 08:06:18 AM - ====> cd_dense: Airplane: 5.8340, Cabinet: 34.0188, Car: 11.8654, Chair: 28.4583, Lamp: 35.0330, Sofa: 18.4772, Table: 40.8209, Watercraft: 13.9593, mean: 23.5584
+11/29/2023 08:06:18 AM - Train 70/300, loss_ae: 207.317495, loss_cd: 20.406737, evaluate_cd_spares: 23.5584, evaluate_cd_dense: 23.5584 
+
+11/29/2023 08:16:48 AM - ====> cd_sparse: Airplane: 6.0059, Cabinet: 37.3095, Car: 11.3966, Chair: 30.4156, Lamp: 37.4116, Sofa: 18.1544, Table: 47.6086, Watercraft: 12.8195, mean: 25.1402
+11/29/2023 08:16:48 AM - ====> cd_dense: Airplane: 6.0059, Cabinet: 37.3095, Car: 11.3966, Chair: 30.4156, Lamp: 37.4116, Sofa: 18.1544, Table: 47.6086, Watercraft: 12.8195, mean: 25.1402
+11/29/2023 08:16:48 AM - Train 71/300, loss_ae: 204.523643, loss_cd: 20.202401, evaluate_cd_spares: 23.5584, evaluate_cd_dense: 23.5584 
+
+11/29/2023 08:27:19 AM - ====> cd_sparse: Airplane: 6.1548, Cabinet: 35.1914, Car: 11.4986, Chair: 28.1671, Lamp: 35.8087, Sofa: 18.8024, Table: 39.5336, Watercraft: 13.0460, mean: 23.5253
+11/29/2023 08:27:19 AM - ====> cd_dense: Airplane: 6.1548, Cabinet: 35.1914, Car: 11.4986, Chair: 28.1671, Lamp: 35.8087, Sofa: 18.8024, Table: 39.5336, Watercraft: 13.0460, mean: 23.5253
+11/29/2023 08:27:19 AM - Train 72/300, loss_ae: 206.597861, loss_cd: 20.384897, evaluate_cd_spares: 23.5253, evaluate_cd_dense: 23.5253 
+
+11/29/2023 08:37:50 AM - ====> cd_sparse: Airplane: 6.0849, Cabinet: 32.7467, Car: 11.7801, Chair: 27.0729, Lamp: 36.7383, Sofa: 17.5281, Table: 41.3679, Watercraft: 14.1065, mean: 23.4282
+11/29/2023 08:37:50 AM - ====> cd_dense: Airplane: 6.0849, Cabinet: 32.7467, Car: 11.7801, Chair: 27.0729, Lamp: 36.7383, Sofa: 17.5281, Table: 41.3679, Watercraft: 14.1065, mean: 23.4282
+11/29/2023 08:37:50 AM - Train 73/300, loss_ae: 202.185886, loss_cd: 19.909767, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 08:48:20 AM - ====> cd_sparse: Airplane: 6.1071, Cabinet: 35.4435, Car: 11.3624, Chair: 28.5597, Lamp: 35.4003, Sofa: 17.9644, Table: 44.4735, Watercraft: 13.4610, mean: 24.0965
+11/29/2023 08:48:20 AM - ====> cd_dense: Airplane: 6.1071, Cabinet: 35.4435, Car: 11.3624, Chair: 28.5597, Lamp: 35.4003, Sofa: 17.9644, Table: 44.4735, Watercraft: 13.4610, mean: 24.0965
+11/29/2023 08:48:20 AM - Train 74/300, loss_ae: 200.967123, loss_cd: 19.761396, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 08:58:51 AM - ====> cd_sparse: Airplane: 5.9911, Cabinet: 34.2499, Car: 11.4485, Chair: 28.7310, Lamp: 36.7061, Sofa: 17.9240, Table: 41.1681, Watercraft: 13.2905, mean: 23.6887
+11/29/2023 08:58:51 AM - ====> cd_dense: Airplane: 5.9911, Cabinet: 34.2499, Car: 11.4485, Chair: 28.7310, Lamp: 36.7061, Sofa: 17.9240, Table: 41.1681, Watercraft: 13.2905, mean: 23.6887
+11/29/2023 08:58:51 AM - Train 75/300, loss_ae: 200.772182, loss_cd: 19.826813, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 09:09:22 AM - ====> cd_sparse: Airplane: 6.0314, Cabinet: 35.0979, Car: 11.4898, Chair: 29.4595, Lamp: 38.6766, Sofa: 18.7613, Table: 40.2870, Watercraft: 13.4817, mean: 24.1607
+11/29/2023 09:09:22 AM - ====> cd_dense: Airplane: 6.0314, Cabinet: 35.0979, Car: 11.4898, Chair: 29.4595, Lamp: 38.6766, Sofa: 18.7613, Table: 40.2870, Watercraft: 13.4817, mean: 24.1607
+11/29/2023 09:09:22 AM - Train 76/300, loss_ae: 201.238332, loss_cd: 19.834460, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 09:19:52 AM - ====> cd_sparse: Airplane: 5.9169, Cabinet: 34.0607, Car: 11.4801, Chair: 29.1984, Lamp: 35.3502, Sofa: 18.1279, Table: 44.4723, Watercraft: 13.2161, mean: 23.9778
+11/29/2023 09:19:52 AM - ====> cd_dense: Airplane: 5.9169, Cabinet: 34.0607, Car: 11.4801, Chair: 29.1984, Lamp: 35.3502, Sofa: 18.1279, Table: 44.4723, Watercraft: 13.2161, mean: 23.9778
+11/29/2023 09:19:52 AM - Train 77/300, loss_ae: 199.882188, loss_cd: 19.824618, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 09:30:23 AM - ====> cd_sparse: Airplane: 6.1064, Cabinet: 33.5309, Car: 11.8684, Chair: 29.4013, Lamp: 36.5974, Sofa: 18.3188, Table: 40.7953, Watercraft: 14.3910, mean: 23.8762
+11/29/2023 09:30:23 AM - ====> cd_dense: Airplane: 6.1064, Cabinet: 33.5309, Car: 11.8684, Chair: 29.4013, Lamp: 36.5974, Sofa: 18.3188, Table: 40.7953, Watercraft: 14.3910, mean: 23.8762
+11/29/2023 09:30:23 AM - Train 78/300, loss_ae: 196.535966, loss_cd: 19.450971, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 09:40:54 AM - ====> cd_sparse: Airplane: 6.2612, Cabinet: 35.0609, Car: 12.4027, Chair: 29.2097, Lamp: 37.6588, Sofa: 20.1501, Table: 37.0046, Watercraft: 13.4638, mean: 23.9015
+11/29/2023 09:40:54 AM - ====> cd_dense: Airplane: 6.2612, Cabinet: 35.0609, Car: 12.4027, Chair: 29.2097, Lamp: 37.6588, Sofa: 20.1501, Table: 37.0046, Watercraft: 13.4638, mean: 23.9015
+11/29/2023 09:40:54 AM - Train 79/300, loss_ae: 196.665284, loss_cd: 19.437243, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 09:51:24 AM - ====> cd_sparse: Airplane: 5.8953, Cabinet: 36.2892, Car: 10.9772, Chair: 27.8306, Lamp: 38.6631, Sofa: 18.6204, Table: 44.2460, Watercraft: 14.2595, mean: 24.5977
+11/29/2023 09:51:24 AM - ====> cd_dense: Airplane: 5.8953, Cabinet: 36.2892, Car: 10.9772, Chair: 27.8306, Lamp: 38.6631, Sofa: 18.6204, Table: 44.2460, Watercraft: 14.2595, mean: 24.5977
+11/29/2023 09:51:24 AM - Train 80/300, loss_ae: 198.889049, loss_cd: 19.729080, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 10:01:55 AM - ====> cd_sparse: Airplane: 5.9983, Cabinet: 32.7474, Car: 11.7001, Chair: 27.1271, Lamp: 37.0965, Sofa: 17.8548, Table: 43.9322, Watercraft: 13.8713, mean: 23.7910
+11/29/2023 10:01:55 AM - ====> cd_dense: Airplane: 5.9983, Cabinet: 32.7474, Car: 11.7001, Chair: 27.1271, Lamp: 37.0965, Sofa: 17.8548, Table: 43.9322, Watercraft: 13.8713, mean: 23.7910
+11/29/2023 10:01:55 AM - Train 81/300, loss_ae: 195.701269, loss_cd: 19.369984, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 10:12:25 AM - ====> cd_sparse: Airplane: 5.8470, Cabinet: 33.4519, Car: 10.7456, Chair: 28.3910, Lamp: 35.7788, Sofa: 18.5565, Table: 42.3056, Watercraft: 13.6552, mean: 23.5915
+11/29/2023 10:12:25 AM - ====> cd_dense: Airplane: 5.8470, Cabinet: 33.4519, Car: 10.7456, Chair: 28.3910, Lamp: 35.7788, Sofa: 18.5565, Table: 42.3056, Watercraft: 13.6552, mean: 23.5915
+11/29/2023 10:12:25 AM - Train 82/300, loss_ae: 193.605451, loss_cd: 19.156083, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 10:22:56 AM - ====> cd_sparse: Airplane: 5.7796, Cabinet: 37.3269, Car: 12.2429, Chair: 29.8534, Lamp: 35.0945, Sofa: 18.8724, Table: 51.5175, Watercraft: 13.7373, mean: 25.5531
+11/29/2023 10:22:56 AM - ====> cd_dense: Airplane: 5.7796, Cabinet: 37.3269, Car: 12.2429, Chair: 29.8534, Lamp: 35.0945, Sofa: 18.8724, Table: 51.5175, Watercraft: 13.7373, mean: 25.5531
+11/29/2023 10:22:56 AM - Train 83/300, loss_ae: 195.157335, loss_cd: 19.288319, evaluate_cd_spares: 23.4282, evaluate_cd_dense: 23.4282 
+
+11/29/2023 10:33:26 AM - ====> cd_sparse: Airplane: 5.7756, Cabinet: 32.1544, Car: 11.3708, Chair: 28.4899, Lamp: 35.5125, Sofa: 17.7272, Table: 40.4006, Watercraft: 13.9260, mean: 23.1696
+11/29/2023 10:33:26 AM - ====> cd_dense: Airplane: 5.7756, Cabinet: 32.1544, Car: 11.3708, Chair: 28.4899, Lamp: 35.5125, Sofa: 17.7272, Table: 40.4006, Watercraft: 13.9260, mean: 23.1696
+11/29/2023 10:33:26 AM - Train 84/300, loss_ae: 192.753302, loss_cd: 19.020485, evaluate_cd_spares: 23.1696, evaluate_cd_dense: 23.1696 
+
+11/29/2023 10:43:57 AM - ====> cd_sparse: Airplane: 5.9115, Cabinet: 31.9337, Car: 10.8347, Chair: 27.1849, Lamp: 34.7588, Sofa: 17.1330, Table: 42.8505, Watercraft: 13.2484, mean: 22.9819
+11/29/2023 10:43:57 AM - ====> cd_dense: Airplane: 5.9115, Cabinet: 31.9337, Car: 10.8347, Chair: 27.1849, Lamp: 34.7588, Sofa: 17.1330, Table: 42.8505, Watercraft: 13.2484, mean: 22.9819
+11/29/2023 10:43:57 AM - Train 85/300, loss_ae: 190.368808, loss_cd: 18.927221, evaluate_cd_spares: 22.9819, evaluate_cd_dense: 22.9819 
+
+11/29/2023 10:54:28 AM - ====> cd_sparse: Airplane: 5.9398, Cabinet: 33.6297, Car: 11.5874, Chair: 26.8976, Lamp: 34.7946, Sofa: 18.6443, Table: 38.4190, Watercraft: 14.7440, mean: 23.0820
+11/29/2023 10:54:28 AM - ====> cd_dense: Airplane: 5.9398, Cabinet: 33.6297, Car: 11.5874, Chair: 26.8976, Lamp: 34.7946, Sofa: 18.6443, Table: 38.4190, Watercraft: 14.7440, mean: 23.0820
+11/29/2023 10:54:28 AM - Train 86/300, loss_ae: 190.863245, loss_cd: 18.939941, evaluate_cd_spares: 22.9819, evaluate_cd_dense: 22.9819 
+
+11/29/2023 11:04:59 AM - ====> cd_sparse: Airplane: 5.8165, Cabinet: 32.1838, Car: 11.5024, Chair: 28.2863, Lamp: 36.7920, Sofa: 17.1335, Table: 38.1534, Watercraft: 13.1139, mean: 22.8727
+11/29/2023 11:04:59 AM - ====> cd_dense: Airplane: 5.8165, Cabinet: 32.1838, Car: 11.5024, Chair: 28.2863, Lamp: 36.7920, Sofa: 17.1335, Table: 38.1534, Watercraft: 13.1139, mean: 22.8727
+11/29/2023 11:04:59 AM - Train 87/300, loss_ae: 189.526252, loss_cd: 18.763093, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 11:15:41 AM - ====> cd_sparse: Airplane: 5.8415, Cabinet: 35.3304, Car: 11.3704, Chair: 27.5719, Lamp: 34.4559, Sofa: 17.1150, Table: 43.7271, Watercraft: 13.0583, mean: 23.5588
+11/29/2023 11:15:41 AM - ====> cd_dense: Airplane: 5.8415, Cabinet: 35.3304, Car: 11.3704, Chair: 27.5719, Lamp: 34.4559, Sofa: 17.1150, Table: 43.7271, Watercraft: 13.0583, mean: 23.5588
+11/29/2023 11:15:41 AM - Train 88/300, loss_ae: 188.639970, loss_cd: 18.794788, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 11:26:23 AM - ====> cd_sparse: Airplane: 5.7897, Cabinet: 33.3963, Car: 11.5847, Chair: 26.9963, Lamp: 35.5727, Sofa: 17.5823, Table: 39.5273, Watercraft: 13.2282, mean: 22.9597
+11/29/2023 11:26:23 AM - ====> cd_dense: Airplane: 5.7897, Cabinet: 33.3963, Car: 11.5847, Chair: 26.9963, Lamp: 35.5727, Sofa: 17.5823, Table: 39.5273, Watercraft: 13.2282, mean: 22.9597
+11/29/2023 11:26:23 AM - Train 89/300, loss_ae: 189.474967, loss_cd: 18.768391, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 11:37:17 AM - ====> cd_sparse: Airplane: 5.8895, Cabinet: 31.2790, Car: 11.8105, Chair: 26.8244, Lamp: 35.6219, Sofa: 17.8499, Table: 43.6399, Watercraft: 13.4697, mean: 23.2981
+11/29/2023 11:37:17 AM - ====> cd_dense: Airplane: 5.8895, Cabinet: 31.2790, Car: 11.8105, Chair: 26.8244, Lamp: 35.6219, Sofa: 17.8499, Table: 43.6399, Watercraft: 13.4697, mean: 23.2981
+11/29/2023 11:37:17 AM - Train 90/300, loss_ae: 186.799955, loss_cd: 18.598329, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 11:48:01 AM - ====> cd_sparse: Airplane: 5.9420, Cabinet: 35.7543, Car: 11.3828, Chair: 29.0636, Lamp: 33.3071, Sofa: 18.6766, Table: 42.9507, Watercraft: 13.1708, mean: 23.7810
+11/29/2023 11:48:01 AM - ====> cd_dense: Airplane: 5.9420, Cabinet: 35.7543, Car: 11.3828, Chair: 29.0636, Lamp: 33.3071, Sofa: 18.6766, Table: 42.9507, Watercraft: 13.1708, mean: 23.7810
+11/29/2023 11:48:01 AM - Train 91/300, loss_ae: 186.606202, loss_cd: 18.649553, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 11:58:46 AM - ====> cd_sparse: Airplane: 6.0508, Cabinet: 34.1979, Car: 11.4636, Chair: 28.0016, Lamp: 39.1514, Sofa: 17.3019, Table: 42.9995, Watercraft: 14.4320, mean: 24.1998
+11/29/2023 11:58:46 AM - ====> cd_dense: Airplane: 6.0508, Cabinet: 34.1979, Car: 11.4636, Chair: 28.0016, Lamp: 39.1514, Sofa: 17.3019, Table: 42.9995, Watercraft: 14.4320, mean: 24.1998
+11/29/2023 11:58:46 AM - Train 92/300, loss_ae: 184.469695, loss_cd: 18.405443, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 12:09:29 PM - ====> cd_sparse: Airplane: 5.6371, Cabinet: 33.1494, Car: 11.2968, Chair: 27.5995, Lamp: 35.2086, Sofa: 18.3467, Table: 41.1776, Watercraft: 13.0498, mean: 23.1832
+11/29/2023 12:09:29 PM - ====> cd_dense: Airplane: 5.6371, Cabinet: 33.1494, Car: 11.2968, Chair: 27.5995, Lamp: 35.2086, Sofa: 18.3467, Table: 41.1776, Watercraft: 13.0498, mean: 23.1832
+11/29/2023 12:09:29 PM - Train 93/300, loss_ae: 186.138983, loss_cd: 18.545372, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 12:20:12 PM - ====> cd_sparse: Airplane: 5.7395, Cabinet: 33.9868, Car: 11.3679, Chair: 27.7796, Lamp: 34.7768, Sofa: 17.6017, Table: 42.3848, Watercraft: 13.6103, mean: 23.4059
+11/29/2023 12:20:12 PM - ====> cd_dense: Airplane: 5.7395, Cabinet: 33.9868, Car: 11.3679, Chair: 27.7796, Lamp: 34.7768, Sofa: 17.6017, Table: 42.3848, Watercraft: 13.6103, mean: 23.4059
+11/29/2023 12:20:12 PM - Train 94/300, loss_ae: 182.826867, loss_cd: 18.234447, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 12:30:54 PM - ====> cd_sparse: Airplane: 5.9135, Cabinet: 33.0601, Car: 11.5104, Chair: 27.2673, Lamp: 34.1902, Sofa: 17.0139, Table: 41.4775, Watercraft: 12.9193, mean: 22.9190
+11/29/2023 12:30:54 PM - ====> cd_dense: Airplane: 5.9135, Cabinet: 33.0601, Car: 11.5104, Chair: 27.2673, Lamp: 34.1902, Sofa: 17.0139, Table: 41.4775, Watercraft: 12.9193, mean: 22.9190
+11/29/2023 12:30:54 PM - Train 95/300, loss_ae: 182.552177, loss_cd: 18.232930, evaluate_cd_spares: 22.8727, evaluate_cd_dense: 22.8727 
+
+11/29/2023 12:41:34 PM - ====> cd_sparse: Airplane: 5.8126, Cabinet: 32.6701, Car: 10.8535, Chair: 27.4292, Lamp: 35.0505, Sofa: 17.2210, Table: 40.0853, Watercraft: 12.8204, mean: 22.7428
+11/29/2023 12:41:34 PM - ====> cd_dense: Airplane: 5.8126, Cabinet: 32.6701, Car: 10.8535, Chair: 27.4292, Lamp: 35.0505, Sofa: 17.2210, Table: 40.0853, Watercraft: 12.8204, mean: 22.7428
+11/29/2023 12:41:34 PM - Train 96/300, loss_ae: 184.783746, loss_cd: 18.317351, evaluate_cd_spares: 22.7428, evaluate_cd_dense: 22.7428 
+
+11/29/2023 12:52:05 PM - ====> cd_sparse: Airplane: 5.9131, Cabinet: 35.0944, Car: 11.1395, Chair: 28.4816, Lamp: 36.1572, Sofa: 17.7956, Table: 42.2588, Watercraft: 13.1342, mean: 23.7468
+11/29/2023 12:52:05 PM - ====> cd_dense: Airplane: 5.9131, Cabinet: 35.0944, Car: 11.1395, Chair: 28.4816, Lamp: 36.1572, Sofa: 17.7956, Table: 42.2588, Watercraft: 13.1342, mean: 23.7468
+11/29/2023 12:52:05 PM - Train 97/300, loss_ae: 180.406803, loss_cd: 17.999758, evaluate_cd_spares: 22.7428, evaluate_cd_dense: 22.7428 
+
+11/29/2023 01:02:36 PM - ====> cd_sparse: Airplane: 5.9913, Cabinet: 33.4399, Car: 11.5420, Chair: 29.0161, Lamp: 34.9244, Sofa: 18.2546, Table: 41.1525, Watercraft: 13.9571, mean: 23.5347
+11/29/2023 01:02:36 PM - ====> cd_dense: Airplane: 5.9913, Cabinet: 33.4399, Car: 11.5420, Chair: 29.0161, Lamp: 34.9244, Sofa: 18.2546, Table: 41.1525, Watercraft: 13.9571, mean: 23.5347
+11/29/2023 01:02:36 PM - Train 98/300, loss_ae: 179.917196, loss_cd: 18.011184, evaluate_cd_spares: 22.7428, evaluate_cd_dense: 22.7428 
+
+11/29/2023 01:13:07 PM - ====> cd_sparse: Airplane: 5.9788, Cabinet: 35.3170, Car: 11.9179, Chair: 28.4905, Lamp: 37.2601, Sofa: 18.5807, Table: 43.1216, Watercraft: 13.1344, mean: 24.2251
+11/29/2023 01:13:07 PM - ====> cd_dense: Airplane: 5.9788, Cabinet: 35.3170, Car: 11.9179, Chair: 28.4905, Lamp: 37.2601, Sofa: 18.5807, Table: 43.1216, Watercraft: 13.1344, mean: 24.2251
+11/29/2023 01:13:07 PM - Train 99/300, loss_ae: 179.949891, loss_cd: 17.966842, evaluate_cd_spares: 22.7428, evaluate_cd_dense: 22.7428 
+
+11/29/2023 01:23:38 PM - ====> cd_sparse: Airplane: 5.6614, Cabinet: 33.6285, Car: 11.3676, Chair: 26.8489, Lamp: 36.2330, Sofa: 17.6959, Table: 42.8782, Watercraft: 13.0411, mean: 23.4193
+11/29/2023 01:23:38 PM - ====> cd_dense: Airplane: 5.6614, Cabinet: 33.6285, Car: 11.3676, Chair: 26.8489, Lamp: 36.2330, Sofa: 17.6959, Table: 42.8782, Watercraft: 13.0411, mean: 23.4193
+11/29/2023 01:23:38 PM - Train 100/300, loss_ae: 183.664274, loss_cd: 18.307943, evaluate_cd_spares: 22.7428, evaluate_cd_dense: 22.7428 
+
+11/29/2023 01:34:10 PM - ====> cd_sparse: Airplane: 5.7599, Cabinet: 32.1341, Car: 11.3988, Chair: 26.3999, Lamp: 34.9044, Sofa: 17.0448, Table: 44.1040, Watercraft: 12.8960, mean: 23.0802
+11/29/2023 01:34:10 PM - ====> cd_dense: Airplane: 5.7599, Cabinet: 32.1341, Car: 11.3988, Chair: 26.3999, Lamp: 34.9044, Sofa: 17.0448, Table: 44.1040, Watercraft: 12.8960, mean: 23.0802
+11/29/2023 01:34:10 PM - Train 101/300, loss_ae: 178.083850, loss_cd: 17.812055, evaluate_cd_spares: 22.7428, evaluate_cd_dense: 22.7428 
+
+11/29/2023 01:44:41 PM - ====> cd_sparse: Airplane: 5.9842, Cabinet: 32.7717, Car: 11.4026, Chair: 28.4041, Lamp: 35.7795, Sofa: 17.4199, Table: 41.4410, Watercraft: 13.0737, mean: 23.2846
+11/29/2023 01:44:41 PM - ====> cd_dense: Airplane: 5.9842, Cabinet: 32.7717, Car: 11.4026, Chair: 28.4041, Lamp: 35.7795, Sofa: 17.4199, Table: 41.4410, Watercraft: 13.0737, mean: 23.2846
+11/29/2023 01:44:41 PM - Train 102/300, loss_ae: 177.514045, loss_cd: 17.761715, evaluate_cd_spares: 22.7428, evaluate_cd_dense: 22.7428 
+
+11/29/2023 01:55:13 PM - ====> cd_sparse: Airplane: 6.0124, Cabinet: 32.6102, Car: 11.7691, Chair: 26.8523, Lamp: 36.7611, Sofa: 17.3972, Table: 43.3233, Watercraft: 14.4186, mean: 23.6430
+11/29/2023 01:55:13 PM - ====> cd_dense: Airplane: 6.0124, Cabinet: 32.6102, Car: 11.7691, Chair: 26.8523, Lamp: 36.7611, Sofa: 17.3972, Table: 43.3233, Watercraft: 14.4186, mean: 23.6430
+11/29/2023 01:55:13 PM - Train 103/300, loss_ae: 179.119895, loss_cd: 17.805500, evaluate_cd_spares: 22.7428, evaluate_cd_dense: 22.7428 
+
+11/29/2023 02:05:44 PM - ====> cd_sparse: Airplane: 5.7981, Cabinet: 33.5915, Car: 12.0799, Chair: 27.0259, Lamp: 34.1639, Sofa: 17.3093, Table: 38.8768, Watercraft: 13.0503, mean: 22.7369
+11/29/2023 02:05:44 PM - ====> cd_dense: Airplane: 5.7981, Cabinet: 33.5915, Car: 12.0799, Chair: 27.0259, Lamp: 34.1639, Sofa: 17.3093, Table: 38.8768, Watercraft: 13.0503, mean: 22.7369
+11/29/2023 02:05:44 PM - Train 104/300, loss_ae: 176.009067, loss_cd: 17.602490, evaluate_cd_spares: 22.7369, evaluate_cd_dense: 22.7369 
+
+11/29/2023 02:16:16 PM - ====> cd_sparse: Airplane: 5.7646, Cabinet: 33.2681, Car: 11.5606, Chair: 27.1767, Lamp: 35.1258, Sofa: 17.1713, Table: 40.5951, Watercraft: 13.3609, mean: 23.0029
+11/29/2023 02:16:16 PM - ====> cd_dense: Airplane: 5.7646, Cabinet: 33.2681, Car: 11.5606, Chair: 27.1767, Lamp: 35.1258, Sofa: 17.1713, Table: 40.5951, Watercraft: 13.3609, mean: 23.0029
+11/29/2023 02:16:16 PM - Train 105/300, loss_ae: 176.355656, loss_cd: 17.633761, evaluate_cd_spares: 22.7369, evaluate_cd_dense: 22.7369 
+
+11/29/2023 02:26:58 PM - ====> cd_sparse: Airplane: 5.8136, Cabinet: 32.7275, Car: 11.2717, Chair: 26.9479, Lamp: 35.0577, Sofa: 18.1461, Table: 41.4059, Watercraft: 13.8945, mean: 23.1581
+11/29/2023 02:26:58 PM - ====> cd_dense: Airplane: 5.8136, Cabinet: 32.7275, Car: 11.2717, Chair: 26.9479, Lamp: 35.0577, Sofa: 18.1461, Table: 41.4059, Watercraft: 13.8945, mean: 23.1581
+11/29/2023 02:26:58 PM - Train 106/300, loss_ae: 175.260073, loss_cd: 17.519513, evaluate_cd_spares: 22.7369, evaluate_cd_dense: 22.7369 
+
+11/29/2023 02:37:41 PM - ====> cd_sparse: Airplane: 5.7657, Cabinet: 31.0704, Car: 11.3747, Chair: 27.4490, Lamp: 34.5278, Sofa: 17.0928, Table: 41.3730, Watercraft: 13.4920, mean: 22.7682
+11/29/2023 02:37:41 PM - ====> cd_dense: Airplane: 5.7657, Cabinet: 31.0704, Car: 11.3747, Chair: 27.4490, Lamp: 34.5278, Sofa: 17.0928, Table: 41.3730, Watercraft: 13.4920, mean: 22.7682
+11/29/2023 02:37:41 PM - Train 107/300, loss_ae: 174.967386, loss_cd: 17.510675, evaluate_cd_spares: 22.7369, evaluate_cd_dense: 22.7369 
+
+11/29/2023 02:48:25 PM - ====> cd_sparse: Airplane: 5.8981, Cabinet: 34.5142, Car: 11.5957, Chair: 30.5786, Lamp: 36.8321, Sofa: 18.4078, Table: 41.1492, Watercraft: 13.4084, mean: 24.0480
+11/29/2023 02:48:25 PM - ====> cd_dense: Airplane: 5.8981, Cabinet: 34.5142, Car: 11.5957, Chair: 30.5786, Lamp: 36.8321, Sofa: 18.4078, Table: 41.1492, Watercraft: 13.4084, mean: 24.0480
+11/29/2023 02:48:25 PM - Train 108/300, loss_ae: 173.125837, loss_cd: 17.311293, evaluate_cd_spares: 22.7369, evaluate_cd_dense: 22.7369 
+
+11/29/2023 02:59:14 PM - ====> cd_sparse: Airplane: 5.9806, Cabinet: 32.1900, Car: 11.4897, Chair: 27.0459, Lamp: 35.3104, Sofa: 17.9878, Table: 38.9361, Watercraft: 13.4192, mean: 22.7950
+11/29/2023 02:59:14 PM - ====> cd_dense: Airplane: 5.9806, Cabinet: 32.1900, Car: 11.4897, Chair: 27.0459, Lamp: 35.3104, Sofa: 17.9878, Table: 38.9361, Watercraft: 13.4192, mean: 22.7950
+11/29/2023 02:59:14 PM - Train 109/300, loss_ae: 174.698207, loss_cd: 17.433723, evaluate_cd_spares: 22.7369, evaluate_cd_dense: 22.7369 
+
+11/29/2023 03:10:00 PM - ====> cd_sparse: Airplane: 5.8763, Cabinet: 34.4984, Car: 11.8991, Chair: 28.0149, Lamp: 36.8148, Sofa: 19.1967, Table: 40.3486, Watercraft: 13.5714, mean: 23.7775
+11/29/2023 03:10:00 PM - ====> cd_dense: Airplane: 5.8763, Cabinet: 34.4984, Car: 11.8991, Chair: 28.0149, Lamp: 36.8148, Sofa: 19.1967, Table: 40.3486, Watercraft: 13.5714, mean: 23.7775
+11/29/2023 03:10:00 PM - Train 110/300, loss_ae: 173.944838, loss_cd: 17.424707, evaluate_cd_spares: 22.7369, evaluate_cd_dense: 22.7369 
+

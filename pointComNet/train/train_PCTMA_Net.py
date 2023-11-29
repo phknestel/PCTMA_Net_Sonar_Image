@@ -1,9 +1,15 @@
+
 from pathlib import Path
 import sys
+print("train path: ", sys.path)
+sys.path.append('/home/philipp/PCTMA_Net_Sonar/pointComNet/pytorch_utils/components/externs_tools')
+
 
 file = Path(__file__).resolve()
 parent, root = file.parent, file.parents[2]
 sys.path.append(str(root))
+
+# from pointComNet.pytorch_utils.components.externs_tools.gridding import Gridding, GriddingReverse
 
 import torch
 import torch.nn as nn
@@ -27,10 +33,10 @@ def main(args):
         # pct_ma_yaml = os.path.join(os.path.dirname(__file__), "../config", config_name)
         # if not os.path.isfile(pct_ma_yaml):
         #     pct_ma_yaml = os.path.join(os.path.dirname(__file__), "../config/pct.yaml")
-        pct_ma_yaml = os.path.join(os.path.dirname(__file__), "../config/pct.yaml")
+        pct_ma_yaml = os.path.join(os.path.dirname(__file__), "../config/pct_ma.yaml")
         print("load_config_yaml: ", pct_ma_yaml)
     else:
-        pct_ma_yaml = os.path.join(os.path.dirname(__file__), "../config/pct.yaml")
+        pct_ma_yaml = os.path.join(os.path.dirname(__file__), "../config/pct_ma.yaml")
     with open(pct_ma_yaml) as f:
         parameters = yaml.load(f, Loader=yaml.FullLoader)
     cuda_index = "cuda"

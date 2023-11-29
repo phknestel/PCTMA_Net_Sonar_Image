@@ -3,7 +3,7 @@ import torch
 import sys
 import os
 
-fps_build = "lib/python3.6/site-packages/fps-2.0.0-py3.6-linux-x86_64.egg/fps.cpython-36m-x86_64-linux-gnu.so"
+fps_build = "lib/python3.7/site-packages/fps-2.0.0-py3.7-linux-x86_64.egg/fps.so"
 fps_path = os.path.join(os.path.join(os.path.dirname(__file__)), "../../../extensions_build/fps", fps_build)
 torch.ops.load_library(fps_path)
 

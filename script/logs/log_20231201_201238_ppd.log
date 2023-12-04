@@ -1,0 +1,3 @@
+12/01/2023 08:12:38 PM - ---> use_cd: False, use_emd: True, combined_pc: True, ppd_loss: False, down_sampling: False, use_consistence: False, n_primitives: 32, use_atlas: True, gen_file: True
+12/01/2023 08:13:01 PM - ====> cd_sparse: Airplane: 22.3161, Cabinet: 296.0446, Car: 101.7256, Chair: 195.3681, Lamp: 137.9790, Sofa: 137.1054, Table: 479.8255, Watercraft: 53.4962, mean: 177.9825
+12/01/2023 08:13:01 PM - ====> cd_dense: Airplane: 22.3161, Cabinet: 296.0446, Car: 101.7256, Chair: 195.3681, Lamp: 137.9790, Sofa: 137.1054, Table: 479.8255, Watercraft: 53.4962, mean: 177.9825

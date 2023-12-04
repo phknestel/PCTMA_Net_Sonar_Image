@@ -151,7 +151,7 @@ class PCTMA_Net(nn.Module):
         return opt_pct
 
     def save_config(self):
-        filename = "pct.yaml"
+        filename = "pct_ma.yaml"
         config_name = self.time_str + "_" + filename
         source = os.path.join(os.path.dirname(__file__), "../config", filename)
         destination = self.checkpoint_path

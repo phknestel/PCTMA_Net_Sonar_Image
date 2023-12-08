@@ -637,6 +637,7 @@ class ElevationNet(Dataset):
         self.use_fps = use_fps
         self.use_kitti = use_kitti
         self.use_perturbation = pertubation
+
         if transformationType == "Z":
             self.rot = PointCloudAzimuthalRotations()
         elif transformationType == "S":
@@ -645,8 +646,10 @@ class ElevationNet(Dataset):
             self.rot = PointCloudBase()
         if self.use_perturbation:
             self.perturbation = PointCloudJitter()
+
         self.gt_data_, self.partial_data_, self.label_ = self.load(partition=partition)
-        
+    
+
         if class_choice is not None:
             print("class choice")
             self.gt_data_, self.partial_data_, self.label_ = self.get_with_shapeNames(names=class_choice)
@@ -655,11 +658,14 @@ class ElevationNet(Dataset):
             print("===>start to augment_cloud")
             gt_data_list = []
             partial_list_ = []
+            down_sampling_npts = 1024  # Define the target number of points
             for i in range(self.gt_data_.shape[0]):
                 temp_gt, temp_partial = augment_cloud([self.gt_data_[i], self.partial_data_[i]])
+                # Apply differentResolution to ensure consistent number of points
+                temp_gt = differentResolution(temp_gt, down_sampling_npts)
+                temp_partial = differentResolution(temp_partial, down_sampling_npts)
                 gt_data_list.append(temp_gt)
                 partial_list_.append(temp_partial)
-            # self.gt_data_, self.partial_data_ = augment_cloud([self.gt_data_[i], self.partial_data_[i]])
             self.gt_data_ = np.asarray(gt_data_list)
             self.partial_data_ = np.asarray(partial_list_)
             print("gt_data_: ", self.gt_data_.shape)
@@ -702,11 +708,11 @@ class ElevationNet(Dataset):
         return gt_point_cloud, partial_point_cloud, label_point_cloud
 
     @staticmethod
+    @staticmethod
     def evaluation_class(label_name):
-        class_name = ["ground"]
-        for i, name in enumerate(class_name):
-            if name.lower() == label_name.lower():
-                return name
+        # Directly return the string 'ground'
+        return "ground"
+
 
     def down_sampling(self, data):
         pt_all = []
@@ -760,29 +766,34 @@ class ElevationNet(Dataset):
         gt_train_data = []
         partial_train_data = []
         train_label = []
-        i = 0
+        down_sampling_npts = 1024  # Target number of points
+
         for file in train_data_file:
+            print("File:", file)
+            # Load and reshape ground truth data
             h5_name_gt = os.path.join(self.DATA_DIR, 'train/gt', file[0], '%s.h5' % file[1])
-            # for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'train/gt', file[0], '%s.h5' % file[1])):
-            f1 = h5py.File(h5_name_gt, 'r')
-            i = i + 1
-            data = f1['data'][:].astype('float32')
-            f1.close()
-            gt_train_data.append(data)
-            # for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'train/partial', file[0], '%s.h5' % file[1])):
+            with h5py.File(h5_name_gt, 'r') as f1:
+                data_gt = f1['point_cloud'][:].astype('float32')
+                data_gt = differentResolution(data_gt, down_sampling_npts)
+                gt_train_data.append(data_gt)
+
+            # Load and reshape partial data
             h5_name_partial = os.path.join(self.DATA_DIR, 'train/partial', file[0], '%s.h5' % file[1])
-            f2 = h5py.File(h5_name_partial, 'r')
-            data = f2['data'][:].astype('float32')
-            f2.close()
-            partial_train_data.append(data)
+            with h5py.File(h5_name_partial, 'r') as f2:
+                data_partial = f2['point_cloud'][:].astype('float32')
+                data_partial = differentResolution(data_partial, down_sampling_npts)
+                partial_train_data.append(data_partial)
+
+            # Append the label
             train_label.append(self.category_label[file[0]])
-        # print(train_label)
 
         gt_train_data = np.stack(gt_train_data, axis=0)
         partial_train_data = np.stack(partial_train_data, axis=0)
-        train_label = np.stack(train_label, axis=0)
+        train_label = np.stack(train_label, axis=0)  # Stack the labels
+
         print("gt: ", gt_train_data.shape)
         return gt_train_data, partial_train_data, train_label
+
 
     def __load_test(self):
         test_data_file = self.get_test_file()
@@ -791,7 +802,7 @@ class ElevationNet(Dataset):
         for file in test_data_file:
             for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'test/partial', file[0], '%s.h5' % file[1])):
                 f = h5py.File(h5_name, 'r')
-                data = f['data'][:].astype('float32')
+                data = f['point_cloud'][:].astype('float32')
                 f.close()
                 partial_test_data.append(data)
         partial_test_data = np.stack(partial_test_data, axis=0)
@@ -811,23 +822,32 @@ class ElevationNet(Dataset):
         gt_val_data = []
         partial_val_data = []
         val_label = []
+        down_sampling_npts = 1024  # Target number of points
+
         for file in val_data_file:
-            for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'val/gt', file[0], '%s.h5' % file[1])):
-                f = h5py.File(h5_name, 'r')
-                data = f['data'][:].astype('float32')
-                f.close()
-                gt_val_data.append(data)
-            for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'val/partial', file[0], '%s.h5' % file[1])):
-                f = h5py.File(h5_name, 'r')
-                data = f['data'][:].astype('float32')
-                f.close()
-                partial_val_data.append(data)
-            val_label.append(self.category_label[(file[0])])
+            # Load and reshape ground truth data
+            h5_name_gt = os.path.join(self.DATA_DIR, 'val/gt', file[0], '%s.h5' % file[1])
+            with h5py.File(h5_name_gt, 'r') as f1:
+                data_gt = f1['point_cloud'][:].astype('float32')
+                data_gt = differentResolution(data_gt, down_sampling_npts)
+                gt_val_data.append(data_gt)
+
+            # Load and reshape partial data
+            h5_name_partial = os.path.join(self.DATA_DIR, 'val/partial', file[0], '%s.h5' % file[1])
+            with h5py.File(h5_name_partial, 'r') as f2:
+                data_partial = f2['point_cloud'][:].astype('float32')
+                data_partial = differentResolution(data_partial, down_sampling_npts)
+                partial_val_data.append(data_partial)
+
+            # Append the label
+            val_label.append(self.category_label[file[0]])
 
         gt_val_data = np.stack(gt_val_data, axis=0)
         partial_val_data = np.stack(partial_val_data, axis=0)
-        val_label = np.stack(val_label, axis=0)
+        val_label = np.stack(val_label, axis=0)  # Stack the labels
+
         return gt_val_data, partial_val_data, val_label
+
 
     def get_category_file(self):
         category = dict()

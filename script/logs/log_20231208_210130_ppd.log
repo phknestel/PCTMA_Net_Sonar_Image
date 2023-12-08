@@ -1,0 +1,15 @@
+12/08/2023 09:01:30 PM - ---> use_cd: False, use_emd: True, combined_pc: True, ppd_loss: False, down_sampling: False, use_consistence: False, n_primitives: 32, use_atlas: True, gen_file: True
+12/08/2023 09:02:06 PM - Train 0/100, loss_ae: 46653.989062, loss_cd: 26242.987871, evaluate_cd_spares: 21092.6549, evaluate_cd_dense: 21092.6549 
+
+12/08/2023 09:02:38 PM - Train 1/100, loss_ae: 37873.715918, loss_cd: 19663.825035, evaluate_cd_spares: 19404.4460, evaluate_cd_dense: 19404.4460 
+
+12/08/2023 09:03:11 PM - Train 2/100, loss_ae: 37630.639453, loss_cd: 19429.123700, evaluate_cd_spares: 19404.4460, evaluate_cd_dense: 19404.4460 
+
+12/08/2023 09:03:44 PM - Train 3/100, loss_ae: 37535.609961, loss_cd: 19464.608222, evaluate_cd_spares: 19404.4460, evaluate_cd_dense: 19404.4460 
+
+12/08/2023 09:04:16 PM - Train 4/100, loss_ae: 37463.653906, loss_cd: 19393.848836, evaluate_cd_spares: 19383.8843, evaluate_cd_dense: 19383.8843 
+
+12/08/2023 09:04:49 PM - Train 5/100, loss_ae: 37350.145410, loss_cd: 19398.317128, evaluate_cd_spares: 19383.8843, evaluate_cd_dense: 19383.8843 
+
+12/08/2023 09:05:24 PM - Train 6/100, loss_ae: 37342.302246, loss_cd: 19424.102366, evaluate_cd_spares: 19376.9867, evaluate_cd_dense: 19376.9867 
+

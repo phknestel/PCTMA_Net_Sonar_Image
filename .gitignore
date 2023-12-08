@@ -2,6 +2,7 @@
 data
 save_ae_ply_data
 save_ply_data
+save_ele_data
 save_kitti_ply_data
 pointComNet/__pycache__/
 pointComNet/models/__pycache__/

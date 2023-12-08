@@ -18,7 +18,7 @@ from pointComNet.pytorch_utils.components.ioUtils import save_ply, make_dirs, co
 from pointComNet.pytorch_utils.components.torch_cluster_sampling import farthest_point_sampling, K_NN, \
     RandomPointSampling
 from pointComNet.pytorch_utils.components.dataSet import PointCompletionShapeNet
-
+from pointComNet.pytorch_utils.components.dataSet import ElevationNet
 
 class PCTMA_Net(nn.Module):
     def __init__(self, parameter, checkpoint_name="ckpt", best_name="best", logger_file_name="log.log",
@@ -283,6 +283,7 @@ class PCTMA_Net(nn.Module):
         evaluate_loss_sparse = []
         evaluate_loss_dense = []
         evaluate_class_choice_sparse = {"ground": []}
+        evaluate_class_choice_dense = {"ground": []}
         count = 0.0
         if self.parameter["gene_file"]:
             save_ply_path = os.path.join(os.path.dirname(__file__), "../../save_ele_data")
@@ -311,8 +312,9 @@ class PCTMA_Net(nn.Module):
                 evaluate_loss_dense.append(cd_loss_dense.item())
 
                 for k in range(partial_point_cloud.shape[0]):
-                    class_name_choice = PointCompletionShapeNet.evaluation_class(
-                        label_name=test_loader.dataset.label_to_category(label_point_cloud[k]))
+                    #class_name_choice = ElevationNet.evaluation_class(
+                    #    label_name=test_loader.dataset.label_to_category(label_point_cloud[k]))
+                    class_name_choice = "ground"
                     evaluate_class_choice_sparse[class_name_choice].append(cd_loss_sparse.item())
                     evaluate_class_choice_dense[class_name_choice].append(cd_loss_dense.item())
 
@@ -343,14 +345,15 @@ class PCTMA_Net(nn.Module):
                 evaluate_class_choice_dense[key] = sum(item) / len(item)
 
         self.Logger.INFO(
-            '====> cd_sparse: ground: %.4f',
+            '====> cd_sparse: ground: %.4f, average loss: %.4f',
             evaluate_class_choice_sparse["ground"] * 10000,
             sum(evaluate_loss_sparse) / len(evaluate_loss_sparse) * 10000)
 
         self.Logger.INFO(
-            '====> cd_dense: ground: %.4f',
+            '====> cd_dense: ground: %.4f, average loss: %.4f',
             evaluate_class_choice_dense["ground"] * 10000,
             sum(evaluate_loss_dense) / len(evaluate_loss_dense) * 10000)
+
 
 
         return sum(evaluate_loss_sparse) / len(evaluate_loss_sparse), sum(evaluate_loss_dense) / len(

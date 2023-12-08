@@ -621,11 +621,13 @@ if __name__ == '__main__':
 
 class ElevationNet(Dataset):
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    foldName = "Data_elevation-test/"
+    foldName = "Data_elevation-test"
     DATA_DIR = os.path.join(BASE_DIR, dataFile, foldName)
 
     def __init__(self, num_points, partition='train', transformationType="Z", pertubation=False,
                  use_fps=True, class_choice=None, has_augment_cloud=False, has_down_sampling=False, use_kitti=False):
+        Completion3Ddownload()
+        self.synsetoffset2category = os.path.join(self.DATA_DIR, "synsetoffset2category.txt")
         self.test = os.path.join(self.DATA_DIR, "test.list")
         self.train = os.path.join(self.DATA_DIR, "train.list")
         self.val = os.path.join(self.DATA_DIR, "val.list")
@@ -644,12 +646,11 @@ class ElevationNet(Dataset):
         if self.use_perturbation:
             self.perturbation = PointCloudJitter()
         self.gt_data_, self.partial_data_, self.label_ = self.load(partition=partition)
-
+        
         if class_choice is not None:
             print("class choice")
             self.gt_data_, self.partial_data_, self.label_ = self.get_with_shapeNames(names=class_choice)
         
-
         if has_augment_cloud and partition == "train":
             print("===>start to augment_cloud")
             gt_data_list = []
@@ -687,13 +688,25 @@ class ElevationNet(Dataset):
             np.random.shuffle(pt_idxes_partial)
             partial_point_cloud = self.partial_data_[item][pt_idxes_partial[:self.num_points]].copy()
         else:
+        
             if self.gt_data_ is not None:
                 gt_point_cloud = self.gt_data_[item]
             else:
                 gt_point_cloud = None
             partial_point_cloud = self.partial_data_[item]
-        return gt_point_cloud, partial_point_cloud
+        if self.label_ is not None:
+            label_point_cloud = self.label_[item]
+        else:
+            label_point_cloud = None
+        
+        return gt_point_cloud, partial_point_cloud, label_point_cloud
 
+    @staticmethod
+    def evaluation_class(label_name):
+        class_name = ["ground"]
+        for i, name in enumerate(class_name):
+            if name.lower() == label_name.lower():
+                return name
 
     def down_sampling(self, data):
         pt_all = []
@@ -719,24 +732,26 @@ class ElevationNet(Dataset):
             return self.partial_data_.shape[0]
 
     def load(self, partition='train'):
+        # PointCompletionShapeNet.download()
+        self.category = self.get_category_file()
         if partition == "train":
             print("----load train dataset")
-            gt, partial = self.__load_train()
+            gt, partial, label = self.__load_train()
             print(".... finished load train dataset")
-            return gt, partial
+            return gt, partial, label
         elif partition == "test":
             print("----load test dataset")
-            gt, partial = self.__load_test()
-            return gt, partial
+            gt, partial, label = self.__load_test()
+            return gt, partial, label
         elif partition == "val":
             print("----load val dataset")
             if self.use_kitti:
                 print("----load val kitti dataset")
-                gt, partial = self.__load_kitti_val()
+                gt, partial, label = self.__load_kitti_val()
             else:
                 print("----load val completion3D dataset")
-                gt, partial = self.__load_val()
-            return gt, partial
+                gt, partial, label = self.__load_val()
+            return gt, partial, label
         else:
             raise Exception("no partition is found")
 
@@ -744,6 +759,7 @@ class ElevationNet(Dataset):
         train_data_file = self.get_train_file()
         gt_train_data = []
         partial_train_data = []
+        train_label = []
         i = 0
         for file in train_data_file:
             h5_name_gt = os.path.join(self.DATA_DIR, 'train/gt', file[0], '%s.h5' % file[1])
@@ -759,11 +775,14 @@ class ElevationNet(Dataset):
             data = f2['data'][:].astype('float32')
             f2.close()
             partial_train_data.append(data)
+            train_label.append(self.category_label[file[0]])
+        # print(train_label)
 
         gt_train_data = np.stack(gt_train_data, axis=0)
         partial_train_data = np.stack(partial_train_data, axis=0)
+        train_label = np.stack(train_label, axis=0)
         print("gt: ", gt_train_data.shape)
-        return gt_train_data, partial_train_data
+        return gt_train_data, partial_train_data, train_label
 
     def __load_test(self):
         test_data_file = self.get_test_file()
@@ -776,12 +795,22 @@ class ElevationNet(Dataset):
                 f.close()
                 partial_test_data.append(data)
         partial_test_data = np.stack(partial_test_data, axis=0)
-        return partial_test_data, partial_test_data
+        label = torch.ones(partial_test_data.shape[0])
+        return partial_test_data, partial_test_data, label
+
+    def __load_kitti_val(self):
+        h5_name = os.path.join(self.DATA_DIR, 'val/kitti_data.h5')
+        f = h5py.File(h5_name, 'r')
+        data = f["car"][:].astype('float32')
+        partial_val_data = data
+        label = np.ones(partial_val_data.shape[0])
+        return partial_val_data, partial_val_data, label
 
     def __load_val(self):
         val_data_file = self.get_val_file()
         gt_val_data = []
         partial_val_data = []
+        val_label = []
         for file in val_data_file:
             for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'val/gt', file[0], '%s.h5' % file[1])):
                 f = h5py.File(h5_name, 'r')
@@ -793,10 +822,50 @@ class ElevationNet(Dataset):
                 data = f['data'][:].astype('float32')
                 f.close()
                 partial_val_data.append(data)
+            val_label.append(self.category_label[(file[0])])
 
         gt_val_data = np.stack(gt_val_data, axis=0)
         partial_val_data = np.stack(partial_val_data, axis=0)
-        return gt_val_data, partial_val_data
+        val_label = np.stack(val_label, axis=0)
+        return gt_val_data, partial_val_data, val_label
+
+    def get_category_file(self):
+        category = dict()
+        data = readText(self.synsetoffset2category, '\t')
+        for i, x in enumerate(data):
+            category[x[0]] = int(x[1])
+            self.category_label[x[1]] = i
+        return category
+
+    def label_to_category(self, label):
+        key_name = None
+        for key, item in self.category_label.items():  # for name, age in dictionary.iteritems():  (for Python 2.x)
+            if item == label:
+                key_name = key
+                break
+        for key, item in self.category.items():
+            if item == int(key_name):
+                return key
+        # name = self.category[key_name]
+
+    def get_with_shapeName(self, name):
+        result = np.where(self.label_ == self.category_label[self.category[name]])[0]
+        labels = list(itertools.repeat(self.category[name], len(result)))
+        return result, labels
+
+    def get_with_shapeNames(self, names):
+        gt_ = []
+        partial_ = []
+        labels_ = []
+        for name in names:
+            result, label_ = self.get_with_shapeName(name.lower())
+            gt_.append(self.gt_data_[result, :, :])
+            partial_.append(self.partial_data_[result, :, :])
+            labels_.append(label_)
+        gt_ = np.concatenate(gt_, axis=0)
+        partial_ = np.concatenate(partial_, axis=0)
+        labels_ = np.concatenate(labels_, axis=0)
+        return gt_, partial_, labels_
 
     def get_train_file(self):
         train_data = readText(self.train, '/')

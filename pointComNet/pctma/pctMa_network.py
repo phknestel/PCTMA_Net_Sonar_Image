@@ -249,10 +249,6 @@ class PCTMA_Net(nn.Module):
                                                                    batch_size=batch_size)
             cd_sparse_update, cd_dense_update = self.evaluation_step(test_loader=test_loader)
             if cd_dense_update < cd_dense:
-                # print('the mean cd_loss_sparse: {:.6f}, cd_loss_dense: {:.6f}, best: {:.6f}'.format(
-                #     cd_sparse_update, cd_dense_update, cd_dense))
-                # cd_dense_best = np.min(cd_dense_update, cd_dense)
-                # cd_sparse_best = np.min(cd_sparse_update, cd_sparse)
                 if cd_dense_best > cd_dense_update:
                     cd_dense_best = cd_dense_update
                     cd_sparse_best = cd_sparse_update
@@ -286,17 +282,14 @@ class PCTMA_Net(nn.Module):
         # self.count_parameters()
         evaluate_loss_sparse = []
         evaluate_loss_dense = []
-        evaluate_class_choice_sparse = {"Plane": [], "Cabinet": [], "Car": [], "Chair": [], "Lamp": [], "Couch": [],
-                                        "Table": [], "Watercraft": []}
-        evaluate_class_choice_dense = {"Plane": [], "Cabinet": [], "Car": [], "Chair": [], "Lamp": [], "Couch": [],
-                                       "Table": [], "Watercraft": []}
+        evaluate_class_choice_sparse = {"ground": []}
         count = 0.0
         if self.parameter["gene_file"]:
-            save_ply_path = os.path.join(os.path.dirname(__file__), "../../save_ae_ply_data")
+            save_ply_path = os.path.join(os.path.dirname(__file__), "../../save_ele_data")
             make_dirs(save_ply_path)
             if check_point_name is not None:
                 check_point_base_name = check_point_name.split(".")
-                save_ply_path = os.path.join(os.path.dirname(__file__), "../../save_ae_ply_data",
+                save_ply_path = os.path.join(os.path.dirname(__file__), "../../save_ele_data",
                                              check_point_base_name[0])
                 make_dirs(save_ply_path)
             count_k = 0
@@ -308,27 +301,10 @@ class PCTMA_Net(nn.Module):
                 self.eval()
 
                 out_px3, out_px2, out_px1, _ = self(partial_point_cloud)
-                # for k in range(partial_point_cloud.shape[0]):
-                #     if test_loader.dataset.label_to_category(label_point_cloud[k]) == "plane" and count_k == 301:
-                #         print("self.netDe.n_primitives: ", self.netDe.n_primitives)
-                #         base_name = test_loader.dataset.label_to_category(label_point_cloud[k]) + "_" + str(
-                #             count_k) + "_" + "complement" + "_pc" + ".ply"
-                #         template_path = os.path.join(save_ply_path, base_name)
-                #         save_ply(out_px1[k].cpu().detach().numpy(), path=template_path)
-                #         for at_primitives in range(self.netDe.n_primitives):
-                #             print("at_primitives: ", at_primitives)
-                #             base_name = test_loader.dataset.label_to_category(label_point_cloud[k]) + "_" + str(
-                #                 count_k) + "_" + str(at_primitives) + "_pc" + ".ply"
-                #             template_path = os.path.join(save_ply_path, base_name)
-                #             plane_points = self.netDe.atlas_primitives[at_primitives][0].transpose(1, 0)
-                #             save_ply(plane_points.cpu().detach().numpy(), path=template_path)
-                #         return 1
+
                 if self.parameter["combined_pc"]:
                     pc_point_completion_dense = torch.cat([partial_point_cloud, out_px1], dim=1)
                     cd_loss_dense = self.l_cd(gt_point_cloud, pc_point_completion_dense)
-                    # partial_point_cloud_sparse, _, _ = farthest_point_sampling(partial_point_cloud, ratio=0.5)
-                    # out_px1_sparse, _, _ = farthest_point_sampling(out_px1, ratio=0.5)
-                    # pc_point_completion_sparse = torch.cat([partial_point_cloud_sparse, out_px1_sparse], dim=1)
                     cd_loss_sparse = cd_loss_dense
 
                 evaluate_loss_sparse.append(cd_loss_sparse.item())
@@ -367,35 +343,15 @@ class PCTMA_Net(nn.Module):
                 evaluate_class_choice_dense[key] = sum(item) / len(item)
 
         self.Logger.INFO(
-            '====> cd_sparse: Airplane: %.4f, Cabinet: %.4f, Car: %.4f, Chair: %.4f, Lamp: %.4f, Sofa: %.4f, Table: %.4f, Watercraft: %.4f, mean: %.4f',
-            evaluate_class_choice_sparse["Plane"] * 10000, evaluate_class_choice_sparse["Cabinet"] * 10000,
-            evaluate_class_choice_sparse["Car"] * 10000, evaluate_class_choice_sparse["Chair"] * 10000,
-            evaluate_class_choice_sparse["Lamp"] * 10000, evaluate_class_choice_sparse["Couch"] * 10000,
-            evaluate_class_choice_sparse["Table"] * 10000, evaluate_class_choice_sparse["Watercraft"] * 10000,
+            '====> cd_sparse: ground: %.4f',
+            evaluate_class_choice_sparse["ground"] * 10000,
             sum(evaluate_loss_sparse) / len(evaluate_loss_sparse) * 10000)
 
         self.Logger.INFO(
-            '====> cd_dense: Airplane: %.4f, Cabinet: %.4f, Car: %.4f, Chair: %.4f, Lamp: %.4f, Sofa: %.4f, Table: %.4f, Watercraft: %.4f, mean: %.4f',
-            evaluate_class_choice_dense["Plane"] * 10000, evaluate_class_choice_dense["Cabinet"] * 10000,
-            evaluate_class_choice_dense["Car"] * 10000, evaluate_class_choice_dense["Chair"] * 10000,
-            evaluate_class_choice_dense["Lamp"] * 10000, evaluate_class_choice_dense["Couch"] * 10000,
-            evaluate_class_choice_dense["Table"] * 10000, evaluate_class_choice_dense["Watercraft"] * 10000,
+            '====> cd_dense: ground: %.4f',
+            evaluate_class_choice_dense["ground"] * 10000,
             sum(evaluate_loss_dense) / len(evaluate_loss_dense) * 10000)
 
-        # print(
-        #     "====> cd_sparse: Airplane: {:.6f}, Cabinet: {:.6f}, Car: {:.6f}, Chair: {:.6f}, Lamp: {:.6f}, Sofa: {:.6f}, Table: {:.6f}, Watercraft: {:.6f}, mean: {:.6f}".format(
-        #         evaluate_class_choice_sparse["Plane"], evaluate_class_choice_sparse["Cabinet"],
-        #         evaluate_class_choice_sparse["Car"], evaluate_class_choice_sparse["Chair"],
-        #         evaluate_class_choice_sparse["Lamp"], evaluate_class_choice_sparse["Couch"],
-        #         evaluate_class_choice_sparse["Table"], evaluate_class_choice_sparse["Watercraft"],
-        #         sum(evaluate_loss_sparse) / len(evaluate_loss_sparse)))
-        # print(
-        #     "====> cd_dense: Airplane: {:.6f}, Cabinet: {:.6f}, Car: {:.6f}, Chair: {:.6f}, Lamp: {:.6f}, Sofa: {:.6f}, Table: {:.6f}, Watercraft: {:.6f}, mean: {:.6f}".format(
-        #         evaluate_class_choice_dense["Plane"], evaluate_class_choice_dense["Cabinet"],
-        #         evaluate_class_choice_dense["Car"], evaluate_class_choice_dense["Chair"],
-        #         evaluate_class_choice_dense["Lamp"], evaluate_class_choice_dense["Couch"],
-        #         evaluate_class_choice_dense["Table"], evaluate_class_choice_dense["Watercraft"],
-        #         sum(evaluate_loss_dense) / len(evaluate_loss_dense)))
 
         return sum(evaluate_loss_sparse) / len(evaluate_loss_sparse), sum(evaluate_loss_dense) / len(
             evaluate_loss_dense)

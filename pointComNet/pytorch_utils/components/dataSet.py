@@ -609,3 +609,203 @@ if __name__ == '__main__':
     # point_completion.get_category()
     # point_completion.get_train_file()
     # point_completion.get_val_file()
+
+
+
+# ------ elevation Net dataset ------
+
+
+
+
+
+
+class ElevationNet(Dataset):
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    foldName = "Data_elevation-test/"
+    DATA_DIR = os.path.join(BASE_DIR, dataFile, foldName)
+
+    def __init__(self, num_points, partition='train', transformationType="Z", pertubation=False,
+                 use_fps=True, class_choice=None, has_augment_cloud=False, has_down_sampling=False, use_kitti=False):
+        self.test = os.path.join(self.DATA_DIR, "test.list")
+        self.train = os.path.join(self.DATA_DIR, "train.list")
+        self.val = os.path.join(self.DATA_DIR, "val.list")
+        self.num_points = num_points
+        self.category_label = dict()
+        self.category = []
+        self.use_fps = use_fps
+        self.use_kitti = use_kitti
+        self.use_perturbation = pertubation
+        if transformationType == "Z":
+            self.rot = PointCloudAzimuthalRotations()
+        elif transformationType == "S":
+            self.rot = PointCloudArbitraryRotation()
+        else:
+            self.rot = PointCloudBase()
+        if self.use_perturbation:
+            self.perturbation = PointCloudJitter()
+        self.gt_data_, self.partial_data_, self.label_ = self.load(partition=partition)
+
+        if class_choice is not None:
+            print("class choice")
+            self.gt_data_, self.partial_data_, self.label_ = self.get_with_shapeNames(names=class_choice)
+        
+
+        if has_augment_cloud and partition == "train":
+            print("===>start to augment_cloud")
+            gt_data_list = []
+            partial_list_ = []
+            for i in range(self.gt_data_.shape[0]):
+                temp_gt, temp_partial = augment_cloud([self.gt_data_[i], self.partial_data_[i]])
+                gt_data_list.append(temp_gt)
+                partial_list_.append(temp_partial)
+            # self.gt_data_, self.partial_data_ = augment_cloud([self.gt_data_[i], self.partial_data_[i]])
+            self.gt_data_ = np.asarray(gt_data_list)
+            self.partial_data_ = np.asarray(partial_list_)
+            print("gt_data_: ", self.gt_data_.shape)
+            print("partial_data_: ", self.partial_data_.shape)
+            print("==> finished to augment_cloud")
+        if has_down_sampling and partition == "val":
+            print("star to random sampling")
+            gt_data_list = []
+            partial_list_ = []
+            down_sampling_npts = 1024
+            print("the downsampling: ", down_sampling_npts)
+            for i in range(self.partial_data_.shape[0]):
+                temp_partial = differentResolution(self.partial_data_[i], down_sampling_npts)
+                partial_list_.append(temp_partial)
+            self.partial_data_ = np.asarray(partial_list_)
+            print("gt_data_: ", self.gt_data_.shape)
+            print("partial_data_: ", self.partial_data_.shape)
+            print("==> finished to down_sampling")
+
+    def __getitem__(self, item):
+        if self.use_fps is False:
+            pt_idxes = np.arange(0, self.gt_data_[item].shape[0])
+            np.random.shuffle(pt_idxes)
+            gt_point_cloud = self.gt_data_[item][pt_idxes[:self.num_points]].copy()
+            pt_idxes_partial = np.arange(0, self.partial_data_[item].shape[0])
+            np.random.shuffle(pt_idxes_partial)
+            partial_point_cloud = self.partial_data_[item][pt_idxes_partial[:self.num_points]].copy()
+        else:
+            if self.gt_data_ is not None:
+                gt_point_cloud = self.gt_data_[item]
+            else:
+                gt_point_cloud = None
+            partial_point_cloud = self.partial_data_[item]
+        return gt_point_cloud, partial_point_cloud
+
+
+    def down_sampling(self, data):
+        pt_all = []
+        for i in range(data.shape[0]):
+            _, down_sampling_pt, fps_index = farthest_point_sampling(torch.from_numpy(data[i]),
+                                                                     ratio=self.num_points / data[i].shape[0])
+            pt_all.append(down_sampling_pt)
+        pt_all = torch.from_numpy(np.asarray(pt_all))
+        return pt_all
+
+    def rotate(self, data):
+        pt_all = []
+        for i in range(data.shape[0]):
+            pc = self.rot(data[i])
+            pt_all.append(pc)
+        pt_all = torch.from_numpy(np.asarray(pt_all))
+        return pt_all
+
+    def __len__(self):
+        if self.gt_data_ is not None:
+            return self.gt_data_.shape[0]
+        else:
+            return self.partial_data_.shape[0]
+
+    def load(self, partition='train'):
+        if partition == "train":
+            print("----load train dataset")
+            gt, partial = self.__load_train()
+            print(".... finished load train dataset")
+            return gt, partial
+        elif partition == "test":
+            print("----load test dataset")
+            gt, partial = self.__load_test()
+            return gt, partial
+        elif partition == "val":
+            print("----load val dataset")
+            if self.use_kitti:
+                print("----load val kitti dataset")
+                gt, partial = self.__load_kitti_val()
+            else:
+                print("----load val completion3D dataset")
+                gt, partial = self.__load_val()
+            return gt, partial
+        else:
+            raise Exception("no partition is found")
+
+    def __load_train(self):
+        train_data_file = self.get_train_file()
+        gt_train_data = []
+        partial_train_data = []
+        i = 0
+        for file in train_data_file:
+            h5_name_gt = os.path.join(self.DATA_DIR, 'train/gt', file[0], '%s.h5' % file[1])
+            # for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'train/gt', file[0], '%s.h5' % file[1])):
+            f1 = h5py.File(h5_name_gt, 'r')
+            i = i + 1
+            data = f1['data'][:].astype('float32')
+            f1.close()
+            gt_train_data.append(data)
+            # for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'train/partial', file[0], '%s.h5' % file[1])):
+            h5_name_partial = os.path.join(self.DATA_DIR, 'train/partial', file[0], '%s.h5' % file[1])
+            f2 = h5py.File(h5_name_partial, 'r')
+            data = f2['data'][:].astype('float32')
+            f2.close()
+            partial_train_data.append(data)
+
+        gt_train_data = np.stack(gt_train_data, axis=0)
+        partial_train_data = np.stack(partial_train_data, axis=0)
+        print("gt: ", gt_train_data.shape)
+        return gt_train_data, partial_train_data
+
+    def __load_test(self):
+        test_data_file = self.get_test_file()
+        partial_test_data = []
+        i = 0
+        for file in test_data_file:
+            for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'test/partial', file[0], '%s.h5' % file[1])):
+                f = h5py.File(h5_name, 'r')
+                data = f['data'][:].astype('float32')
+                f.close()
+                partial_test_data.append(data)
+        partial_test_data = np.stack(partial_test_data, axis=0)
+        return partial_test_data, partial_test_data
+
+    def __load_val(self):
+        val_data_file = self.get_val_file()
+        gt_val_data = []
+        partial_val_data = []
+        for file in val_data_file:
+            for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'val/gt', file[0], '%s.h5' % file[1])):
+                f = h5py.File(h5_name, 'r')
+                data = f['data'][:].astype('float32')
+                f.close()
+                gt_val_data.append(data)
+            for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'val/partial', file[0], '%s.h5' % file[1])):
+                f = h5py.File(h5_name, 'r')
+                data = f['data'][:].astype('float32')
+                f.close()
+                partial_val_data.append(data)
+
+        gt_val_data = np.stack(gt_val_data, axis=0)
+        partial_val_data = np.stack(partial_val_data, axis=0)
+        return gt_val_data, partial_val_data
+
+    def get_train_file(self):
+        train_data = readText(self.train, '/')
+        return train_data
+
+    def get_test_file(self):
+        test_data = readText(self.test, '/')
+        return test_data
+
+    def get_val_file(self):
+        val_data = readText(self.val, '/')
+        return val_data

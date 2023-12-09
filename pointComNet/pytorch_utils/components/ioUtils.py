@@ -46,7 +46,10 @@ def save_batch_ply(pc, path):
 
 
 def save_checkpoint(state, best_model_name):
+    print("checkout is saved")
+    print(best_model_name)
     save_path = os.path.join(os.path.dirname(__file__), "../../checkpoints", best_model_name)
+    print("save path: " + save_path)
     torch.save(state, save_path)
 
 
@@ -74,6 +77,7 @@ def make_dirs(path):
 
 
 def make_dirs_checkout():
+    print("make_dirs_checkout if called in ioUtils.py")
     checkout_path = os.path.join(os.getcwd(), "checkpoints")
     make_dirs(path=checkout_path)
     return checkout_path

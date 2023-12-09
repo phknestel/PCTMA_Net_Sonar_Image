@@ -7,3 +7,1197 @@
 12/08/2023 09:09:05 PM - ====> cd_dense: ground: 19976.3036, average loss: 19976.3036
 12/08/2023 09:09:05 PM - Train 1/300, loss_ae: 37753.002637, loss_cd: 19584.526420, evaluate_cd_spares: 19976.3036, evaluate_cd_dense: 19976.3036 
 
+12/08/2023 09:09:37 PM - ====> cd_sparse: ground: 19784.4431, average loss: 19784.4431
+12/08/2023 09:09:37 PM - ====> cd_dense: ground: 19784.4431, average loss: 19784.4431
+12/08/2023 09:09:37 PM - Train 2/300, loss_ae: 37567.578809, loss_cd: 19549.142659, evaluate_cd_spares: 19784.4431, evaluate_cd_dense: 19784.4431 
+
+12/08/2023 09:10:11 PM - ====> cd_sparse: ground: 19690.0992, average loss: 19690.0992
+12/08/2023 09:10:11 PM - ====> cd_dense: ground: 19690.0992, average loss: 19690.0992
+12/08/2023 09:10:11 PM - Train 3/300, loss_ae: 37460.437891, loss_cd: 19478.456855, evaluate_cd_spares: 19690.0992, evaluate_cd_dense: 19690.0992 
+
+12/08/2023 09:10:43 PM - ====> cd_sparse: ground: 19700.3558, average loss: 19700.3558
+12/08/2023 09:10:43 PM - ====> cd_dense: ground: 19700.3558, average loss: 19700.3558
+12/08/2023 09:10:43 PM - Train 4/300, loss_ae: 37441.563379, loss_cd: 19516.402870, evaluate_cd_spares: 19690.0992, evaluate_cd_dense: 19690.0992 
+
+12/08/2023 09:11:15 PM - ====> cd_sparse: ground: 19735.5971, average loss: 19735.5971
+12/08/2023 09:11:15 PM - ====> cd_dense: ground: 19735.5971, average loss: 19735.5971
+12/08/2023 09:11:15 PM - Train 5/300, loss_ae: 37352.989453, loss_cd: 19475.442201, evaluate_cd_spares: 19690.0992, evaluate_cd_dense: 19690.0992 
+
+12/08/2023 09:11:47 PM - ====> cd_sparse: ground: 19830.4424, average loss: 19830.4424
+12/08/2023 09:11:47 PM - ====> cd_dense: ground: 19830.4424, average loss: 19830.4424
+12/08/2023 09:11:47 PM - Train 6/300, loss_ae: 37380.225586, loss_cd: 19492.103457, evaluate_cd_spares: 19690.0992, evaluate_cd_dense: 19690.0992 
+
+12/08/2023 09:12:19 PM - ====> cd_sparse: ground: 19778.5283, average loss: 19778.5283
+12/08/2023 09:12:19 PM - ====> cd_dense: ground: 19778.5283, average loss: 19778.5283
+12/08/2023 09:12:19 PM - Train 7/300, loss_ae: 37351.596973, loss_cd: 19495.934218, evaluate_cd_spares: 19690.0992, evaluate_cd_dense: 19690.0992 
+
+12/08/2023 09:12:51 PM - ====> cd_sparse: ground: 19860.7264, average loss: 19860.7264
+12/08/2023 09:12:51 PM - ====> cd_dense: ground: 19860.7264, average loss: 19860.7264
+12/08/2023 09:12:51 PM - Train 8/300, loss_ae: 37310.903223, loss_cd: 19494.188905, evaluate_cd_spares: 19690.0992, evaluate_cd_dense: 19690.0992 
+
+12/08/2023 09:13:23 PM - ====> cd_sparse: ground: 19675.2669, average loss: 19675.2669
+12/08/2023 09:13:23 PM - ====> cd_dense: ground: 19675.2669, average loss: 19675.2669
+12/08/2023 09:13:23 PM - Train 9/300, loss_ae: 37275.434863, loss_cd: 19543.858320, evaluate_cd_spares: 19675.2669, evaluate_cd_dense: 19675.2669 
+
+12/08/2023 09:13:55 PM - ====> cd_sparse: ground: 19567.4851, average loss: 19567.4851
+12/08/2023 09:13:55 PM - ====> cd_dense: ground: 19567.4851, average loss: 19567.4851
+12/08/2023 09:13:55 PM - Train 10/300, loss_ae: 37324.906348, loss_cd: 19507.506460, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:14:27 PM - ====> cd_sparse: ground: 19713.5064, average loss: 19713.5064
+12/08/2023 09:14:27 PM - ====> cd_dense: ground: 19713.5064, average loss: 19713.5064
+12/08/2023 09:14:27 PM - Train 11/300, loss_ae: 37229.602051, loss_cd: 19459.318668, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:14:59 PM - ====> cd_sparse: ground: 19788.3504, average loss: 19788.3504
+12/08/2023 09:14:59 PM - ====> cd_dense: ground: 19788.3504, average loss: 19788.3504
+12/08/2023 09:14:59 PM - Train 12/300, loss_ae: 37223.247461, loss_cd: 19477.517784, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:15:31 PM - ====> cd_sparse: ground: 19747.0105, average loss: 19747.0105
+12/08/2023 09:15:31 PM - ====> cd_dense: ground: 19747.0105, average loss: 19747.0105
+12/08/2023 09:15:31 PM - Train 13/300, loss_ae: 37199.435449, loss_cd: 19478.042603, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:16:03 PM - ====> cd_sparse: ground: 19816.9425, average loss: 19816.9425
+12/08/2023 09:16:03 PM - ====> cd_dense: ground: 19816.9425, average loss: 19816.9425
+12/08/2023 09:16:03 PM - Train 14/300, loss_ae: 37170.620605, loss_cd: 19480.013341, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:16:35 PM - ====> cd_sparse: ground: 19724.4820, average loss: 19724.4820
+12/08/2023 09:16:35 PM - ====> cd_dense: ground: 19724.4820, average loss: 19724.4820
+12/08/2023 09:16:35 PM - Train 15/300, loss_ae: 37146.595020, loss_cd: 19473.007321, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:17:07 PM - ====> cd_sparse: ground: 19819.7745, average loss: 19819.7745
+12/08/2023 09:17:07 PM - ====> cd_dense: ground: 19819.7745, average loss: 19819.7745
+12/08/2023 09:17:07 PM - Train 16/300, loss_ae: 37196.865332, loss_cd: 19463.751823, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:17:38 PM - ====> cd_sparse: ground: 19706.2326, average loss: 19706.2326
+12/08/2023 09:17:38 PM - ====> cd_dense: ground: 19706.2326, average loss: 19706.2326
+12/08/2023 09:17:38 PM - Train 17/300, loss_ae: 37177.365332, loss_cd: 19483.719110, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:18:09 PM - ====> cd_sparse: ground: 19773.6583, average loss: 19773.6583
+12/08/2023 09:18:09 PM - ====> cd_dense: ground: 19773.6583, average loss: 19773.6583
+12/08/2023 09:18:09 PM - Train 18/300, loss_ae: 37210.593945, loss_cd: 19522.976905, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:18:41 PM - ====> cd_sparse: ground: 19762.5068, average loss: 19762.5068
+12/08/2023 09:18:41 PM - ====> cd_dense: ground: 19762.5068, average loss: 19762.5068
+12/08/2023 09:18:41 PM - Train 19/300, loss_ae: 37164.196191, loss_cd: 19502.792418, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:19:12 PM - ====> cd_sparse: ground: 19732.2377, average loss: 19732.2377
+12/08/2023 09:19:12 PM - ====> cd_dense: ground: 19732.2377, average loss: 19732.2377
+12/08/2023 09:19:12 PM - Train 20/300, loss_ae: 37132.116992, loss_cd: 19502.381891, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:19:43 PM - ====> cd_sparse: ground: 19724.1380, average loss: 19724.1380
+12/08/2023 09:19:43 PM - ====> cd_dense: ground: 19724.1380, average loss: 19724.1380
+12/08/2023 09:19:43 PM - Train 21/300, loss_ae: 37190.482910, loss_cd: 19525.120109, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:20:14 PM - ====> cd_sparse: ground: 19782.7457, average loss: 19782.7457
+12/08/2023 09:20:14 PM - ====> cd_dense: ground: 19782.7457, average loss: 19782.7457
+12/08/2023 09:20:14 PM - Train 22/300, loss_ae: 37138.513672, loss_cd: 19506.693959, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:20:46 PM - ====> cd_sparse: ground: 19928.3540, average loss: 19928.3540
+12/08/2023 09:20:46 PM - ====> cd_dense: ground: 19928.3540, average loss: 19928.3540
+12/08/2023 09:20:46 PM - Train 23/300, loss_ae: 37165.327637, loss_cd: 19506.108671, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:21:17 PM - ====> cd_sparse: ground: 19654.3368, average loss: 19654.3368
+12/08/2023 09:21:17 PM - ====> cd_dense: ground: 19654.3368, average loss: 19654.3368
+12/08/2023 09:21:17 PM - Train 24/300, loss_ae: 37128.519824, loss_cd: 19550.388724, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:21:49 PM - ====> cd_sparse: ground: 19733.2238, average loss: 19733.2238
+12/08/2023 09:21:49 PM - ====> cd_dense: ground: 19733.2238, average loss: 19733.2238
+12/08/2023 09:21:49 PM - Train 25/300, loss_ae: 37159.912988, loss_cd: 19517.096400, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:22:20 PM - ====> cd_sparse: ground: 19792.3102, average loss: 19792.3102
+12/08/2023 09:22:20 PM - ====> cd_dense: ground: 19792.3102, average loss: 19792.3102
+12/08/2023 09:22:20 PM - Train 26/300, loss_ae: 37122.657324, loss_cd: 19496.820331, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:22:52 PM - ====> cd_sparse: ground: 19709.9946, average loss: 19709.9946
+12/08/2023 09:22:52 PM - ====> cd_dense: ground: 19709.9946, average loss: 19709.9946
+12/08/2023 09:22:52 PM - Train 27/300, loss_ae: 37104.066699, loss_cd: 19484.462172, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:23:23 PM - ====> cd_sparse: ground: 19764.7643, average loss: 19764.7643
+12/08/2023 09:23:23 PM - ====> cd_dense: ground: 19764.7643, average loss: 19764.7643
+12/08/2023 09:23:23 PM - Train 28/300, loss_ae: 37094.573730, loss_cd: 19474.289805, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:23:54 PM - ====> cd_sparse: ground: 19845.7071, average loss: 19845.7071
+12/08/2023 09:23:54 PM - ====> cd_dense: ground: 19845.7071, average loss: 19845.7071
+12/08/2023 09:23:54 PM - Train 29/300, loss_ae: 37103.282813, loss_cd: 19506.893456, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:24:26 PM - ====> cd_sparse: ground: 19797.7717, average loss: 19797.7717
+12/08/2023 09:24:26 PM - ====> cd_dense: ground: 19797.7717, average loss: 19797.7717
+12/08/2023 09:24:26 PM - Train 30/300, loss_ae: 37094.824121, loss_cd: 19503.499001, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:24:57 PM - ====> cd_sparse: ground: 19644.7662, average loss: 19644.7662
+12/08/2023 09:24:57 PM - ====> cd_dense: ground: 19644.7662, average loss: 19644.7662
+12/08/2023 09:24:57 PM - Train 31/300, loss_ae: 37123.697070, loss_cd: 19490.292370, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:25:28 PM - ====> cd_sparse: ground: 19798.7813, average loss: 19798.7813
+12/08/2023 09:25:28 PM - ====> cd_dense: ground: 19798.7813, average loss: 19798.7813
+12/08/2023 09:25:28 PM - Train 32/300, loss_ae: 37098.159375, loss_cd: 19508.121550, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:26:00 PM - ====> cd_sparse: ground: 19840.2791, average loss: 19840.2791
+12/08/2023 09:26:00 PM - ====> cd_dense: ground: 19840.2791, average loss: 19840.2791
+12/08/2023 09:26:00 PM - Train 33/300, loss_ae: 37058.344727, loss_cd: 19498.380899, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:26:31 PM - ====> cd_sparse: ground: 19789.1099, average loss: 19789.1099
+12/08/2023 09:26:31 PM - ====> cd_dense: ground: 19789.1099, average loss: 19789.1099
+12/08/2023 09:26:31 PM - Train 34/300, loss_ae: 37174.490430, loss_cd: 19552.601814, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:27:02 PM - ====> cd_sparse: ground: 19861.0130, average loss: 19861.0130
+12/08/2023 09:27:02 PM - ====> cd_dense: ground: 19861.0130, average loss: 19861.0130
+12/08/2023 09:27:02 PM - Train 35/300, loss_ae: 37093.491309, loss_cd: 19525.199562, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:27:34 PM - ====> cd_sparse: ground: 19841.8554, average loss: 19841.8554
+12/08/2023 09:27:34 PM - ====> cd_dense: ground: 19841.8554, average loss: 19841.8554
+12/08/2023 09:27:34 PM - Train 36/300, loss_ae: 37087.750293, loss_cd: 19533.498764, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:28:05 PM - ====> cd_sparse: ground: 19765.5036, average loss: 19765.5036
+12/08/2023 09:28:05 PM - ====> cd_dense: ground: 19765.5036, average loss: 19765.5036
+12/08/2023 09:28:05 PM - Train 37/300, loss_ae: 37063.176465, loss_cd: 19513.988912, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:28:37 PM - ====> cd_sparse: ground: 19762.5665, average loss: 19762.5665
+12/08/2023 09:28:37 PM - ====> cd_dense: ground: 19762.5665, average loss: 19762.5665
+12/08/2023 09:28:37 PM - Train 38/300, loss_ae: 37083.553223, loss_cd: 19510.170817, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:29:08 PM - ====> cd_sparse: ground: 19747.4367, average loss: 19747.4367
+12/08/2023 09:29:08 PM - ====> cd_dense: ground: 19747.4367, average loss: 19747.4367
+12/08/2023 09:29:08 PM - Train 39/300, loss_ae: 37087.030273, loss_cd: 19506.589234, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:29:39 PM - ====> cd_sparse: ground: 19855.9180, average loss: 19855.9180
+12/08/2023 09:29:39 PM - ====> cd_dense: ground: 19855.9180, average loss: 19855.9180
+12/08/2023 09:29:39 PM - Train 40/300, loss_ae: 37078.877930, loss_cd: 19515.206873, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:30:11 PM - ====> cd_sparse: ground: 19706.9200, average loss: 19706.9200
+12/08/2023 09:30:11 PM - ====> cd_dense: ground: 19706.9200, average loss: 19706.9200
+12/08/2023 09:30:11 PM - Train 41/300, loss_ae: 37051.993848, loss_cd: 19510.790378, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:30:42 PM - ====> cd_sparse: ground: 19819.4645, average loss: 19819.4645
+12/08/2023 09:30:42 PM - ====> cd_dense: ground: 19819.4645, average loss: 19819.4645
+12/08/2023 09:30:42 PM - Train 42/300, loss_ae: 37087.962793, loss_cd: 19513.473839, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:31:13 PM - ====> cd_sparse: ground: 19722.0225, average loss: 19722.0225
+12/08/2023 09:31:13 PM - ====> cd_dense: ground: 19722.0225, average loss: 19722.0225
+12/08/2023 09:31:13 PM - Train 43/300, loss_ae: 37086.926074, loss_cd: 19533.383071, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:31:45 PM - ====> cd_sparse: ground: 19772.2449, average loss: 19772.2449
+12/08/2023 09:31:45 PM - ====> cd_dense: ground: 19772.2449, average loss: 19772.2449
+12/08/2023 09:31:45 PM - Train 44/300, loss_ae: 37096.573535, loss_cd: 19544.727564, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:32:16 PM - ====> cd_sparse: ground: 19704.6814, average loss: 19704.6814
+12/08/2023 09:32:16 PM - ====> cd_dense: ground: 19704.6814, average loss: 19704.6814
+12/08/2023 09:32:16 PM - Train 45/300, loss_ae: 37059.486230, loss_cd: 19515.823662, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:32:47 PM - ====> cd_sparse: ground: 19821.5542, average loss: 19821.5542
+12/08/2023 09:32:47 PM - ====> cd_dense: ground: 19821.5542, average loss: 19821.5542
+12/08/2023 09:32:47 PM - Train 46/300, loss_ae: 37140.149609, loss_cd: 19565.315813, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:33:19 PM - ====> cd_sparse: ground: 19800.0188, average loss: 19800.0188
+12/08/2023 09:33:19 PM - ====> cd_dense: ground: 19800.0188, average loss: 19800.0188
+12/08/2023 09:33:19 PM - Train 47/300, loss_ae: 37047.546973, loss_cd: 19506.500095, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:33:50 PM - ====> cd_sparse: ground: 19844.4517, average loss: 19844.4517
+12/08/2023 09:33:50 PM - ====> cd_dense: ground: 19844.4517, average loss: 19844.4517
+12/08/2023 09:33:50 PM - Train 48/300, loss_ae: 37060.795312, loss_cd: 19501.283318, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:34:22 PM - ====> cd_sparse: ground: 19711.7423, average loss: 19711.7423
+12/08/2023 09:34:22 PM - ====> cd_dense: ground: 19711.7423, average loss: 19711.7423
+12/08/2023 09:34:22 PM - Train 49/300, loss_ae: 37084.552051, loss_cd: 19514.950901, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:34:53 PM - ====> cd_sparse: ground: 19787.9525, average loss: 19787.9525
+12/08/2023 09:34:53 PM - ====> cd_dense: ground: 19787.9525, average loss: 19787.9525
+12/08/2023 09:34:53 PM - Train 50/300, loss_ae: 37079.462012, loss_cd: 19493.316710, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:35:24 PM - ====> cd_sparse: ground: 19894.7940, average loss: 19894.7940
+12/08/2023 09:35:24 PM - ====> cd_dense: ground: 19894.7940, average loss: 19894.7940
+12/08/2023 09:35:24 PM - Train 51/300, loss_ae: 37098.787207, loss_cd: 19547.653764, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:35:56 PM - ====> cd_sparse: ground: 19707.7661, average loss: 19707.7661
+12/08/2023 09:35:56 PM - ====> cd_dense: ground: 19707.7661, average loss: 19707.7661
+12/08/2023 09:35:56 PM - Train 52/300, loss_ae: 37085.067383, loss_cd: 19532.874942, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:36:27 PM - ====> cd_sparse: ground: 19948.7245, average loss: 19948.7245
+12/08/2023 09:36:27 PM - ====> cd_dense: ground: 19948.7245, average loss: 19948.7245
+12/08/2023 09:36:27 PM - Train 53/300, loss_ae: 37073.948633, loss_cd: 19533.201247, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:36:58 PM - ====> cd_sparse: ground: 19734.6319, average loss: 19734.6319
+12/08/2023 09:36:58 PM - ====> cd_dense: ground: 19734.6319, average loss: 19734.6319
+12/08/2023 09:36:58 PM - Train 54/300, loss_ae: 37083.267383, loss_cd: 19527.990550, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:37:30 PM - ====> cd_sparse: ground: 19793.3721, average loss: 19793.3721
+12/08/2023 09:37:30 PM - ====> cd_dense: ground: 19793.3721, average loss: 19793.3721
+12/08/2023 09:37:30 PM - Train 55/300, loss_ae: 37041.147363, loss_cd: 19515.816689, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:38:01 PM - ====> cd_sparse: ground: 19881.2776, average loss: 19881.2776
+12/08/2023 09:38:01 PM - ====> cd_dense: ground: 19881.2776, average loss: 19881.2776
+12/08/2023 09:38:01 PM - Train 56/300, loss_ae: 37048.654395, loss_cd: 19498.265207, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:38:32 PM - ====> cd_sparse: ground: 19835.5870, average loss: 19835.5870
+12/08/2023 09:38:32 PM - ====> cd_dense: ground: 19835.5870, average loss: 19835.5870
+12/08/2023 09:38:32 PM - Train 57/300, loss_ae: 37066.081445, loss_cd: 19515.815705, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:39:04 PM - ====> cd_sparse: ground: 19808.7787, average loss: 19808.7787
+12/08/2023 09:39:04 PM - ====> cd_dense: ground: 19808.7787, average loss: 19808.7787
+12/08/2023 09:39:04 PM - Train 58/300, loss_ae: 37094.020703, loss_cd: 19548.303425, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:39:35 PM - ====> cd_sparse: ground: 19856.7698, average loss: 19856.7698
+12/08/2023 09:39:35 PM - ====> cd_dense: ground: 19856.7698, average loss: 19856.7698
+12/08/2023 09:39:35 PM - Train 59/300, loss_ae: 37017.947461, loss_cd: 19506.216437, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:40:06 PM - ====> cd_sparse: ground: 19826.0612, average loss: 19826.0612
+12/08/2023 09:40:06 PM - ====> cd_dense: ground: 19826.0612, average loss: 19826.0612
+12/08/2023 09:40:06 PM - Train 60/300, loss_ae: 37078.861133, loss_cd: 19538.351655, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:40:38 PM - ====> cd_sparse: ground: 19734.9931, average loss: 19734.9931
+12/08/2023 09:40:38 PM - ====> cd_dense: ground: 19734.9931, average loss: 19734.9931
+12/08/2023 09:40:38 PM - Train 61/300, loss_ae: 37034.853125, loss_cd: 19515.164763, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:41:09 PM - ====> cd_sparse: ground: 19860.0101, average loss: 19860.0101
+12/08/2023 09:41:09 PM - ====> cd_dense: ground: 19860.0101, average loss: 19860.0101
+12/08/2023 09:41:09 PM - Train 62/300, loss_ae: 37048.723340, loss_cd: 19511.002928, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:41:40 PM - ====> cd_sparse: ground: 19676.4212, average loss: 19676.4212
+12/08/2023 09:41:40 PM - ====> cd_dense: ground: 19676.4212, average loss: 19676.4212
+12/08/2023 09:41:40 PM - Train 63/300, loss_ae: 37069.148633, loss_cd: 19507.039875, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:42:12 PM - ====> cd_sparse: ground: 19805.6522, average loss: 19805.6522
+12/08/2023 09:42:12 PM - ====> cd_dense: ground: 19805.6522, average loss: 19805.6522
+12/08/2023 09:42:12 PM - Train 64/300, loss_ae: 37062.907129, loss_cd: 19540.559918, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:42:43 PM - ====> cd_sparse: ground: 19806.4577, average loss: 19806.4577
+12/08/2023 09:42:43 PM - ====> cd_dense: ground: 19806.4577, average loss: 19806.4577
+12/08/2023 09:42:43 PM - Train 65/300, loss_ae: 37085.298730, loss_cd: 19542.905807, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:43:15 PM - ====> cd_sparse: ground: 19803.8134, average loss: 19803.8134
+12/08/2023 09:43:15 PM - ====> cd_dense: ground: 19803.8134, average loss: 19803.8134
+12/08/2023 09:43:15 PM - Train 66/300, loss_ae: 37031.956836, loss_cd: 19533.666313, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:43:46 PM - ====> cd_sparse: ground: 19770.3604, average loss: 19770.3604
+12/08/2023 09:43:46 PM - ====> cd_dense: ground: 19770.3604, average loss: 19770.3604
+12/08/2023 09:43:46 PM - Train 67/300, loss_ae: 37036.878320, loss_cd: 19537.077516, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:44:17 PM - ====> cd_sparse: ground: 19781.7402, average loss: 19781.7402
+12/08/2023 09:44:17 PM - ====> cd_dense: ground: 19781.7402, average loss: 19781.7402
+12/08/2023 09:44:17 PM - Train 68/300, loss_ae: 37009.476855, loss_cd: 19498.392045, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:44:49 PM - ====> cd_sparse: ground: 19865.8686, average loss: 19865.8686
+12/08/2023 09:44:49 PM - ====> cd_dense: ground: 19865.8686, average loss: 19865.8686
+12/08/2023 09:44:49 PM - Train 69/300, loss_ae: 37049.606055, loss_cd: 19519.372851, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:45:20 PM - ====> cd_sparse: ground: 19708.1602, average loss: 19708.1602
+12/08/2023 09:45:20 PM - ====> cd_dense: ground: 19708.1602, average loss: 19708.1602
+12/08/2023 09:45:20 PM - Train 70/300, loss_ae: 36986.905176, loss_cd: 19477.929711, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:45:51 PM - ====> cd_sparse: ground: 19901.5983, average loss: 19901.5983
+12/08/2023 09:45:51 PM - ====> cd_dense: ground: 19901.5983, average loss: 19901.5983
+12/08/2023 09:45:51 PM - Train 71/300, loss_ae: 37053.294043, loss_cd: 19544.286072, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:46:23 PM - ====> cd_sparse: ground: 19762.0456, average loss: 19762.0456
+12/08/2023 09:46:23 PM - ====> cd_dense: ground: 19762.0456, average loss: 19762.0456
+12/08/2023 09:46:23 PM - Train 72/300, loss_ae: 37060.859473, loss_cd: 19523.882866, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:46:54 PM - ====> cd_sparse: ground: 19768.2999, average loss: 19768.2999
+12/08/2023 09:46:54 PM - ====> cd_dense: ground: 19768.2999, average loss: 19768.2999
+12/08/2023 09:46:54 PM - Train 73/300, loss_ae: 37006.786914, loss_cd: 19518.719643, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:47:26 PM - ====> cd_sparse: ground: 19743.1960, average loss: 19743.1960
+12/08/2023 09:47:26 PM - ====> cd_dense: ground: 19743.1960, average loss: 19743.1960
+12/08/2023 09:47:26 PM - Train 74/300, loss_ae: 37035.100293, loss_cd: 19534.709215, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:47:57 PM - ====> cd_sparse: ground: 19808.7312, average loss: 19808.7312
+12/08/2023 09:47:57 PM - ====> cd_dense: ground: 19808.7312, average loss: 19808.7312
+12/08/2023 09:47:57 PM - Train 75/300, loss_ae: 37088.611230, loss_cd: 19551.794380, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:48:28 PM - ====> cd_sparse: ground: 19785.1566, average loss: 19785.1566
+12/08/2023 09:48:28 PM - ====> cd_dense: ground: 19785.1566, average loss: 19785.1566
+12/08/2023 09:48:28 PM - Train 76/300, loss_ae: 37044.486230, loss_cd: 19535.798907, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:49:00 PM - ====> cd_sparse: ground: 19913.1054, average loss: 19913.1054
+12/08/2023 09:49:00 PM - ====> cd_dense: ground: 19913.1054, average loss: 19913.1054
+12/08/2023 09:49:00 PM - Train 77/300, loss_ae: 37084.426465, loss_cd: 19548.810840, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:49:31 PM - ====> cd_sparse: ground: 19768.4487, average loss: 19768.4487
+12/08/2023 09:49:31 PM - ====> cd_dense: ground: 19768.4487, average loss: 19768.4487
+12/08/2023 09:49:31 PM - Train 78/300, loss_ae: 37013.748730, loss_cd: 19504.855812, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:50:03 PM - ====> cd_sparse: ground: 19901.8259, average loss: 19901.8259
+12/08/2023 09:50:03 PM - ====> cd_dense: ground: 19901.8259, average loss: 19901.8259
+12/08/2023 09:50:03 PM - Train 79/300, loss_ae: 37030.844824, loss_cd: 19511.842072, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:50:34 PM - ====> cd_sparse: ground: 19779.1048, average loss: 19779.1048
+12/08/2023 09:50:34 PM - ====> cd_dense: ground: 19779.1048, average loss: 19779.1048
+12/08/2023 09:50:34 PM - Train 80/300, loss_ae: 37026.661914, loss_cd: 19527.605861, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:51:06 PM - ====> cd_sparse: ground: 19862.5686, average loss: 19862.5686
+12/08/2023 09:51:06 PM - ====> cd_dense: ground: 19862.5686, average loss: 19862.5686
+12/08/2023 09:51:06 PM - Train 81/300, loss_ae: 37046.479688, loss_cd: 19547.455847, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:51:37 PM - ====> cd_sparse: ground: 19869.1270, average loss: 19869.1270
+12/08/2023 09:51:37 PM - ====> cd_dense: ground: 19869.1270, average loss: 19869.1270
+12/08/2023 09:51:37 PM - Train 82/300, loss_ae: 37018.760449, loss_cd: 19531.186223, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:52:08 PM - ====> cd_sparse: ground: 19744.1228, average loss: 19744.1228
+12/08/2023 09:52:08 PM - ====> cd_dense: ground: 19744.1228, average loss: 19744.1228
+12/08/2023 09:52:08 PM - Train 83/300, loss_ae: 37055.570410, loss_cd: 19531.232208, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:52:40 PM - ====> cd_sparse: ground: 19780.2139, average loss: 19780.2139
+12/08/2023 09:52:40 PM - ====> cd_dense: ground: 19780.2139, average loss: 19780.2139
+12/08/2023 09:52:40 PM - Train 84/300, loss_ae: 36988.569336, loss_cd: 19497.140497, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:53:11 PM - ====> cd_sparse: ground: 19810.4750, average loss: 19810.4750
+12/08/2023 09:53:11 PM - ====> cd_dense: ground: 19810.4750, average loss: 19810.4750
+12/08/2023 09:53:11 PM - Train 85/300, loss_ae: 37005.160645, loss_cd: 19514.715731, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:53:42 PM - ====> cd_sparse: ground: 19797.0225, average loss: 19797.0225
+12/08/2023 09:53:42 PM - ====> cd_dense: ground: 19797.0225, average loss: 19797.0225
+12/08/2023 09:53:42 PM - Train 86/300, loss_ae: 37020.602344, loss_cd: 19526.198745, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:54:14 PM - ====> cd_sparse: ground: 19862.3960, average loss: 19862.3960
+12/08/2023 09:54:14 PM - ====> cd_dense: ground: 19862.3960, average loss: 19862.3960
+12/08/2023 09:54:14 PM - Train 87/300, loss_ae: 37010.136914, loss_cd: 19517.070532, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:54:45 PM - ====> cd_sparse: ground: 19816.7193, average loss: 19816.7193
+12/08/2023 09:54:45 PM - ====> cd_dense: ground: 19816.7193, average loss: 19816.7193
+12/08/2023 09:54:45 PM - Train 88/300, loss_ae: 37010.322461, loss_cd: 19511.142939, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:55:17 PM - ====> cd_sparse: ground: 19829.9051, average loss: 19829.9051
+12/08/2023 09:55:17 PM - ====> cd_dense: ground: 19829.9051, average loss: 19829.9051
+12/08/2023 09:55:17 PM - Train 89/300, loss_ae: 37010.805762, loss_cd: 19512.295634, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:55:48 PM - ====> cd_sparse: ground: 19825.4331, average loss: 19825.4331
+12/08/2023 09:55:48 PM - ====> cd_dense: ground: 19825.4331, average loss: 19825.4331
+12/08/2023 09:55:48 PM - Train 90/300, loss_ae: 37044.105176, loss_cd: 19543.035835, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:56:19 PM - ====> cd_sparse: ground: 19831.2405, average loss: 19831.2405
+12/08/2023 09:56:19 PM - ====> cd_dense: ground: 19831.2405, average loss: 19831.2405
+12/08/2023 09:56:19 PM - Train 91/300, loss_ae: 37026.128711, loss_cd: 19552.823812, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:56:51 PM - ====> cd_sparse: ground: 19857.7210, average loss: 19857.7210
+12/08/2023 09:56:51 PM - ====> cd_dense: ground: 19857.7210, average loss: 19857.7210
+12/08/2023 09:56:51 PM - Train 92/300, loss_ae: 37024.849121, loss_cd: 19537.478387, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:57:22 PM - ====> cd_sparse: ground: 19895.2077, average loss: 19895.2077
+12/08/2023 09:57:22 PM - ====> cd_dense: ground: 19895.2077, average loss: 19895.2077
+12/08/2023 09:57:22 PM - Train 93/300, loss_ae: 37037.506445, loss_cd: 19561.006367, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:57:53 PM - ====> cd_sparse: ground: 19807.1172, average loss: 19807.1172
+12/08/2023 09:57:53 PM - ====> cd_dense: ground: 19807.1172, average loss: 19807.1172
+12/08/2023 09:57:53 PM - Train 94/300, loss_ae: 37008.322949, loss_cd: 19539.977849, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:58:24 PM - ====> cd_sparse: ground: 19798.7205, average loss: 19798.7205
+12/08/2023 09:58:24 PM - ====> cd_dense: ground: 19798.7205, average loss: 19798.7205
+12/08/2023 09:58:24 PM - Train 95/300, loss_ae: 37032.927051, loss_cd: 19503.222734, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:58:56 PM - ====> cd_sparse: ground: 19853.4491, average loss: 19853.4491
+12/08/2023 09:58:56 PM - ====> cd_dense: ground: 19853.4491, average loss: 19853.4491
+12/08/2023 09:58:56 PM - Train 96/300, loss_ae: 37074.482812, loss_cd: 19559.415132, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:59:27 PM - ====> cd_sparse: ground: 19872.3226, average loss: 19872.3226
+12/08/2023 09:59:27 PM - ====> cd_dense: ground: 19872.3226, average loss: 19872.3226
+12/08/2023 09:59:27 PM - Train 97/300, loss_ae: 37032.964453, loss_cd: 19536.615580, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 09:59:58 PM - ====> cd_sparse: ground: 19823.3837, average loss: 19823.3837
+12/08/2023 09:59:58 PM - ====> cd_dense: ground: 19823.3837, average loss: 19823.3837
+12/08/2023 09:59:58 PM - Train 98/300, loss_ae: 36982.500098, loss_cd: 19518.579364, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:00:30 PM - ====> cd_sparse: ground: 19797.2940, average loss: 19797.2940
+12/08/2023 10:00:30 PM - ====> cd_dense: ground: 19797.2940, average loss: 19797.2940
+12/08/2023 10:00:30 PM - Train 99/300, loss_ae: 37012.599316, loss_cd: 19519.380867, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:01:01 PM - ====> cd_sparse: ground: 19882.1312, average loss: 19882.1312
+12/08/2023 10:01:01 PM - ====> cd_dense: ground: 19882.1312, average loss: 19882.1312
+12/08/2023 10:01:01 PM - Train 100/300, loss_ae: 37065.968359, loss_cd: 19552.312642, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:01:32 PM - ====> cd_sparse: ground: 19779.8153, average loss: 19779.8153
+12/08/2023 10:01:32 PM - ====> cd_dense: ground: 19779.8153, average loss: 19779.8153
+12/08/2023 10:01:32 PM - Train 101/300, loss_ae: 37012.403613, loss_cd: 19543.926418, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:02:04 PM - ====> cd_sparse: ground: 19885.3101, average loss: 19885.3101
+12/08/2023 10:02:04 PM - ====> cd_dense: ground: 19885.3101, average loss: 19885.3101
+12/08/2023 10:02:04 PM - Train 102/300, loss_ae: 37029.827539, loss_cd: 19534.855872, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:02:35 PM - ====> cd_sparse: ground: 19842.4058, average loss: 19842.4058
+12/08/2023 10:02:35 PM - ====> cd_dense: ground: 19842.4058, average loss: 19842.4058
+12/08/2023 10:02:35 PM - Train 103/300, loss_ae: 37004.062598, loss_cd: 19529.055238, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:03:06 PM - ====> cd_sparse: ground: 19773.2524, average loss: 19773.2524
+12/08/2023 10:03:06 PM - ====> cd_dense: ground: 19773.2524, average loss: 19773.2524
+12/08/2023 10:03:06 PM - Train 104/300, loss_ae: 37016.908203, loss_cd: 19544.858694, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:03:38 PM - ====> cd_sparse: ground: 19749.4926, average loss: 19749.4926
+12/08/2023 10:03:38 PM - ====> cd_dense: ground: 19749.4926, average loss: 19749.4926
+12/08/2023 10:03:38 PM - Train 105/300, loss_ae: 37005.677637, loss_cd: 19531.333119, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:04:09 PM - ====> cd_sparse: ground: 19838.7275, average loss: 19838.7275
+12/08/2023 10:04:09 PM - ====> cd_dense: ground: 19838.7275, average loss: 19838.7275
+12/08/2023 10:04:09 PM - Train 106/300, loss_ae: 37013.705469, loss_cd: 19528.610319, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:04:40 PM - ====> cd_sparse: ground: 19871.3332, average loss: 19871.3332
+12/08/2023 10:04:40 PM - ====> cd_dense: ground: 19871.3332, average loss: 19871.3332
+12/08/2023 10:04:40 PM - Train 107/300, loss_ae: 36989.064746, loss_cd: 19526.593834, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:05:12 PM - ====> cd_sparse: ground: 19820.4741, average loss: 19820.4741
+12/08/2023 10:05:12 PM - ====> cd_dense: ground: 19820.4741, average loss: 19820.4741
+12/08/2023 10:05:12 PM - Train 108/300, loss_ae: 36991.251367, loss_cd: 19531.275511, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:05:43 PM - ====> cd_sparse: ground: 19795.3340, average loss: 19795.3340
+12/08/2023 10:05:43 PM - ====> cd_dense: ground: 19795.3340, average loss: 19795.3340
+12/08/2023 10:05:43 PM - Train 109/300, loss_ae: 37044.500293, loss_cd: 19564.437389, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:06:15 PM - ====> cd_sparse: ground: 19751.2520, average loss: 19751.2520
+12/08/2023 10:06:15 PM - ====> cd_dense: ground: 19751.2520, average loss: 19751.2520
+12/08/2023 10:06:15 PM - Train 110/300, loss_ae: 37008.627344, loss_cd: 19521.448076, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:06:46 PM - ====> cd_sparse: ground: 19880.2368, average loss: 19880.2368
+12/08/2023 10:06:46 PM - ====> cd_dense: ground: 19880.2368, average loss: 19880.2368
+12/08/2023 10:06:46 PM - Train 111/300, loss_ae: 37030.292773, loss_cd: 19553.571880, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:07:17 PM - ====> cd_sparse: ground: 19793.4309, average loss: 19793.4309
+12/08/2023 10:07:17 PM - ====> cd_dense: ground: 19793.4309, average loss: 19793.4309
+12/08/2023 10:07:17 PM - Train 112/300, loss_ae: 37023.809961, loss_cd: 19553.031921, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:07:49 PM - ====> cd_sparse: ground: 19784.8954, average loss: 19784.8954
+12/08/2023 10:07:49 PM - ====> cd_dense: ground: 19784.8954, average loss: 19784.8954
+12/08/2023 10:07:49 PM - Train 113/300, loss_ae: 37024.115137, loss_cd: 19544.326574, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:08:20 PM - ====> cd_sparse: ground: 19852.6826, average loss: 19852.6826
+12/08/2023 10:08:20 PM - ====> cd_dense: ground: 19852.6826, average loss: 19852.6826
+12/08/2023 10:08:20 PM - Train 114/300, loss_ae: 36974.964844, loss_cd: 19494.280100, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:08:51 PM - ====> cd_sparse: ground: 19870.8204, average loss: 19870.8204
+12/08/2023 10:08:51 PM - ====> cd_dense: ground: 19870.8204, average loss: 19870.8204
+12/08/2023 10:08:51 PM - Train 115/300, loss_ae: 37060.228369, loss_cd: 19558.392286, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:09:23 PM - ====> cd_sparse: ground: 19802.1206, average loss: 19802.1206
+12/08/2023 10:09:23 PM - ====> cd_dense: ground: 19802.1206, average loss: 19802.1206
+12/08/2023 10:09:23 PM - Train 116/300, loss_ae: 37031.223242, loss_cd: 19544.519573, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:09:54 PM - ====> cd_sparse: ground: 19800.3517, average loss: 19800.3517
+12/08/2023 10:09:54 PM - ====> cd_dense: ground: 19800.3517, average loss: 19800.3517
+12/08/2023 10:09:54 PM - Train 117/300, loss_ae: 37025.378906, loss_cd: 19530.580908, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:10:25 PM - ====> cd_sparse: ground: 19852.7841, average loss: 19852.7841
+12/08/2023 10:10:25 PM - ====> cd_dense: ground: 19852.7841, average loss: 19852.7841
+12/08/2023 10:10:25 PM - Train 118/300, loss_ae: 37027.637988, loss_cd: 19521.066993, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:10:57 PM - ====> cd_sparse: ground: 19821.1266, average loss: 19821.1266
+12/08/2023 10:10:57 PM - ====> cd_dense: ground: 19821.1266, average loss: 19821.1266
+12/08/2023 10:10:57 PM - Train 119/300, loss_ae: 37026.278223, loss_cd: 19535.766155, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:11:28 PM - ====> cd_sparse: ground: 19735.7654, average loss: 19735.7654
+12/08/2023 10:11:28 PM - ====> cd_dense: ground: 19735.7654, average loss: 19735.7654
+12/08/2023 10:11:28 PM - Train 120/300, loss_ae: 36948.035449, loss_cd: 19503.614098, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:11:59 PM - ====> cd_sparse: ground: 19808.3493, average loss: 19808.3493
+12/08/2023 10:11:59 PM - ====> cd_dense: ground: 19808.3493, average loss: 19808.3493
+12/08/2023 10:11:59 PM - Train 121/300, loss_ae: 37006.920996, loss_cd: 19526.016355, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:12:30 PM - ====> cd_sparse: ground: 19774.2911, average loss: 19774.2911
+12/08/2023 10:12:30 PM - ====> cd_dense: ground: 19774.2911, average loss: 19774.2911
+12/08/2023 10:12:30 PM - Train 122/300, loss_ae: 36979.443945, loss_cd: 19518.954575, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:13:02 PM - ====> cd_sparse: ground: 19887.7001, average loss: 19887.7001
+12/08/2023 10:13:02 PM - ====> cd_dense: ground: 19887.7001, average loss: 19887.7001
+12/08/2023 10:13:02 PM - Train 123/300, loss_ae: 37072.136816, loss_cd: 19563.967973, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:13:33 PM - ====> cd_sparse: ground: 19789.8363, average loss: 19789.8363
+12/08/2023 10:13:33 PM - ====> cd_dense: ground: 19789.8363, average loss: 19789.8363
+12/08/2023 10:13:33 PM - Train 124/300, loss_ae: 37010.173828, loss_cd: 19525.581896, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:14:05 PM - ====> cd_sparse: ground: 19812.1924, average loss: 19812.1924
+12/08/2023 10:14:05 PM - ====> cd_dense: ground: 19812.1924, average loss: 19812.1924
+12/08/2023 10:14:05 PM - Train 125/300, loss_ae: 37025.748242, loss_cd: 19525.953144, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:14:36 PM - ====> cd_sparse: ground: 19790.4606, average loss: 19790.4606
+12/08/2023 10:14:36 PM - ====> cd_dense: ground: 19790.4606, average loss: 19790.4606
+12/08/2023 10:14:36 PM - Train 126/300, loss_ae: 37003.621289, loss_cd: 19539.183706, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:15:07 PM - ====> cd_sparse: ground: 19814.9440, average loss: 19814.9440
+12/08/2023 10:15:07 PM - ====> cd_dense: ground: 19814.9440, average loss: 19814.9440
+12/08/2023 10:15:07 PM - Train 127/300, loss_ae: 37030.119336, loss_cd: 19554.169893, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:15:39 PM - ====> cd_sparse: ground: 19848.5998, average loss: 19848.5998
+12/08/2023 10:15:39 PM - ====> cd_dense: ground: 19848.5998, average loss: 19848.5998
+12/08/2023 10:15:39 PM - Train 128/300, loss_ae: 37027.951855, loss_cd: 19534.880996, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:16:10 PM - ====> cd_sparse: ground: 19877.9747, average loss: 19877.9747
+12/08/2023 10:16:10 PM - ====> cd_dense: ground: 19877.9747, average loss: 19877.9747
+12/08/2023 10:16:10 PM - Train 129/300, loss_ae: 37029.360742, loss_cd: 19546.330065, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:16:41 PM - ====> cd_sparse: ground: 19758.2697, average loss: 19758.2697
+12/08/2023 10:16:41 PM - ====> cd_dense: ground: 19758.2697, average loss: 19758.2697
+12/08/2023 10:16:41 PM - Train 130/300, loss_ae: 37015.697754, loss_cd: 19527.435660, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:17:13 PM - ====> cd_sparse: ground: 19881.8631, average loss: 19881.8631
+12/08/2023 10:17:13 PM - ====> cd_dense: ground: 19881.8631, average loss: 19881.8631
+12/08/2023 10:17:13 PM - Train 131/300, loss_ae: 36987.204492, loss_cd: 19504.385680, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:17:44 PM - ====> cd_sparse: ground: 19787.6282, average loss: 19787.6282
+12/08/2023 10:17:44 PM - ====> cd_dense: ground: 19787.6282, average loss: 19787.6282
+12/08/2023 10:17:44 PM - Train 132/300, loss_ae: 36993.434668, loss_cd: 19522.244573, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:18:16 PM - ====> cd_sparse: ground: 19810.0021, average loss: 19810.0021
+12/08/2023 10:18:16 PM - ====> cd_dense: ground: 19810.0021, average loss: 19810.0021
+12/08/2023 10:18:16 PM - Train 133/300, loss_ae: 36978.667578, loss_cd: 19501.137376, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:18:47 PM - ====> cd_sparse: ground: 19835.6999, average loss: 19835.6999
+12/08/2023 10:18:47 PM - ====> cd_dense: ground: 19835.6999, average loss: 19835.6999
+12/08/2023 10:18:47 PM - Train 134/300, loss_ae: 37009.195215, loss_cd: 19541.136891, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:19:18 PM - ====> cd_sparse: ground: 19880.7464, average loss: 19880.7464
+12/08/2023 10:19:18 PM - ====> cd_dense: ground: 19880.7464, average loss: 19880.7464
+12/08/2023 10:19:18 PM - Train 135/300, loss_ae: 36987.449902, loss_cd: 19522.545844, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:19:49 PM - ====> cd_sparse: ground: 19826.1684, average loss: 19826.1684
+12/08/2023 10:19:49 PM - ====> cd_dense: ground: 19826.1684, average loss: 19826.1684
+12/08/2023 10:19:49 PM - Train 136/300, loss_ae: 36976.194727, loss_cd: 19522.965223, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:20:21 PM - ====> cd_sparse: ground: 19775.6324, average loss: 19775.6324
+12/08/2023 10:20:21 PM - ====> cd_dense: ground: 19775.6324, average loss: 19775.6324
+12/08/2023 10:20:21 PM - Train 137/300, loss_ae: 36966.608105, loss_cd: 19514.152348, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:20:52 PM - ====> cd_sparse: ground: 19872.6538, average loss: 19872.6538
+12/08/2023 10:20:52 PM - ====> cd_dense: ground: 19872.6538, average loss: 19872.6538
+12/08/2023 10:20:52 PM - Train 138/300, loss_ae: 36985.821387, loss_cd: 19520.288438, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:21:23 PM - ====> cd_sparse: ground: 19885.6205, average loss: 19885.6205
+12/08/2023 10:21:23 PM - ====> cd_dense: ground: 19885.6205, average loss: 19885.6205
+12/08/2023 10:21:23 PM - Train 139/300, loss_ae: 36967.123535, loss_cd: 19507.927120, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:21:55 PM - ====> cd_sparse: ground: 19899.7805, average loss: 19899.7805
+12/08/2023 10:21:55 PM - ====> cd_dense: ground: 19899.7805, average loss: 19899.7805
+12/08/2023 10:21:55 PM - Train 140/300, loss_ae: 37007.949902, loss_cd: 19549.391329, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:22:26 PM - ====> cd_sparse: ground: 19731.2752, average loss: 19731.2752
+12/08/2023 10:22:26 PM - ====> cd_dense: ground: 19731.2752, average loss: 19731.2752
+12/08/2023 10:22:26 PM - Train 141/300, loss_ae: 37015.311523, loss_cd: 19570.040941, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:22:57 PM - ====> cd_sparse: ground: 19836.1066, average loss: 19836.1066
+12/08/2023 10:22:57 PM - ====> cd_dense: ground: 19836.1066, average loss: 19836.1066
+12/08/2023 10:22:57 PM - Train 142/300, loss_ae: 36976.026270, loss_cd: 19517.209202, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:23:29 PM - ====> cd_sparse: ground: 19830.2395, average loss: 19830.2395
+12/08/2023 10:23:29 PM - ====> cd_dense: ground: 19830.2395, average loss: 19830.2395
+12/08/2023 10:23:29 PM - Train 143/300, loss_ae: 36999.703809, loss_cd: 19529.346526, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:24:00 PM - ====> cd_sparse: ground: 19794.3569, average loss: 19794.3569
+12/08/2023 10:24:00 PM - ====> cd_dense: ground: 19794.3569, average loss: 19794.3569
+12/08/2023 10:24:00 PM - Train 144/300, loss_ae: 36951.369336, loss_cd: 19499.008358, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:24:31 PM - ====> cd_sparse: ground: 19781.8399, average loss: 19781.8399
+12/08/2023 10:24:31 PM - ====> cd_dense: ground: 19781.8399, average loss: 19781.8399
+12/08/2023 10:24:31 PM - Train 145/300, loss_ae: 37046.187012, loss_cd: 19559.037089, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:25:03 PM - ====> cd_sparse: ground: 19701.0755, average loss: 19701.0755
+12/08/2023 10:25:03 PM - ====> cd_dense: ground: 19701.0755, average loss: 19701.0755
+12/08/2023 10:25:03 PM - Train 146/300, loss_ae: 36966.596484, loss_cd: 19516.068041, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:25:34 PM - ====> cd_sparse: ground: 19813.8187, average loss: 19813.8187
+12/08/2023 10:25:34 PM - ====> cd_dense: ground: 19813.8187, average loss: 19813.8187
+12/08/2023 10:25:34 PM - Train 147/300, loss_ae: 37039.350000, loss_cd: 19567.462593, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:26:05 PM - ====> cd_sparse: ground: 19806.7148, average loss: 19806.7148
+12/08/2023 10:26:05 PM - ====> cd_dense: ground: 19806.7148, average loss: 19806.7148
+12/08/2023 10:26:05 PM - Train 148/300, loss_ae: 36989.385156, loss_cd: 19522.719890, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:26:36 PM - ====> cd_sparse: ground: 19809.9877, average loss: 19809.9877
+12/08/2023 10:26:36 PM - ====> cd_dense: ground: 19809.9877, average loss: 19809.9877
+12/08/2023 10:26:36 PM - Train 149/300, loss_ae: 37030.018262, loss_cd: 19558.337778, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:27:08 PM - ====> cd_sparse: ground: 19877.2677, average loss: 19877.2677
+12/08/2023 10:27:08 PM - ====> cd_dense: ground: 19877.2677, average loss: 19877.2677
+12/08/2023 10:27:08 PM - Train 150/300, loss_ae: 36987.581250, loss_cd: 19533.790320, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:27:39 PM - ====> cd_sparse: ground: 19864.2509, average loss: 19864.2509
+12/08/2023 10:27:39 PM - ====> cd_dense: ground: 19864.2509, average loss: 19864.2509
+12/08/2023 10:27:39 PM - Train 151/300, loss_ae: 37002.683496, loss_cd: 19529.145956, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:28:10 PM - ====> cd_sparse: ground: 19847.5229, average loss: 19847.5229
+12/08/2023 10:28:10 PM - ====> cd_dense: ground: 19847.5229, average loss: 19847.5229
+12/08/2023 10:28:10 PM - Train 152/300, loss_ae: 36982.351367, loss_cd: 19527.646482, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:28:42 PM - ====> cd_sparse: ground: 19835.1479, average loss: 19835.1479
+12/08/2023 10:28:42 PM - ====> cd_dense: ground: 19835.1479, average loss: 19835.1479
+12/08/2023 10:28:42 PM - Train 153/300, loss_ae: 36963.985742, loss_cd: 19503.180504, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:29:13 PM - ====> cd_sparse: ground: 19831.9282, average loss: 19831.9282
+12/08/2023 10:29:13 PM - ====> cd_dense: ground: 19831.9282, average loss: 19831.9282
+12/08/2023 10:29:13 PM - Train 154/300, loss_ae: 36951.588477, loss_cd: 19507.624626, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:29:44 PM - ====> cd_sparse: ground: 19779.5580, average loss: 19779.5580
+12/08/2023 10:29:44 PM - ====> cd_dense: ground: 19779.5580, average loss: 19779.5580
+12/08/2023 10:29:44 PM - Train 155/300, loss_ae: 37037.269824, loss_cd: 19533.739746, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:30:16 PM - ====> cd_sparse: ground: 19833.0832, average loss: 19833.0832
+12/08/2023 10:30:16 PM - ====> cd_dense: ground: 19833.0832, average loss: 19833.0832
+12/08/2023 10:30:16 PM - Train 156/300, loss_ae: 36988.284668, loss_cd: 19542.789996, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:30:47 PM - ====> cd_sparse: ground: 19810.5379, average loss: 19810.5379
+12/08/2023 10:30:47 PM - ====> cd_dense: ground: 19810.5379, average loss: 19810.5379
+12/08/2023 10:30:47 PM - Train 157/300, loss_ae: 37016.349316, loss_cd: 19556.246877, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:31:18 PM - ====> cd_sparse: ground: 19838.6131, average loss: 19838.6131
+12/08/2023 10:31:18 PM - ====> cd_dense: ground: 19838.6131, average loss: 19838.6131
+12/08/2023 10:31:18 PM - Train 158/300, loss_ae: 36970.033301, loss_cd: 19520.224243, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:31:50 PM - ====> cd_sparse: ground: 19773.7716, average loss: 19773.7716
+12/08/2023 10:31:50 PM - ====> cd_dense: ground: 19773.7716, average loss: 19773.7716
+12/08/2023 10:31:50 PM - Train 159/300, loss_ae: 36952.299414, loss_cd: 19506.632507, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:32:21 PM - ====> cd_sparse: ground: 19804.5552, average loss: 19804.5552
+12/08/2023 10:32:21 PM - ====> cd_dense: ground: 19804.5552, average loss: 19804.5552
+12/08/2023 10:32:21 PM - Train 160/300, loss_ae: 37051.557227, loss_cd: 19548.439890, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:32:53 PM - ====> cd_sparse: ground: 19847.5758, average loss: 19847.5758
+12/08/2023 10:32:53 PM - ====> cd_dense: ground: 19847.5758, average loss: 19847.5758
+12/08/2023 10:32:53 PM - Train 161/300, loss_ae: 37015.042480, loss_cd: 19525.254488, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:33:24 PM - ====> cd_sparse: ground: 19804.3589, average loss: 19804.3589
+12/08/2023 10:33:24 PM - ====> cd_dense: ground: 19804.3589, average loss: 19804.3589
+12/08/2023 10:33:24 PM - Train 162/300, loss_ae: 37035.644922, loss_cd: 19550.469041, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:33:55 PM - ====> cd_sparse: ground: 19878.2072, average loss: 19878.2072
+12/08/2023 10:33:55 PM - ====> cd_dense: ground: 19878.2072, average loss: 19878.2072
+12/08/2023 10:33:55 PM - Train 163/300, loss_ae: 36976.594922, loss_cd: 19518.948257, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:34:27 PM - ====> cd_sparse: ground: 19772.3714, average loss: 19772.3714
+12/08/2023 10:34:27 PM - ====> cd_dense: ground: 19772.3714, average loss: 19772.3714
+12/08/2023 10:34:27 PM - Train 164/300, loss_ae: 37008.600488, loss_cd: 19536.607653, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:34:58 PM - ====> cd_sparse: ground: 19798.3106, average loss: 19798.3106
+12/08/2023 10:34:58 PM - ====> cd_dense: ground: 19798.3106, average loss: 19798.3106
+12/08/2023 10:34:58 PM - Train 165/300, loss_ae: 37020.103809, loss_cd: 19555.099636, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:35:29 PM - ====> cd_sparse: ground: 19871.5364, average loss: 19871.5364
+12/08/2023 10:35:29 PM - ====> cd_dense: ground: 19871.5364, average loss: 19871.5364
+12/08/2023 10:35:29 PM - Train 166/300, loss_ae: 37010.012891, loss_cd: 19547.880054, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:36:01 PM - ====> cd_sparse: ground: 19760.8700, average loss: 19760.8700
+12/08/2023 10:36:01 PM - ====> cd_dense: ground: 19760.8700, average loss: 19760.8700
+12/08/2023 10:36:01 PM - Train 167/300, loss_ae: 36988.684961, loss_cd: 19551.905096, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:36:32 PM - ====> cd_sparse: ground: 19797.2580, average loss: 19797.2580
+12/08/2023 10:36:32 PM - ====> cd_dense: ground: 19797.2580, average loss: 19797.2580
+12/08/2023 10:36:32 PM - Train 168/300, loss_ae: 36985.304297, loss_cd: 19509.273857, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:37:03 PM - ====> cd_sparse: ground: 19815.0202, average loss: 19815.0202
+12/08/2023 10:37:03 PM - ====> cd_dense: ground: 19815.0202, average loss: 19815.0202
+12/08/2023 10:37:03 PM - Train 169/300, loss_ae: 36968.306641, loss_cd: 19540.716171, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:37:35 PM - ====> cd_sparse: ground: 19840.4101, average loss: 19840.4101
+12/08/2023 10:37:35 PM - ====> cd_dense: ground: 19840.4101, average loss: 19840.4101
+12/08/2023 10:37:35 PM - Train 170/300, loss_ae: 36941.129785, loss_cd: 19503.042907, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:38:06 PM - ====> cd_sparse: ground: 19763.0948, average loss: 19763.0948
+12/08/2023 10:38:06 PM - ====> cd_dense: ground: 19763.0948, average loss: 19763.0948
+12/08/2023 10:38:06 PM - Train 171/300, loss_ae: 37003.760938, loss_cd: 19543.949813, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:38:37 PM - ====> cd_sparse: ground: 19783.9858, average loss: 19783.9858
+12/08/2023 10:38:37 PM - ====> cd_dense: ground: 19783.9858, average loss: 19783.9858
+12/08/2023 10:38:37 PM - Train 172/300, loss_ae: 37045.392871, loss_cd: 19559.124082, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:39:09 PM - ====> cd_sparse: ground: 19802.8157, average loss: 19802.8157
+12/08/2023 10:39:09 PM - ====> cd_dense: ground: 19802.8157, average loss: 19802.8157
+12/08/2023 10:39:09 PM - Train 173/300, loss_ae: 36988.174512, loss_cd: 19532.508254, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:39:40 PM - ====> cd_sparse: ground: 19801.4736, average loss: 19801.4736
+12/08/2023 10:39:40 PM - ====> cd_dense: ground: 19801.4736, average loss: 19801.4736
+12/08/2023 10:39:40 PM - Train 174/300, loss_ae: 37000.692383, loss_cd: 19546.872914, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:40:12 PM - ====> cd_sparse: ground: 19801.1389, average loss: 19801.1389
+12/08/2023 10:40:12 PM - ====> cd_dense: ground: 19801.1389, average loss: 19801.1389
+12/08/2023 10:40:12 PM - Train 175/300, loss_ae: 36952.961914, loss_cd: 19525.567979, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:40:43 PM - ====> cd_sparse: ground: 19889.5939, average loss: 19889.5939
+12/08/2023 10:40:43 PM - ====> cd_dense: ground: 19889.5939, average loss: 19889.5939
+12/08/2023 10:40:43 PM - Train 176/300, loss_ae: 37020.948145, loss_cd: 19539.505988, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:41:14 PM - ====> cd_sparse: ground: 19849.3301, average loss: 19849.3301
+12/08/2023 10:41:14 PM - ====> cd_dense: ground: 19849.3301, average loss: 19849.3301
+12/08/2023 10:41:14 PM - Train 177/300, loss_ae: 36972.310449, loss_cd: 19536.172330, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:41:46 PM - ====> cd_sparse: ground: 19806.6645, average loss: 19806.6645
+12/08/2023 10:41:46 PM - ====> cd_dense: ground: 19806.6645, average loss: 19806.6645
+12/08/2023 10:41:46 PM - Train 178/300, loss_ae: 36956.437598, loss_cd: 19511.507720, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:42:17 PM - ====> cd_sparse: ground: 19869.7136, average loss: 19869.7136
+12/08/2023 10:42:17 PM - ====> cd_dense: ground: 19869.7136, average loss: 19869.7136
+12/08/2023 10:42:17 PM - Train 179/300, loss_ae: 37022.952148, loss_cd: 19558.095783, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:42:49 PM - ====> cd_sparse: ground: 19869.9520, average loss: 19869.9520
+12/08/2023 10:42:49 PM - ====> cd_dense: ground: 19869.9520, average loss: 19869.9520
+12/08/2023 10:42:49 PM - Train 180/300, loss_ae: 37000.707910, loss_cd: 19556.869328, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:43:20 PM - ====> cd_sparse: ground: 19825.9591, average loss: 19825.9591
+12/08/2023 10:43:20 PM - ====> cd_dense: ground: 19825.9591, average loss: 19825.9591
+12/08/2023 10:43:20 PM - Train 181/300, loss_ae: 36988.736426, loss_cd: 19528.100044, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:43:51 PM - ====> cd_sparse: ground: 19789.1535, average loss: 19789.1535
+12/08/2023 10:43:51 PM - ====> cd_dense: ground: 19789.1535, average loss: 19789.1535
+12/08/2023 10:43:51 PM - Train 182/300, loss_ae: 36919.533789, loss_cd: 19498.705268, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:44:23 PM - ====> cd_sparse: ground: 19890.7090, average loss: 19890.7090
+12/08/2023 10:44:23 PM - ====> cd_dense: ground: 19890.7090, average loss: 19890.7090
+12/08/2023 10:44:23 PM - Train 183/300, loss_ae: 36942.099512, loss_cd: 19507.120430, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:44:54 PM - ====> cd_sparse: ground: 19825.7940, average loss: 19825.7940
+12/08/2023 10:44:54 PM - ====> cd_dense: ground: 19825.7940, average loss: 19825.7940
+12/08/2023 10:44:54 PM - Train 184/300, loss_ae: 36998.143164, loss_cd: 19536.116570, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:45:26 PM - ====> cd_sparse: ground: 19838.8280, average loss: 19838.8280
+12/08/2023 10:45:26 PM - ====> cd_dense: ground: 19838.8280, average loss: 19838.8280
+12/08/2023 10:45:26 PM - Train 185/300, loss_ae: 36986.406250, loss_cd: 19529.310524, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:45:57 PM - ====> cd_sparse: ground: 19856.8470, average loss: 19856.8470
+12/08/2023 10:45:57 PM - ====> cd_dense: ground: 19856.8470, average loss: 19856.8470
+12/08/2023 10:45:57 PM - Train 186/300, loss_ae: 36976.858301, loss_cd: 19526.085705, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:46:28 PM - ====> cd_sparse: ground: 19836.5840, average loss: 19836.5840
+12/08/2023 10:46:28 PM - ====> cd_dense: ground: 19836.5840, average loss: 19836.5840
+12/08/2023 10:46:28 PM - Train 187/300, loss_ae: 36991.237012, loss_cd: 19557.247669, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:47:00 PM - ====> cd_sparse: ground: 19873.9014, average loss: 19873.9014
+12/08/2023 10:47:00 PM - ====> cd_dense: ground: 19873.9014, average loss: 19873.9014
+12/08/2023 10:47:00 PM - Train 188/300, loss_ae: 37037.987402, loss_cd: 19540.493995, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:47:31 PM - ====> cd_sparse: ground: 19793.3287, average loss: 19793.3287
+12/08/2023 10:47:31 PM - ====> cd_dense: ground: 19793.3287, average loss: 19793.3287
+12/08/2023 10:47:31 PM - Train 189/300, loss_ae: 36966.047266, loss_cd: 19511.301190, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:48:02 PM - ====> cd_sparse: ground: 19846.1916, average loss: 19846.1916
+12/08/2023 10:48:02 PM - ====> cd_dense: ground: 19846.1916, average loss: 19846.1916
+12/08/2023 10:48:02 PM - Train 190/300, loss_ae: 36990.345410, loss_cd: 19543.407291, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:48:34 PM - ====> cd_sparse: ground: 19813.1240, average loss: 19813.1240
+12/08/2023 10:48:34 PM - ====> cd_dense: ground: 19813.1240, average loss: 19813.1240
+12/08/2023 10:48:34 PM - Train 191/300, loss_ae: 36998.587012, loss_cd: 19537.178159, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:49:05 PM - ====> cd_sparse: ground: 19839.7207, average loss: 19839.7207
+12/08/2023 10:49:05 PM - ====> cd_dense: ground: 19839.7207, average loss: 19839.7207
+12/08/2023 10:49:05 PM - Train 192/300, loss_ae: 36961.211133, loss_cd: 19514.502078, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:49:37 PM - ====> cd_sparse: ground: 19831.6588, average loss: 19831.6588
+12/08/2023 10:49:37 PM - ====> cd_dense: ground: 19831.6588, average loss: 19831.6588
+12/08/2023 10:49:37 PM - Train 193/300, loss_ae: 36943.169922, loss_cd: 19513.073951, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:50:08 PM - ====> cd_sparse: ground: 19815.0135, average loss: 19815.0135
+12/08/2023 10:50:08 PM - ====> cd_dense: ground: 19815.0135, average loss: 19815.0135
+12/08/2023 10:50:08 PM - Train 194/300, loss_ae: 37006.989941, loss_cd: 19543.521225, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:50:39 PM - ====> cd_sparse: ground: 19837.3454, average loss: 19837.3454
+12/08/2023 10:50:39 PM - ====> cd_dense: ground: 19837.3454, average loss: 19837.3454
+12/08/2023 10:50:39 PM - Train 195/300, loss_ae: 37016.800098, loss_cd: 19559.147298, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:51:11 PM - ====> cd_sparse: ground: 19823.3769, average loss: 19823.3769
+12/08/2023 10:51:11 PM - ====> cd_dense: ground: 19823.3769, average loss: 19823.3769
+12/08/2023 10:51:11 PM - Train 196/300, loss_ae: 37046.494727, loss_cd: 19579.734087, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:51:42 PM - ====> cd_sparse: ground: 19809.7350, average loss: 19809.7350
+12/08/2023 10:51:42 PM - ====> cd_dense: ground: 19809.7350, average loss: 19809.7350
+12/08/2023 10:51:42 PM - Train 197/300, loss_ae: 37000.625195, loss_cd: 19509.614199, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:52:14 PM - ====> cd_sparse: ground: 19771.4574, average loss: 19771.4574
+12/08/2023 10:52:14 PM - ====> cd_dense: ground: 19771.4574, average loss: 19771.4574
+12/08/2023 10:52:14 PM - Train 198/300, loss_ae: 36983.427637, loss_cd: 19499.871552, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:52:45 PM - ====> cd_sparse: ground: 19824.3043, average loss: 19824.3043
+12/08/2023 10:52:45 PM - ====> cd_dense: ground: 19824.3043, average loss: 19824.3043
+12/08/2023 10:52:45 PM - Train 199/300, loss_ae: 36977.043848, loss_cd: 19539.706647, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:53:17 PM - ====> cd_sparse: ground: 19923.9977, average loss: 19923.9977
+12/08/2023 10:53:17 PM - ====> cd_dense: ground: 19923.9977, average loss: 19923.9977
+12/08/2023 10:53:17 PM - Train 200/300, loss_ae: 37013.622754, loss_cd: 19554.444671, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:53:48 PM - ====> cd_sparse: ground: 19848.3442, average loss: 19848.3442
+12/08/2023 10:53:48 PM - ====> cd_dense: ground: 19848.3442, average loss: 19848.3442
+12/08/2023 10:53:48 PM - Train 201/300, loss_ae: 36963.037012, loss_cd: 19526.974410, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:54:19 PM - ====> cd_sparse: ground: 19782.5067, average loss: 19782.5067
+12/08/2023 10:54:19 PM - ====> cd_dense: ground: 19782.5067, average loss: 19782.5067
+12/08/2023 10:54:19 PM - Train 202/300, loss_ae: 36964.318457, loss_cd: 19531.818479, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:54:51 PM - ====> cd_sparse: ground: 19822.1329, average loss: 19822.1329
+12/08/2023 10:54:51 PM - ====> cd_dense: ground: 19822.1329, average loss: 19822.1329
+12/08/2023 10:54:51 PM - Train 203/300, loss_ae: 36984.792676, loss_cd: 19547.789752, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:55:22 PM - ====> cd_sparse: ground: 19806.5758, average loss: 19806.5758
+12/08/2023 10:55:22 PM - ====> cd_dense: ground: 19806.5758, average loss: 19806.5758
+12/08/2023 10:55:22 PM - Train 204/300, loss_ae: 36993.800195, loss_cd: 19548.399359, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:55:53 PM - ====> cd_sparse: ground: 19840.9027, average loss: 19840.9027
+12/08/2023 10:55:53 PM - ====> cd_dense: ground: 19840.9027, average loss: 19840.9027
+12/08/2023 10:55:53 PM - Train 205/300, loss_ae: 36961.555273, loss_cd: 19523.852229, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:56:25 PM - ====> cd_sparse: ground: 19821.2806, average loss: 19821.2806
+12/08/2023 10:56:25 PM - ====> cd_dense: ground: 19821.2806, average loss: 19821.2806
+12/08/2023 10:56:25 PM - Train 206/300, loss_ae: 36972.247363, loss_cd: 19525.008559, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:56:56 PM - ====> cd_sparse: ground: 19821.7745, average loss: 19821.7745
+12/08/2023 10:56:56 PM - ====> cd_dense: ground: 19821.7745, average loss: 19821.7745
+12/08/2023 10:56:56 PM - Train 207/300, loss_ae: 36980.480469, loss_cd: 19538.624644, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:57:27 PM - ====> cd_sparse: ground: 19845.2472, average loss: 19845.2472
+12/08/2023 10:57:27 PM - ====> cd_dense: ground: 19845.2472, average loss: 19845.2472
+12/08/2023 10:57:27 PM - Train 208/300, loss_ae: 36984.242676, loss_cd: 19547.176272, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:57:59 PM - ====> cd_sparse: ground: 19837.1150, average loss: 19837.1150
+12/08/2023 10:57:59 PM - ====> cd_dense: ground: 19837.1150, average loss: 19837.1150
+12/08/2023 10:57:59 PM - Train 209/300, loss_ae: 36942.733984, loss_cd: 19531.637132, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:58:30 PM - ====> cd_sparse: ground: 19821.6221, average loss: 19821.6221
+12/08/2023 10:58:30 PM - ====> cd_dense: ground: 19821.6221, average loss: 19821.6221
+12/08/2023 10:58:30 PM - Train 210/300, loss_ae: 37007.276367, loss_cd: 19563.516051, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:59:02 PM - ====> cd_sparse: ground: 19874.2556, average loss: 19874.2556
+12/08/2023 10:59:02 PM - ====> cd_dense: ground: 19874.2556, average loss: 19874.2556
+12/08/2023 10:59:02 PM - Train 211/300, loss_ae: 37062.111230, loss_cd: 19585.086912, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 10:59:33 PM - ====> cd_sparse: ground: 19747.7556, average loss: 19747.7556
+12/08/2023 10:59:33 PM - ====> cd_dense: ground: 19747.7556, average loss: 19747.7556
+12/08/2023 10:59:33 PM - Train 212/300, loss_ae: 36963.657617, loss_cd: 19567.644954, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:00:04 PM - ====> cd_sparse: ground: 19843.4672, average loss: 19843.4672
+12/08/2023 11:00:04 PM - ====> cd_dense: ground: 19843.4672, average loss: 19843.4672
+12/08/2023 11:00:04 PM - Train 213/300, loss_ae: 36977.940234, loss_cd: 19543.392956, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:00:35 PM - ====> cd_sparse: ground: 19790.2426, average loss: 19790.2426
+12/08/2023 11:00:35 PM - ====> cd_dense: ground: 19790.2426, average loss: 19790.2426
+12/08/2023 11:00:35 PM - Train 214/300, loss_ae: 36998.747363, loss_cd: 19534.514993, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:01:07 PM - ====> cd_sparse: ground: 19855.6658, average loss: 19855.6658
+12/08/2023 11:01:07 PM - ====> cd_dense: ground: 19855.6658, average loss: 19855.6658
+12/08/2023 11:01:07 PM - Train 215/300, loss_ae: 36994.605371, loss_cd: 19554.511368, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:01:38 PM - ====> cd_sparse: ground: 19834.1367, average loss: 19834.1367
+12/08/2023 11:01:38 PM - ====> cd_dense: ground: 19834.1367, average loss: 19834.1367
+12/08/2023 11:01:38 PM - Train 216/300, loss_ae: 36960.045996, loss_cd: 19535.250455, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:02:09 PM - ====> cd_sparse: ground: 19852.1282, average loss: 19852.1282
+12/08/2023 11:02:09 PM - ====> cd_dense: ground: 19852.1282, average loss: 19852.1282
+12/08/2023 11:02:09 PM - Train 217/300, loss_ae: 36995.908984, loss_cd: 19536.257982, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:02:41 PM - ====> cd_sparse: ground: 19824.6703, average loss: 19824.6703
+12/08/2023 11:02:41 PM - ====> cd_dense: ground: 19824.6703, average loss: 19824.6703
+12/08/2023 11:02:41 PM - Train 218/300, loss_ae: 37007.295410, loss_cd: 19564.415663, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:03:12 PM - ====> cd_sparse: ground: 19858.2334, average loss: 19858.2334
+12/08/2023 11:03:12 PM - ====> cd_dense: ground: 19858.2334, average loss: 19858.2334
+12/08/2023 11:03:12 PM - Train 219/300, loss_ae: 36986.479004, loss_cd: 19543.869615, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:03:43 PM - ====> cd_sparse: ground: 19847.1857, average loss: 19847.1857
+12/08/2023 11:03:43 PM - ====> cd_dense: ground: 19847.1857, average loss: 19847.1857
+12/08/2023 11:03:43 PM - Train 220/300, loss_ae: 36986.477734, loss_cd: 19539.258659, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:04:15 PM - ====> cd_sparse: ground: 19813.6318, average loss: 19813.6318
+12/08/2023 11:04:15 PM - ====> cd_dense: ground: 19813.6318, average loss: 19813.6318
+12/08/2023 11:04:15 PM - Train 221/300, loss_ae: 36959.543164, loss_cd: 19542.374134, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:04:46 PM - ====> cd_sparse: ground: 19795.5763, average loss: 19795.5763
+12/08/2023 11:04:46 PM - ====> cd_dense: ground: 19795.5763, average loss: 19795.5763
+12/08/2023 11:04:46 PM - Train 222/300, loss_ae: 36958.981445, loss_cd: 19521.373630, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:05:17 PM - ====> cd_sparse: ground: 19867.2629, average loss: 19867.2629
+12/08/2023 11:05:17 PM - ====> cd_dense: ground: 19867.2629, average loss: 19867.2629
+12/08/2023 11:05:17 PM - Train 223/300, loss_ae: 37013.589990, loss_cd: 19564.640731, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:05:49 PM - ====> cd_sparse: ground: 19792.0467, average loss: 19792.0467
+12/08/2023 11:05:49 PM - ====> cd_dense: ground: 19792.0467, average loss: 19792.0467
+12/08/2023 11:05:49 PM - Train 224/300, loss_ae: 36953.259473, loss_cd: 19522.131175, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:06:20 PM - ====> cd_sparse: ground: 19817.5721, average loss: 19817.5721
+12/08/2023 11:06:20 PM - ====> cd_dense: ground: 19817.5721, average loss: 19817.5721
+12/08/2023 11:06:20 PM - Train 225/300, loss_ae: 36978.450977, loss_cd: 19534.572899, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:06:51 PM - ====> cd_sparse: ground: 19810.9782, average loss: 19810.9782
+12/08/2023 11:06:51 PM - ====> cd_dense: ground: 19810.9782, average loss: 19810.9782
+12/08/2023 11:06:51 PM - Train 226/300, loss_ae: 36973.901563, loss_cd: 19549.102873, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:07:23 PM - ====> cd_sparse: ground: 19872.9423, average loss: 19872.9423
+12/08/2023 11:07:23 PM - ====> cd_dense: ground: 19872.9423, average loss: 19872.9423
+12/08/2023 11:07:23 PM - Train 227/300, loss_ae: 36956.857910, loss_cd: 19540.742010, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:07:54 PM - ====> cd_sparse: ground: 19756.8479, average loss: 19756.8479
+12/08/2023 11:07:54 PM - ====> cd_dense: ground: 19756.8479, average loss: 19756.8479
+12/08/2023 11:07:54 PM - Train 228/300, loss_ae: 36944.371875, loss_cd: 19539.813071, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:08:26 PM - ====> cd_sparse: ground: 19820.2937, average loss: 19820.2937
+12/08/2023 11:08:26 PM - ====> cd_dense: ground: 19820.2937, average loss: 19820.2937
+12/08/2023 11:08:26 PM - Train 229/300, loss_ae: 36960.089551, loss_cd: 19531.668752, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:08:57 PM - ====> cd_sparse: ground: 19894.6725, average loss: 19894.6725
+12/08/2023 11:08:57 PM - ====> cd_dense: ground: 19894.6725, average loss: 19894.6725
+12/08/2023 11:08:57 PM - Train 230/300, loss_ae: 36975.042188, loss_cd: 19549.758226, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:09:28 PM - ====> cd_sparse: ground: 19869.2251, average loss: 19869.2251
+12/08/2023 11:09:28 PM - ====> cd_dense: ground: 19869.2251, average loss: 19869.2251
+12/08/2023 11:09:28 PM - Train 231/300, loss_ae: 36974.672461, loss_cd: 19535.650045, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:09:59 PM - ====> cd_sparse: ground: 19779.9366, average loss: 19779.9366
+12/08/2023 11:09:59 PM - ====> cd_dense: ground: 19779.9366, average loss: 19779.9366
+12/08/2023 11:09:59 PM - Train 232/300, loss_ae: 36953.319922, loss_cd: 19543.776393, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:10:31 PM - ====> cd_sparse: ground: 19869.0491, average loss: 19869.0491
+12/08/2023 11:10:31 PM - ====> cd_dense: ground: 19869.0491, average loss: 19869.0491
+12/08/2023 11:10:31 PM - Train 233/300, loss_ae: 36951.551953, loss_cd: 19511.703461, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:11:02 PM - ====> cd_sparse: ground: 19812.2165, average loss: 19812.2165
+12/08/2023 11:11:02 PM - ====> cd_dense: ground: 19812.2165, average loss: 19812.2165
+12/08/2023 11:11:02 PM - Train 234/300, loss_ae: 36970.091113, loss_cd: 19552.679330, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:11:34 PM - ====> cd_sparse: ground: 19860.3387, average loss: 19860.3387
+12/08/2023 11:11:34 PM - ====> cd_dense: ground: 19860.3387, average loss: 19860.3387
+12/08/2023 11:11:34 PM - Train 235/300, loss_ae: 36942.657031, loss_cd: 19540.670186, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:12:05 PM - ====> cd_sparse: ground: 19795.9277, average loss: 19795.9277
+12/08/2023 11:12:05 PM - ====> cd_dense: ground: 19795.9277, average loss: 19795.9277
+12/08/2023 11:12:05 PM - Train 236/300, loss_ae: 36975.008398, loss_cd: 19542.991966, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:12:36 PM - ====> cd_sparse: ground: 19803.8623, average loss: 19803.8623
+12/08/2023 11:12:36 PM - ====> cd_dense: ground: 19803.8623, average loss: 19803.8623
+12/08/2023 11:12:36 PM - Train 237/300, loss_ae: 36977.300098, loss_cd: 19552.917987, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:13:07 PM - ====> cd_sparse: ground: 19828.1214, average loss: 19828.1214
+12/08/2023 11:13:07 PM - ====> cd_dense: ground: 19828.1214, average loss: 19828.1214
+12/08/2023 11:13:07 PM - Train 238/300, loss_ae: 36966.695605, loss_cd: 19532.459378, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:13:39 PM - ====> cd_sparse: ground: 19845.5095, average loss: 19845.5095
+12/08/2023 11:13:39 PM - ====> cd_dense: ground: 19845.5095, average loss: 19845.5095
+12/08/2023 11:13:39 PM - Train 239/300, loss_ae: 36952.969824, loss_cd: 19526.893854, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:14:10 PM - ====> cd_sparse: ground: 19825.2047, average loss: 19825.2047
+12/08/2023 11:14:10 PM - ====> cd_dense: ground: 19825.2047, average loss: 19825.2047
+12/08/2023 11:14:10 PM - Train 240/300, loss_ae: 36931.949902, loss_cd: 19505.416185, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:14:41 PM - ====> cd_sparse: ground: 19776.5434, average loss: 19776.5434
+12/08/2023 11:14:41 PM - ====> cd_dense: ground: 19776.5434, average loss: 19776.5434
+12/08/2023 11:14:41 PM - Train 241/300, loss_ae: 36983.172266, loss_cd: 19546.166033, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:15:13 PM - ====> cd_sparse: ground: 19817.7687, average loss: 19817.7687
+12/08/2023 11:15:13 PM - ====> cd_dense: ground: 19817.7687, average loss: 19817.7687
+12/08/2023 11:15:13 PM - Train 242/300, loss_ae: 36992.081055, loss_cd: 19542.329431, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:15:44 PM - ====> cd_sparse: ground: 19887.1702, average loss: 19887.1702
+12/08/2023 11:15:44 PM - ====> cd_dense: ground: 19887.1702, average loss: 19887.1702
+12/08/2023 11:15:44 PM - Train 243/300, loss_ae: 36948.757031, loss_cd: 19533.387601, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:16:15 PM - ====> cd_sparse: ground: 19891.8044, average loss: 19891.8044
+12/08/2023 11:16:15 PM - ====> cd_dense: ground: 19891.8044, average loss: 19891.8044
+12/08/2023 11:16:15 PM - Train 244/300, loss_ae: 36943.615527, loss_cd: 19509.808123, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:16:46 PM - ====> cd_sparse: ground: 19841.6585, average loss: 19841.6585
+12/08/2023 11:16:46 PM - ====> cd_dense: ground: 19841.6585, average loss: 19841.6585
+12/08/2023 11:16:46 PM - Train 245/300, loss_ae: 36993.536621, loss_cd: 19559.606969, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:17:18 PM - ====> cd_sparse: ground: 19800.5046, average loss: 19800.5046
+12/08/2023 11:17:18 PM - ====> cd_dense: ground: 19800.5046, average loss: 19800.5046
+12/08/2023 11:17:18 PM - Train 246/300, loss_ae: 36955.687988, loss_cd: 19535.704583, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:17:49 PM - ====> cd_sparse: ground: 19808.7110, average loss: 19808.7110
+12/08/2023 11:17:49 PM - ====> cd_dense: ground: 19808.7110, average loss: 19808.7110
+12/08/2023 11:17:49 PM - Train 247/300, loss_ae: 36984.747656, loss_cd: 19556.448549, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:18:20 PM - ====> cd_sparse: ground: 19815.1528, average loss: 19815.1528
+12/08/2023 11:18:20 PM - ====> cd_dense: ground: 19815.1528, average loss: 19815.1528
+12/08/2023 11:18:20 PM - Train 248/300, loss_ae: 37000.482715, loss_cd: 19544.378221, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:18:52 PM - ====> cd_sparse: ground: 19868.3117, average loss: 19868.3117
+12/08/2023 11:18:52 PM - ====> cd_dense: ground: 19868.3117, average loss: 19868.3117
+12/08/2023 11:18:52 PM - Train 249/300, loss_ae: 37007.623828, loss_cd: 19559.686124, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:19:23 PM - ====> cd_sparse: ground: 19810.0069, average loss: 19810.0069
+12/08/2023 11:19:23 PM - ====> cd_dense: ground: 19810.0069, average loss: 19810.0069
+12/08/2023 11:19:23 PM - Train 250/300, loss_ae: 37008.757520, loss_cd: 19572.903752, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:19:54 PM - ====> cd_sparse: ground: 19861.2535, average loss: 19861.2535
+12/08/2023 11:19:54 PM - ====> cd_dense: ground: 19861.2535, average loss: 19861.2535
+12/08/2023 11:19:54 PM - Train 251/300, loss_ae: 37007.304297, loss_cd: 19571.730584, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:20:26 PM - ====> cd_sparse: ground: 19881.0283, average loss: 19881.0283
+12/08/2023 11:20:26 PM - ====> cd_dense: ground: 19881.0283, average loss: 19881.0283
+12/08/2023 11:20:26 PM - Train 252/300, loss_ae: 37005.072363, loss_cd: 19570.997357, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:20:57 PM - ====> cd_sparse: ground: 19881.1464, average loss: 19881.1464
+12/08/2023 11:20:57 PM - ====> cd_dense: ground: 19881.1464, average loss: 19881.1464
+12/08/2023 11:20:57 PM - Train 253/300, loss_ae: 36965.284375, loss_cd: 19531.990469, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:21:28 PM - ====> cd_sparse: ground: 19813.7322, average loss: 19813.7322
+12/08/2023 11:21:28 PM - ====> cd_dense: ground: 19813.7322, average loss: 19813.7322
+12/08/2023 11:21:28 PM - Train 254/300, loss_ae: 36987.625684, loss_cd: 19555.199623, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:22:00 PM - ====> cd_sparse: ground: 19835.7558, average loss: 19835.7558
+12/08/2023 11:22:00 PM - ====> cd_dense: ground: 19835.7558, average loss: 19835.7558
+12/08/2023 11:22:00 PM - Train 255/300, loss_ae: 36977.023145, loss_cd: 19550.364107, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:22:31 PM - ====> cd_sparse: ground: 19846.6660, average loss: 19846.6660
+12/08/2023 11:22:31 PM - ====> cd_dense: ground: 19846.6660, average loss: 19846.6660
+12/08/2023 11:22:31 PM - Train 256/300, loss_ae: 36969.498633, loss_cd: 19549.628943, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:23:02 PM - ====> cd_sparse: ground: 19826.3754, average loss: 19826.3754
+12/08/2023 11:23:02 PM - ====> cd_dense: ground: 19826.3754, average loss: 19826.3754
+12/08/2023 11:23:02 PM - Train 257/300, loss_ae: 36996.011914, loss_cd: 19549.341261, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:23:34 PM - ====> cd_sparse: ground: 19843.1450, average loss: 19843.1450
+12/08/2023 11:23:34 PM - ====> cd_dense: ground: 19843.1450, average loss: 19843.1450
+12/08/2023 11:23:34 PM - Train 258/300, loss_ae: 36930.265234, loss_cd: 19525.135100, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:24:05 PM - ====> cd_sparse: ground: 19895.7182, average loss: 19895.7182
+12/08/2023 11:24:05 PM - ====> cd_dense: ground: 19895.7182, average loss: 19895.7182
+12/08/2023 11:24:05 PM - Train 259/300, loss_ae: 36935.672168, loss_cd: 19525.620282, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:24:36 PM - ====> cd_sparse: ground: 19828.2236, average loss: 19828.2236
+12/08/2023 11:24:36 PM - ====> cd_dense: ground: 19828.2236, average loss: 19828.2236
+12/08/2023 11:24:36 PM - Train 260/300, loss_ae: 36957.454590, loss_cd: 19538.967192, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:25:08 PM - ====> cd_sparse: ground: 19843.3132, average loss: 19843.3132
+12/08/2023 11:25:08 PM - ====> cd_dense: ground: 19843.3132, average loss: 19843.3132
+12/08/2023 11:25:08 PM - Train 261/300, loss_ae: 36988.242676, loss_cd: 19546.287864, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:25:39 PM - ====> cd_sparse: ground: 19784.8956, average loss: 19784.8956
+12/08/2023 11:25:39 PM - ====> cd_dense: ground: 19784.8956, average loss: 19784.8956
+12/08/2023 11:25:39 PM - Train 262/300, loss_ae: 36988.932715, loss_cd: 19552.298248, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:26:10 PM - ====> cd_sparse: ground: 19788.3340, average loss: 19788.3340
+12/08/2023 11:26:10 PM - ====> cd_dense: ground: 19788.3340, average loss: 19788.3340
+12/08/2023 11:26:10 PM - Train 263/300, loss_ae: 36978.865234, loss_cd: 19544.172138, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:26:42 PM - ====> cd_sparse: ground: 19814.0599, average loss: 19814.0599
+12/08/2023 11:26:42 PM - ====> cd_dense: ground: 19814.0599, average loss: 19814.0599
+12/08/2023 11:26:42 PM - Train 264/300, loss_ae: 36935.918848, loss_cd: 19521.877140, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:27:13 PM - ====> cd_sparse: ground: 19864.9223, average loss: 19864.9223
+12/08/2023 11:27:13 PM - ====> cd_dense: ground: 19864.9223, average loss: 19864.9223
+12/08/2023 11:27:13 PM - Train 265/300, loss_ae: 36927.313477, loss_cd: 19511.558861, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:27:44 PM - ====> cd_sparse: ground: 19817.6167, average loss: 19817.6167
+12/08/2023 11:27:44 PM - ====> cd_dense: ground: 19817.6167, average loss: 19817.6167
+12/08/2023 11:27:44 PM - Train 266/300, loss_ae: 36962.376465, loss_cd: 19531.173199, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:28:16 PM - ====> cd_sparse: ground: 19777.1739, average loss: 19777.1739
+12/08/2023 11:28:16 PM - ====> cd_dense: ground: 19777.1739, average loss: 19777.1739
+12/08/2023 11:28:16 PM - Train 267/300, loss_ae: 36944.542480, loss_cd: 19541.470677, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:28:47 PM - ====> cd_sparse: ground: 19873.8346, average loss: 19873.8346
+12/08/2023 11:28:47 PM - ====> cd_dense: ground: 19873.8346, average loss: 19873.8346
+12/08/2023 11:28:47 PM - Train 268/300, loss_ae: 36967.628906, loss_cd: 19555.843979, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:29:19 PM - ====> cd_sparse: ground: 19845.3599, average loss: 19845.3599
+12/08/2023 11:29:19 PM - ====> cd_dense: ground: 19845.3599, average loss: 19845.3599
+12/08/2023 11:29:19 PM - Train 269/300, loss_ae: 36927.888281, loss_cd: 19513.184279, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:29:50 PM - ====> cd_sparse: ground: 19822.4941, average loss: 19822.4941
+12/08/2023 11:29:50 PM - ====> cd_dense: ground: 19822.4941, average loss: 19822.4941
+12/08/2023 11:29:50 PM - Train 270/300, loss_ae: 36961.363086, loss_cd: 19538.963497, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:30:21 PM - ====> cd_sparse: ground: 19828.2092, average loss: 19828.2092
+12/08/2023 11:30:21 PM - ====> cd_dense: ground: 19828.2092, average loss: 19828.2092
+12/08/2023 11:30:21 PM - Train 271/300, loss_ae: 36984.329297, loss_cd: 19544.521332, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:30:53 PM - ====> cd_sparse: ground: 19818.4257, average loss: 19818.4257
+12/08/2023 11:30:53 PM - ====> cd_dense: ground: 19818.4257, average loss: 19818.4257
+12/08/2023 11:30:53 PM - Train 272/300, loss_ae: 36972.697266, loss_cd: 19550.044268, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:31:24 PM - ====> cd_sparse: ground: 19786.0944, average loss: 19786.0944
+12/08/2023 11:31:24 PM - ====> cd_dense: ground: 19786.0944, average loss: 19786.0944
+12/08/2023 11:31:24 PM - Train 273/300, loss_ae: 36952.617480, loss_cd: 19527.342558, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:31:55 PM - ====> cd_sparse: ground: 19865.1710, average loss: 19865.1710
+12/08/2023 11:31:55 PM - ====> cd_dense: ground: 19865.1710, average loss: 19865.1710
+12/08/2023 11:31:55 PM - Train 274/300, loss_ae: 36997.980957, loss_cd: 19570.328683, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:32:27 PM - ====> cd_sparse: ground: 19804.1275, average loss: 19804.1275
+12/08/2023 11:32:27 PM - ====> cd_dense: ground: 19804.1275, average loss: 19804.1275
+12/08/2023 11:32:27 PM - Train 275/300, loss_ae: 36951.856250, loss_cd: 19547.415316, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:32:58 PM - ====> cd_sparse: ground: 19796.8570, average loss: 19796.8570
+12/08/2023 11:32:58 PM - ====> cd_dense: ground: 19796.8570, average loss: 19796.8570
+12/08/2023 11:32:58 PM - Train 276/300, loss_ae: 36947.948730, loss_cd: 19539.821506, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:33:29 PM - ====> cd_sparse: ground: 19846.7509, average loss: 19846.7509
+12/08/2023 11:33:29 PM - ====> cd_dense: ground: 19846.7509, average loss: 19846.7509
+12/08/2023 11:33:29 PM - Train 277/300, loss_ae: 36987.557715, loss_cd: 19553.749382, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:34:01 PM - ====> cd_sparse: ground: 19816.6709, average loss: 19816.6709
+12/08/2023 11:34:01 PM - ====> cd_dense: ground: 19816.6709, average loss: 19816.6709
+12/08/2023 11:34:01 PM - Train 278/300, loss_ae: 36931.464551, loss_cd: 19516.877800, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:34:32 PM - ====> cd_sparse: ground: 19843.4574, average loss: 19843.4574
+12/08/2023 11:34:32 PM - ====> cd_dense: ground: 19843.4574, average loss: 19843.4574
+12/08/2023 11:34:32 PM - Train 279/300, loss_ae: 36938.587891, loss_cd: 19525.791854, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:35:03 PM - ====> cd_sparse: ground: 19848.2148, average loss: 19848.2148
+12/08/2023 11:35:03 PM - ====> cd_dense: ground: 19848.2148, average loss: 19848.2148
+12/08/2023 11:35:03 PM - Train 280/300, loss_ae: 36921.115430, loss_cd: 19497.462511, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:35:34 PM - ====> cd_sparse: ground: 19860.3028, average loss: 19860.3028
+12/08/2023 11:35:34 PM - ====> cd_dense: ground: 19860.3028, average loss: 19860.3028
+12/08/2023 11:35:34 PM - Train 281/300, loss_ae: 36932.690039, loss_cd: 19523.202151, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:36:06 PM - ====> cd_sparse: ground: 19860.3673, average loss: 19860.3673
+12/08/2023 11:36:06 PM - ====> cd_dense: ground: 19860.3673, average loss: 19860.3673
+12/08/2023 11:36:06 PM - Train 282/300, loss_ae: 36973.835449, loss_cd: 19560.954005, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:36:37 PM - ====> cd_sparse: ground: 19844.6945, average loss: 19844.6945
+12/08/2023 11:36:37 PM - ====> cd_dense: ground: 19844.6945, average loss: 19844.6945
+12/08/2023 11:36:37 PM - Train 283/300, loss_ae: 36973.177832, loss_cd: 19567.230254, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:37:08 PM - ====> cd_sparse: ground: 19813.9621, average loss: 19813.9621
+12/08/2023 11:37:08 PM - ====> cd_dense: ground: 19813.9621, average loss: 19813.9621
+12/08/2023 11:37:08 PM - Train 284/300, loss_ae: 36970.130176, loss_cd: 19537.958324, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:37:39 PM - ====> cd_sparse: ground: 19847.3407, average loss: 19847.3407
+12/08/2023 11:37:39 PM - ====> cd_dense: ground: 19847.3407, average loss: 19847.3407
+12/08/2023 11:37:39 PM - Train 285/300, loss_ae: 36938.983398, loss_cd: 19541.029274, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:38:11 PM - ====> cd_sparse: ground: 19837.2298, average loss: 19837.2298
+12/08/2023 11:38:11 PM - ====> cd_dense: ground: 19837.2298, average loss: 19837.2298
+12/08/2023 11:38:11 PM - Train 286/300, loss_ae: 36940.993848, loss_cd: 19542.958766, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:38:42 PM - ====> cd_sparse: ground: 19837.7033, average loss: 19837.7033
+12/08/2023 11:38:42 PM - ====> cd_dense: ground: 19837.7033, average loss: 19837.7033
+12/08/2023 11:38:42 PM - Train 287/300, loss_ae: 36976.013574, loss_cd: 19560.974777, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:39:14 PM - ====> cd_sparse: ground: 19846.4512, average loss: 19846.4512
+12/08/2023 11:39:14 PM - ====> cd_dense: ground: 19846.4512, average loss: 19846.4512
+12/08/2023 11:39:14 PM - Train 288/300, loss_ae: 36946.562891, loss_cd: 19537.806779, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:39:45 PM - ====> cd_sparse: ground: 19860.8128, average loss: 19860.8128
+12/08/2023 11:39:45 PM - ====> cd_dense: ground: 19860.8128, average loss: 19860.8128
+12/08/2023 11:39:45 PM - Train 289/300, loss_ae: 36983.496777, loss_cd: 19553.548992, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:40:16 PM - ====> cd_sparse: ground: 19817.8994, average loss: 19817.8994
+12/08/2023 11:40:16 PM - ====> cd_dense: ground: 19817.8994, average loss: 19817.8994
+12/08/2023 11:40:16 PM - Train 290/300, loss_ae: 36982.337891, loss_cd: 19566.709310, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:40:48 PM - ====> cd_sparse: ground: 19888.3521, average loss: 19888.3521
+12/08/2023 11:40:48 PM - ====> cd_dense: ground: 19888.3521, average loss: 19888.3521
+12/08/2023 11:40:48 PM - Train 291/300, loss_ae: 36952.016309, loss_cd: 19533.182114, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:41:19 PM - ====> cd_sparse: ground: 19854.8881, average loss: 19854.8881
+12/08/2023 11:41:19 PM - ====> cd_dense: ground: 19854.8881, average loss: 19854.8881
+12/08/2023 11:41:19 PM - Train 292/300, loss_ae: 36958.460742, loss_cd: 19533.834666, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:41:50 PM - ====> cd_sparse: ground: 19813.3592, average loss: 19813.3592
+12/08/2023 11:41:50 PM - ====> cd_dense: ground: 19813.3592, average loss: 19813.3592
+12/08/2023 11:41:50 PM - Train 293/300, loss_ae: 36983.850293, loss_cd: 19559.953392, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:42:22 PM - ====> cd_sparse: ground: 19881.4509, average loss: 19881.4509
+12/08/2023 11:42:22 PM - ====> cd_dense: ground: 19881.4509, average loss: 19881.4509
+12/08/2023 11:42:22 PM - Train 294/300, loss_ae: 36955.223047, loss_cd: 19532.252401, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:42:53 PM - ====> cd_sparse: ground: 19813.4175, average loss: 19813.4175
+12/08/2023 11:42:53 PM - ====> cd_dense: ground: 19813.4175, average loss: 19813.4175
+12/08/2023 11:42:53 PM - Train 295/300, loss_ae: 36923.446484, loss_cd: 19510.962188, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:43:24 PM - ====> cd_sparse: ground: 19836.4934, average loss: 19836.4934
+12/08/2023 11:43:24 PM - ====> cd_dense: ground: 19836.4934, average loss: 19836.4934
+12/08/2023 11:43:24 PM - Train 296/300, loss_ae: 37003.397656, loss_cd: 19569.272995, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:43:56 PM - ====> cd_sparse: ground: 19816.6285, average loss: 19816.6285
+12/08/2023 11:43:56 PM - ====> cd_dense: ground: 19816.6285, average loss: 19816.6285
+12/08/2023 11:43:56 PM - Train 297/300, loss_ae: 36927.443750, loss_cd: 19534.668744, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:44:27 PM - ====> cd_sparse: ground: 19862.0247, average loss: 19862.0247
+12/08/2023 11:44:27 PM - ====> cd_dense: ground: 19862.0247, average loss: 19862.0247
+12/08/2023 11:44:27 PM - Train 298/300, loss_ae: 36970.200879, loss_cd: 19538.339227, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:44:58 PM - ====> cd_sparse: ground: 19811.2995, average loss: 19811.2995
+12/08/2023 11:44:58 PM - ====> cd_dense: ground: 19811.2995, average loss: 19811.2995
+12/08/2023 11:44:58 PM - Train 299/300, loss_ae: 36984.383105, loss_cd: 19557.655424, evaluate_cd_spares: 19567.4851, evaluate_cd_dense: 19567.4851 
+
+12/08/2023 11:45:03 PM - ====> cd_sparse: ground: 19811.2995, average loss: 19811.2995
+12/08/2023 11:45:03 PM - ====> cd_dense: ground: 19811.2995, average loss: 19811.2995

@@ -151,7 +151,7 @@ class PCTMA_Net(nn.Module):
         return opt_pct
 
     def save_config(self):
-        filename = "pct_ma.yaml"
+        filename = "test_pct_pk.yaml"
         config_name = self.time_str + "_" + filename
         source = os.path.join(os.path.dirname(__file__), "../config", filename)
         destination = self.checkpoint_path
@@ -258,7 +258,8 @@ class PCTMA_Net(nn.Module):
 
                 cd_dense = cd_dense_best
                 cd_sparse = cd_sparse_best
-                if cd_dense < 0.0013:
+                #if cd_dense < 0.0013:
+                if cd_dense < 100:
                     # cd_sparse_update, cd_dense_update = self.evaluation_step(test_loader=test_loader)
                     save_checkout = True
 
@@ -266,7 +267,8 @@ class PCTMA_Net(nn.Module):
                 'Train %d/%d, loss_ae: %.6f, loss_cd: %.6f, evaluate_cd_spares: %.4f, evaluate_cd_dense: %.4f \n',
                 at_epoch, n_epochs, loss_ae_updated, loss_cd_update * 10000, cd_sparse * 10000, cd_dense * 10000)
 
-            if loss_cd_update < loss_cd and loss_cd_update < 0.0013 and save_checkout:
+            #if loss_cd_update < loss_cd and loss_cd_update < 0.0013 and save_checkout:
+            if loss_cd_update < loss_cd and loss_cd_update < 100 and save_checkout:
                 save_checkout = False
                 loss_cd = loss_cd_update
                 state = {
@@ -277,6 +279,8 @@ class PCTMA_Net(nn.Module):
                     "optimizer_pct_state": self.optimizer_pct["opt"].state_dict()
                 }
                 self.save_checkpoint(state=state, best_model_name=best_model_name)
+    '''
+    # for elevation net
 
     def evaluation_step(self, test_loader, check_point_name=None):
         # self.count_parameters()
@@ -358,6 +362,111 @@ class PCTMA_Net(nn.Module):
 
         return sum(evaluate_loss_sparse) / len(evaluate_loss_sparse), sum(evaluate_loss_dense) / len(
             evaluate_loss_dense)
+    '''
+
+    # for shapenet
+
+    def evaluation_step(self, test_loader, check_point_name=None):
+        # self.count_parameters()
+        evaluate_loss_sparse = []
+        evaluate_loss_dense = []
+        evaluate_class_choice_sparse = {"Plane": [], "Cabinet": [], "Car": [], "Chair": [], "Lamp": [], "Couch": [],
+                                        "Table": [], "Watercraft": []}
+        evaluate_class_choice_dense = {"Plane": [], "Cabinet": [], "Car": [], "Chair": [], "Lamp": [], "Couch": [],
+                                       "Table": [], "Watercraft": []}
+        count = 0.0
+        if self.parameter["gene_file"]:
+            save_ply_path = os.path.join(os.path.dirname(__file__), "../../save_ae_ply_data")
+            make_dirs(save_ply_path)
+            if check_point_name is not None:
+                check_point_base_name = check_point_name.split(".")
+                save_ply_path = os.path.join(os.path.dirname(__file__), "../../save_ae_ply_data",
+                                             check_point_base_name[0])
+                make_dirs(save_ply_path)
+            count_k = 0
+        for i, dataset in enumerate(test_loader):
+            gt_point_cloud, partial_point_cloud, label_point_cloud = dataset
+            gt_point_cloud = gt_point_cloud.to(self.device)
+            partial_point_cloud = partial_point_cloud.to(self.device)
+            with torch.no_grad():
+                self.eval()
+
+                out_px3, out_px2, out_px1, _ = self(partial_point_cloud)
+
+                if self.parameter["combined_pc"]:
+                    pc_point_completion_dense = torch.cat([partial_point_cloud, out_px1], dim=1)
+                    cd_loss_dense = self.l_cd(gt_point_cloud, pc_point_completion_dense)
+                    cd_loss_sparse = cd_loss_dense
+
+                evaluate_loss_sparse.append(cd_loss_sparse.item())
+                evaluate_loss_dense.append(cd_loss_dense.item())
+
+                for k in range(partial_point_cloud.shape[0]):
+                    #class_name_choice = ElevationNet.evaluation_class(
+                    #    label_name=test_loader.dataset.label_to_category(label_point_cloud[k]))
+                    class_name_choice = "ground"
+                    evaluate_class_choice_sparse[class_name_choice].append(cd_loss_sparse.item())
+                    evaluate_class_choice_dense[class_name_choice].append(cd_loss_dense.item())
+
+                if self.parameter["gene_file"]:
+                    for k in range(partial_point_cloud.shape[0]):
+                        base_name = test_loader.dataset.label_to_category(label_point_cloud[k]) + "_" + str(
+                            count_k) + "_pc_recon" + ".ply"
+                        template_path = os.path.join(save_ply_path, base_name)
+                        save_ply(pc=pc_point_completion_dense[k].cpu().detach().numpy(), path=template_path)
+
+                        base_name = test_loader.dataset.label_to_category(label_point_cloud[k]) + "_" + str(
+                            count_k) + "_pc" + ".ply"
+                        template_path = os.path.join(save_ply_path, base_name)
+                        save_ply(partial_point_cloud[k].cpu().detach().numpy(), path=template_path)
+
+                        base_name = test_loader.dataset.label_to_category(label_point_cloud[k]) + "_" + str(
+                            count_k) + "_gt" + ".ply"
+                        template_path = os.path.join(save_ply_path, base_name)
+                        save_ply(gt_point_cloud[k].cpu().detach().numpy(), path=template_path)
+
+                        count_k += 1
+        for key, item in evaluate_class_choice_sparse.items():
+            if item:
+                evaluate_class_choice_sparse[key] = sum(item) / len(item)
+
+        for key, item in evaluate_class_choice_dense.items():
+            if item:
+                evaluate_class_choice_dense[key] = sum(item) / len(item)
+
+        '''
+        # for elevation Net
+
+        self.Logger.INFO(
+            '====> cd_sparse: ground: %.4f, average loss: %.4f',
+            evaluate_class_choice_sparse["ground"] * 10000,
+            sum(evaluate_loss_sparse) / len(evaluate_loss_sparse) * 10000)
+
+        self.Logger.INFO(
+            '====> cd_dense: ground: %.4f, average loss: %.4f',
+            evaluate_class_choice_dense["ground"] * 10000,
+            sum(evaluate_loss_dense) / len(evaluate_loss_dense) * 10000)
+        '''
+        self.Logger.INFO(
+            '====> cd_sparse: Airplane: %.4f, Cabinet: %.4f, Car: %.4f, Chair: %.4f, Lamp: %.4f, Sofa: %.4f, Table: %.4f, Watercraft: %.4f, mean: %.4f',
+            evaluate_class_choice_sparse["Plane"] * 10000, evaluate_class_choice_sparse["Cabinet"] * 10000,
+            evaluate_class_choice_sparse["Car"] * 10000, evaluate_class_choice_sparse["Chair"] * 10000,
+            evaluate_class_choice_sparse["Lamp"] * 10000, evaluate_class_choice_sparse["Couch"] * 10000,
+            evaluate_class_choice_sparse["Table"] * 10000, evaluate_class_choice_sparse["Watercraft"] * 10000,
+            sum(evaluate_loss_sparse) / len(evaluate_loss_sparse) * 10000)
+        
+        self.Logger.INFO(
+            '====> cd_dense: Airplane: %.4f, Cabinet: %.4f, Car: %.4f, Chair: %.4f, Lamp: %.4f, Sofa: %.4f, Table: %.4f, Watercraft: %.4f, mean: %.4f',
+            evaluate_class_choice_dense["Plane"] * 10000, evaluate_class_choice_dense["Cabinet"] * 10000,
+            evaluate_class_choice_dense["Car"] * 10000, evaluate_class_choice_dense["Chair"] * 10000,
+            evaluate_class_choice_dense["Lamp"] * 10000, evaluate_class_choice_dense["Couch"] * 10000,
+            evaluate_class_choice_dense["Table"] * 10000, evaluate_class_choice_dense["Watercraft"] * 10000,
+            sum(evaluate_loss_dense) / len(evaluate_loss_dense) * 10000)
+
+        return sum(evaluate_loss_sparse) / len(evaluate_loss_sparse), sum(evaluate_loss_dense) / len(
+            evaluate_loss_dense)
+    
+
 
     def evaluation_step_kitti(self, test_loader, check_point_name=None):
         if self.parameter["gene_file"]:

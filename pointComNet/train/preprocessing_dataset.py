@@ -8,7 +8,9 @@ from torch.utils.data import DataLoader
 from pointComNet.pytorch_utils.components.dataSet import PointCompletionShapeNet
 from pointComNet.pytorch_utils.components.dataSet import ElevationNet
 
-'''
+
+# fot shapenet
+
 def load_data(args):
     if args.train:
         train_loader = DataLoader(
@@ -35,7 +37,9 @@ def load_data(args):
     else:
         val_loader = None
     return train_loader, test_loader, val_loader
+
 '''
+# for elevation net
 
 def load_data(args):
     if args.train:
@@ -63,3 +67,4 @@ def load_data(args):
     else:
         val_loader = None
     return train_loader, test_loader, val_loader
+'''

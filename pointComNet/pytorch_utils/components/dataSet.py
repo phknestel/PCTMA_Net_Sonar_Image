@@ -708,7 +708,6 @@ class ElevationNet(Dataset):
         return gt_point_cloud, partial_point_cloud, label_point_cloud
 
     @staticmethod
-    @staticmethod
     def evaluation_class(label_name):
         # Directly return the string 'ground'
         return "ground"

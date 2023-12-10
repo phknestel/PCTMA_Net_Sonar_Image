@@ -259,7 +259,7 @@ class PCTMA_Net(nn.Module):
                 cd_dense = cd_dense_best
                 cd_sparse = cd_sparse_best
                 #if cd_dense < 0.0013:
-                if cd_dense < 100:
+                if cd_dense < 10000:
                     # cd_sparse_update, cd_dense_update = self.evaluation_step(test_loader=test_loader)
                     save_checkout = True
 
@@ -279,7 +279,7 @@ class PCTMA_Net(nn.Module):
                     "optimizer_pct_state": self.optimizer_pct["opt"].state_dict()
                 }
                 self.save_checkpoint(state=state, best_model_name=best_model_name)
-    '''
+    #'''
     # for elevation net
 
     def evaluation_step(self, test_loader, check_point_name=None):
@@ -362,8 +362,9 @@ class PCTMA_Net(nn.Module):
 
         return sum(evaluate_loss_sparse) / len(evaluate_loss_sparse), sum(evaluate_loss_dense) / len(
             evaluate_loss_dense)
-    '''
+    #'''
 
+    '''
     # for shapenet
 
     def evaluation_step(self, test_loader, check_point_name=None):
@@ -402,9 +403,9 @@ class PCTMA_Net(nn.Module):
                 evaluate_loss_dense.append(cd_loss_dense.item())
 
                 for k in range(partial_point_cloud.shape[0]):
-                    #class_name_choice = ElevationNet.evaluation_class(
-                    #    label_name=test_loader.dataset.label_to_category(label_point_cloud[k]))
-                    class_name_choice = "ground"
+                    class_name_choice = PointCompletionShapeNet.evaluation_class( #for shapenet
+                        label_name=test_loader.dataset.label_to_category(label_point_cloud[k]))
+                    #class_name_choice = "ground" #for elevation net
                     evaluate_class_choice_sparse[class_name_choice].append(cd_loss_sparse.item())
                     evaluate_class_choice_dense[class_name_choice].append(cd_loss_dense.item())
 
@@ -434,19 +435,7 @@ class PCTMA_Net(nn.Module):
             if item:
                 evaluate_class_choice_dense[key] = sum(item) / len(item)
 
-        '''
-        # for elevation Net
 
-        self.Logger.INFO(
-            '====> cd_sparse: ground: %.4f, average loss: %.4f',
-            evaluate_class_choice_sparse["ground"] * 10000,
-            sum(evaluate_loss_sparse) / len(evaluate_loss_sparse) * 10000)
-
-        self.Logger.INFO(
-            '====> cd_dense: ground: %.4f, average loss: %.4f',
-            evaluate_class_choice_dense["ground"] * 10000,
-            sum(evaluate_loss_dense) / len(evaluate_loss_dense) * 10000)
-        '''
         self.Logger.INFO(
             '====> cd_sparse: Airplane: %.4f, Cabinet: %.4f, Car: %.4f, Chair: %.4f, Lamp: %.4f, Sofa: %.4f, Table: %.4f, Watercraft: %.4f, mean: %.4f',
             evaluate_class_choice_sparse["Plane"] * 10000, evaluate_class_choice_sparse["Cabinet"] * 10000,
@@ -465,7 +454,7 @@ class PCTMA_Net(nn.Module):
 
         return sum(evaluate_loss_sparse) / len(evaluate_loss_sparse), sum(evaluate_loss_dense) / len(
             evaluate_loss_dense)
-    
+        '''
 
 
     def evaluation_step_kitti(self, test_loader, check_point_name=None):

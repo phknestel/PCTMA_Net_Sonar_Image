@@ -14,14 +14,14 @@ train_pt: False
 train_gt: False
 train_pt_to_gt: True
 use_emd: True
-use_cd: True # was false
+use_cd: False
 use_consistence: False
 use_dgcnn: False
 use_cmlp: False
 w_cd: 10000
 w_emd: 0.00001
 n_primitives: 32
-gene_file: True #was false
+gene_file: True
 down_sampling: False
 combined_pc: True
 ppd_loss: False

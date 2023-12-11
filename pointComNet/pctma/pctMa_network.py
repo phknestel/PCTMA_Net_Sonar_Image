@@ -279,7 +279,7 @@ class PCTMA_Net(nn.Module):
                     "optimizer_pct_state": self.optimizer_pct["opt"].state_dict()
                 }
                 self.save_checkpoint(state=state, best_model_name=best_model_name)
-    #'''
+    '''
     # for elevation net
 
     def evaluation_step(self, test_loader, check_point_name=None):
@@ -362,9 +362,9 @@ class PCTMA_Net(nn.Module):
 
         return sum(evaluate_loss_sparse) / len(evaluate_loss_sparse), sum(evaluate_loss_dense) / len(
             evaluate_loss_dense)
-    #'''
-
     '''
+
+    #'''
     # for shapenet
 
     def evaluation_step(self, test_loader, check_point_name=None):
@@ -454,7 +454,7 @@ class PCTMA_Net(nn.Module):
 
         return sum(evaluate_loss_sparse) / len(evaluate_loss_sparse), sum(evaluate_loss_dense) / len(
             evaluate_loss_dense)
-        '''
+        #'''
 
 
     def evaluation_step_kitti(self, test_loader, check_point_name=None):

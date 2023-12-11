@@ -68,7 +68,7 @@ class PointCompletionShapeNet(Dataset):
 
     def __init__(self, num_points, partition='train', transformationType="Z", pertubation=False,
                  use_fps=True, class_choice=None, has_augment_cloud=False, has_down_sampling=False, use_kitti=False):
-        Completion3Ddownload()
+        #Completion3Ddownload()
         self.synsetoffset2category = os.path.join(self.DATA_DIR, "synsetoffset2category.txt")
         self.test = os.path.join(self.DATA_DIR, "test.list")
         self.train = os.path.join(self.DATA_DIR, "train.list")
@@ -248,6 +248,7 @@ class PointCompletionShapeNet(Dataset):
         i = 0
         for file in test_data_file:
             for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'test/partial', file[0], '%s.h5' % file[1])):
+                print("Processing file:", h5_name)  # Print the file name
                 f = h5py.File(h5_name, 'r')
                 data = f['data'][:].astype('float32')
                 f.close()
@@ -269,22 +270,30 @@ class PointCompletionShapeNet(Dataset):
         gt_val_data = []
         partial_val_data = []
         val_label = []
+        down_sampling_npts = 1024  # Target number of points
+
         for file in val_data_file:
-            for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'val/gt', file[0], '%s.h5' % file[1])):
-                f = h5py.File(h5_name, 'r')
-                data = f['data'][:].astype('float32')
-                f.close()
-                gt_val_data.append(data)
-            for h5_name in glob.glob(os.path.join(self.DATA_DIR, 'val/partial', file[0], '%s.h5' % file[1])):
-                f = h5py.File(h5_name, 'r')
-                data = f['data'][:].astype('float32')
-                f.close()
-                partial_val_data.append(data)
-            val_label.append(self.category_label[(file[0])])
+            # Load and reshape ground truth data
+            h5_name_gt = os.path.join(self.DATA_DIR, 'val/gt', file[0], '%s.h5' % file[1])
+            with h5py.File(h5_name_gt, 'r') as f1:
+                data_gt = f1['data'][:].astype('float32')
+                data_gt = differentResolution(data_gt, down_sampling_npts)
+                gt_val_data.append(data_gt)
+
+            # Load and reshape partial data
+            h5_name_partial = os.path.join(self.DATA_DIR, 'val/partial', file[0], '%s.h5' % file[1])
+            with h5py.File(h5_name_partial, 'r') as f2:
+                data_partial = f2['data'][:].astype('float32')
+                data_partial = differentResolution(data_partial, down_sampling_npts)
+                partial_val_data.append(data_partial)
+
+            # Append the label
+            val_label.append(self.category_label[file[0]])
 
         gt_val_data = np.stack(gt_val_data, axis=0)
         partial_val_data = np.stack(partial_val_data, axis=0)
-        val_label = np.stack(val_label, axis=0)
+        val_label = np.stack(val_label, axis=0)  # Stack the labels
+
         return gt_val_data, partial_val_data, val_label
 
     def get_category_file(self):
@@ -331,10 +340,12 @@ class PointCompletionShapeNet(Dataset):
 
     def get_test_file(self):
         test_data = readText(self.test, '/')
+        print(test_data)
         return test_data
 
     def get_val_file(self):
         val_data = readText(self.val, '/')
+        print(val_data)
         return val_data
 
     # @staticmethod

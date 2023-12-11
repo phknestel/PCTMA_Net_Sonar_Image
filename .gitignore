@@ -10,4 +10,5 @@ __pycache__
 pointComNet/utils/__pycache__/
 .vscode
 venv/
-script/checkpoints
+script/checkpoints/
+script/logs/

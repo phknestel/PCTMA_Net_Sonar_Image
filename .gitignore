@@ -1,5 +1,11 @@
 # Created by .ignore support plugin (hsz.mobi)
-data
+data/backup-ele/
+data/Data_elevation-test/rest_data_set/
+data/Data_elevation-test/test/
+data/Data_elevation-test/train/
+data/Data_elevation-test/val/
+data/dataset2019/
+data/Workspace_data
 save_ae_ply_data
 save_ply_data
 save_ele_data

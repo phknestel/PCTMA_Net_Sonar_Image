@@ -18,3 +18,6 @@ pointComNet/utils/__pycache__/
 venv/
 script/checkpoints/
 script/logs/
+
+# Ignore .pth files
+*.pth
